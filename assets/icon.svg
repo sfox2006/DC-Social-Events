@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Sunset over the Capitol dome">
+  <defs>
+    <linearGradient id="sky" x1="6" y1="58" x2="58" y2="4" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff5a3c"/>
+      <stop offset="0.46" stop-color="#ffc531"/>
+      <stop offset="1" stop-color="#0fb5ae"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" fill="url(#sky)"/>
+  <circle cx="49" cy="15" r="6.5" fill="#fff6d8"/>
+  <circle cx="49" cy="15" r="4" fill="#ffc531"/>
+  <g fill="#2b1148">
+    <rect x="5" y="51" width="54" height="3.6"/>
+    <rect x="9" y="47.6" width="46" height="3.4"/>
+    <rect x="12" y="40" width="10" height="7.6"/>
+    <rect x="42" y="40" width="10" height="7.6"/>
+    <rect x="21" y="37.2" width="22" height="10.4"/>
+    <path d="M23 37.2a9 9 0 0 0 18 0z"/>
+    <rect x="30.2" y="24.6" width="3.6" height="3.8"/>
+    <rect x="31.1" y="21.4" width="1.8" height="3.3"/>
+    <path d="M32 17.2l1.7 4.2h-3.4z"/>
+  </g>
+</svg>
