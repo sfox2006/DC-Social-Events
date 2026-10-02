@@ -80,10 +80,6 @@
     </div>
     <div class="phone-dayrow">
       <div class="phone-strip" id="phone-strip" role="tablist" aria-label="Upcoming days"></div>
-      <button type="button" class="phone-cal-btn" id="open-month" aria-haspopup="dialog" aria-controls="month-sheet">
-        <span class="ms" aria-hidden="true">calendar_month</span>
-        Calendar
-      </button>
     </div>
   </div>
   </div>
@@ -105,30 +101,6 @@
         </div>
       </div>
       <div class="sidebar-scroll">
-
-      <div id="mini-home">
-      <div class="filter-block mini-cal-block">
-        <div class="mini-cal-head">
-          <span class="mini-cal-title" id="calendar-month">Calendar</span>
-          <span class="mini-nav">
-            <button type="button" id="cal-prev" aria-label="Previous month">
-              <span class="ms" aria-hidden="true">chevron_left</span>
-            </button>
-            <button type="button" id="cal-next" aria-label="Next month">
-              <span class="ms" aria-hidden="true">chevron_right</span>
-            </button>
-          </span>
-        </div>
-        <div class="mini-dow" aria-hidden="true">
-          <span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span>
-        </div>
-        <div class="mini-grid" id="calendar-grid" role="group" aria-label="Choose a day"></div>
-        <button type="button" class="cal-open-link" id="open-calendar">
-          <span class="ms" aria-hidden="true">calendar_month</span>
-          Open calendar view
-        </button>
-      </div>
-      </div>
 
       <div id="search-home">
       <div class="filter-block" id="search-block">
@@ -396,20 +368,6 @@
         <a class="newsletter-cta" href="#signup">Get the weekly email</a>
       </section>
     </main>
-  </div>
-
-  <div class="month-sheet" id="month-sheet" hidden>
-    <button type="button" class="sheet-backdrop month-backdrop" id="month-backdrop" aria-label="Close calendar"></button>
-    <div class="month-panel" role="dialog" aria-modal="true" aria-labelledby="month-heading">
-      <div class="sheet-chrome">
-        <span class="sheet-grabber" aria-hidden="true"></span>
-        <div class="sheet-title-row">
-          <h2 id="month-heading">Calendar</h2>
-          <button type="button" class="text-link" id="close-month">Close</button>
-        </div>
-      </div>
-      <div id="month-slot" class="month-slot"></div>
-    </div>
   </div>
 
   <footer class="site-footer">

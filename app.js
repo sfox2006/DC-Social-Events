@@ -77,10 +77,6 @@
     moreDates: document.getElementById("more-dates"),
     clear: document.getElementById("clear-filters"),
     sheetClear: document.getElementById("sheet-clear"),
-    calendarMonth: document.getElementById("calendar-month"),
-    calendarGrid: document.getElementById("calendar-grid"),
-    calPrev: document.getElementById("cal-prev"),
-    calNext: document.getElementById("cal-next"),
     topicBlock: document.getElementById("topic-block"),
     topicGroup: document.getElementById("topic-group"),
     refresh: document.getElementById("refresh-events"),
@@ -96,7 +92,6 @@
     backToday: document.getElementById("back-today"),
     weekPrev: document.getElementById("week-prev"),
     weekNext: document.getElementById("week-next"),
-    openCalendar: document.getElementById("open-calendar"),
     openFilters: document.getElementById("open-filters"),
     openFiltersPhone: document.getElementById("open-filters-phone"),
     closeFilters: document.getElementById("close-filters"),
@@ -104,11 +99,6 @@
     sheetBackdrop: document.getElementById("sheet-backdrop"),
     menuToggle: document.getElementById("menu-toggle"),
     phoneStrip: document.getElementById("phone-strip"),
-    monthSheet: document.getElementById("month-sheet"),
-    monthPanel: document.querySelector(".month-panel"),
-    openMonth: document.getElementById("open-month"),
-    closeMonth: document.getElementById("close-month"),
-    monthBackdrop: document.getElementById("month-backdrop"),
     sidebar: document.getElementById("sidebar"),
     brand: document.getElementById("brand-home"),
     aboutOpen: document.getElementById("about-open"),
@@ -123,8 +113,6 @@
     listStart: null,
     weekStart: null,
     stripDay: null,
-    miniYear: null,
-    miniMonth: null,
     openEventId: null,
     deepLinkApplied: false,
     pendingScroll: false,
@@ -133,7 +121,6 @@
   let allEvents = [];
   let topicCatalog = [];
   let eventsLoaded = false;
-  let focusYmdKey = null;
   let lastPayload = "";
   let lastFetchedAt = 0;
   let refreshInFlight = null;
@@ -255,29 +242,11 @@
     return end;
   }
 
-  function calendarWindow() {
-    return { start: todayYmd(), end: horizonEnd() };
-  }
-
   function inListWindow(event) {
     if (!event || !event.start) return false;
     const startDate = new Date(event.start);
     if (Number.isNaN(startDate.getTime())) return false;
     return inYmdRange(eventYmdInTz(startDate), listWindow());
-  }
-
-  function monthOf(year, month, delta) {
-    let m = month + delta;
-    let y = year;
-    while (m < 1) {
-      m += 12;
-      y -= 1;
-    }
-    while (m > 12) {
-      m -= 12;
-      y += 1;
-    }
-    return { y, m };
   }
 
   function daysInMonthUtc(year, month) {
@@ -286,13 +255,6 @@
 
   function weekdayIndex(ymd) {
     return new Date(Date.UTC(ymd.y, ymd.m - 1, ymd.d)).getUTCDay();
-  }
-
-  function monthOverlapsCalendar(year, month) {
-    const cal = calendarWindow();
-    const start = { y: year, m: month, d: 1 };
-    const end = { y: year, m: month, d: daysInMonthUtc(year, month) };
-    return ymdCmp(end, cal.start) >= 0 && ymdCmp(start, cal.end) <= 0;
   }
 
   function minutesInTz(iso) {
@@ -332,10 +294,6 @@
 
   function formatLongDate(ymd) {
     return `${WEEKDAYS_LONG[weekdayIndex(ymd)]}, ${MONTHS_LONG[ymd.m - 1]} ${ymd.d}`;
-  }
-
-  function formatMonthTitle(y, m) {
-    return `${MONTHS_LONG[m - 1]} ${y}`;
   }
 
   function formatTitleRange(a, b) {
@@ -1019,8 +977,6 @@
       state.listStart = start;
       state.weekStart = start;
       state.stripDay = start;
-      state.miniYear = start.y;
-      state.miniMonth = start.m;
     }
     if (!event) return;
     if (!matches(event, getFilters())) {
@@ -1276,16 +1232,9 @@
     const search = document.getElementById("search-block");
     const searchHome = document.getElementById("search-home");
     const searchSlot = document.getElementById("phone-search-slot");
-    const mini = document.querySelector(".mini-cal-block");
-    const miniHome = document.getElementById("mini-home");
-    const monthSlot = document.getElementById("month-slot");
     if (search && searchHome && searchSlot) {
       const target = phone ? searchSlot : searchHome;
       if (search.parentElement !== target) target.appendChild(search);
-    }
-    if (mini && miniHome && monthSlot) {
-      const target = phone ? monthSlot : miniHome;
-      if (mini.parentElement !== target) target.appendChild(mini);
     }
     document.querySelectorAll(".section-toggle").forEach((btn) => {
       if (phone) btn.removeAttribute("tabindex");
@@ -1297,7 +1246,6 @@
     }
     if (!phone) {
       closeMenu();
-      closeMonthSheet(false);
     }
   }
 
@@ -1393,91 +1341,6 @@
       els.weekBoard.innerHTML = columns.join("");
       els.dayStrip.innerHTML = "";
       els.stripDay.innerHTML = "";
-    }
-  }
-
-  function dayCounts() {
-    const counts = new Map();
-    const cal = calendarWindow();
-    filteredEvents().forEach((event) => {
-      const ymd = eventYmdInTz(event.start);
-      if (!inYmdRange(ymd, cal)) return;
-      const key = ymdKey(ymd);
-      counts.set(key, (counts.get(key) || 0) + 1);
-    });
-    return counts;
-  }
-
-  function renderMiniCalendar() {
-    if (state.miniYear == null || state.miniMonth == null) {
-      const today = todayYmd();
-      state.miniYear = today.y;
-      state.miniMonth = today.m;
-    }
-    const title = formatMonthTitle(state.miniYear, state.miniMonth);
-    els.calendarMonth.textContent = title;
-    const today = todayYmd();
-    const counts = dayCounts();
-    const firstWeekday = weekdayIndex({ y: state.miniYear, m: state.miniMonth, d: 1 });
-    const dim = daysInMonthUtc(state.miniYear, state.miniMonth);
-    const prevDays = daysInMonthUtc(state.miniYear, state.miniMonth === 1 ? 12 : state.miniMonth - 1);
-    const totalCells = Math.ceil((firstWeekday + dim) / 7) * 7;
-    const rangeStart = state.listStart;
-    const rangeEnd = addDays(state.listStart, 2);
-    const cells = [];
-    for (let i = 0; i < totalCells; i += 1) {
-      let dayNum;
-      let cellYear = state.miniYear;
-      let cellMonth = state.miniMonth;
-      let outside = false;
-      if (i < firstWeekday) {
-        dayNum = prevDays - firstWeekday + 1 + i;
-        const prev = monthOf(state.miniYear, state.miniMonth, -1);
-        cellYear = prev.y;
-        cellMonth = prev.m;
-        outside = true;
-      } else if (i >= firstWeekday + dim) {
-        dayNum = i - firstWeekday - dim + 1;
-        const next = monthOf(state.miniYear, state.miniMonth, 1);
-        cellYear = next.y;
-        cellMonth = next.m;
-        outside = true;
-      } else {
-        dayNum = i - firstWeekday + 1;
-      }
-      const ymd = { y: cellYear, m: cellMonth, d: dayNum };
-      const key = ymdKey(ymd);
-      const count = counts.get(key) || 0;
-      const cal = calendarWindow();
-      const inWindow = inYmdRange(ymd, cal);
-      const isToday = ymdCmp(today, ymd) === 0;
-      const inRange = state.view === "list" && ymdCmp(ymd, rangeStart) >= 0 && ymdCmp(ymd, rangeEnd) <= 0;
-      const classes = ["cal-cell"];
-      if (outside) classes.push("is-outside");
-      if (count) classes.push("has-events");
-      if (inRange && inWindow) classes.push("is-range");
-      if (isToday) classes.push("is-today");
-      const label = !inWindow
-        ? ymdCmp(ymd, cal.start) < 0
-          ? `${formatLongDate(ymd)}, in the past`
-          : `${formatLongDate(ymd)}, outside the calendar`
-        : count
-          ? `${formatLongDate(ymd)}, ${count} event${count === 1 ? "" : "s"}`
-          : `${formatLongDate(ymd)}, no events`;
-      cells.push(
-        `<button type="button" class="${classes.join(" ")}" data-ymd="${key}" aria-pressed="${inRange && inWindow ? "true" : "false"}"${isToday ? ' aria-current="date"' : ""}${inWindow ? "" : " disabled"} aria-label="${escapeHtml(label)}"><span>${dayNum}</span><span class="cal-dot"></span></button>`
-      );
-    }
-    els.calendarGrid.innerHTML = cells.join("");
-    els.calendarGrid.setAttribute("aria-label", title);
-    const prevMonth = monthOf(state.miniYear, state.miniMonth, -1);
-    const nextMonth = monthOf(state.miniYear, state.miniMonth, 1);
-    els.calPrev.disabled = !monthOverlapsCalendar(prevMonth.y, prevMonth.m);
-    els.calNext.disabled = !monthOverlapsCalendar(nextMonth.y, nextMonth.m);
-    if (focusYmdKey) {
-      const button = els.calendarGrid.querySelector(`button[data-ymd="${focusYmdKey}"]`);
-      focusYmdKey = null;
-      if (button) button.focus();
     }
   }
 
@@ -1600,7 +1463,6 @@
     const events = eventsLoaded ? filteredEvents() : [];
     updateChrome(events);
     updateCategoryCounts();
-    renderMiniCalendar();
     if (isPhoneLayout()) {
       renderPhoneStrip(events);
       renderList(events);
@@ -1640,8 +1502,6 @@
     state.listStart = today;
     state.weekStart = today;
     state.stripDay = today;
-    state.miniYear = today.y;
-    state.miniMonth = today.m;
     state.openEventId = null;
     closeFilterSheet(false);
     render();
@@ -1749,7 +1609,6 @@
   }
 
   function openMenuPanel() {
-    closeMonthSheet(false);
     closeFilterSheet(false);
     document.body.classList.add("menu-open");
     els.menuToggle.setAttribute("aria-expanded", "true");
@@ -1762,22 +1621,6 @@
     if (first) first.focus();
   }
 
-  function openMonthSheet() {
-    if (!isPhoneLayout() || !els.monthSheet) return;
-    closeMenu();
-    closeFilterSheet(false);
-    document.body.classList.add("month-open");
-    els.monthSheet.hidden = false;
-    if (els.closeMonth) els.closeMonth.focus();
-  }
-
-  function closeMonthSheet(restore) {
-    const was = document.body.classList.contains("month-open");
-    document.body.classList.remove("month-open");
-    if (els.monthSheet) els.monthSheet.hidden = true;
-    if (was && restore && els.openMonth) els.openMonth.focus();
-  }
-
   function filtersOpener() {
     if (isPhoneLayout() && els.openFiltersPhone) return els.openFiltersPhone;
     return els.openFilters;
@@ -1786,7 +1629,6 @@
   function openFilterSheet() {
     if (!window.matchMedia("(max-width: 900px)").matches) return;
     closeMenu();
-    closeMonthSheet(false);
     document.body.classList.add("filters-open");
     els.sidebar.setAttribute("role", "dialog");
     els.sidebar.setAttribute("aria-modal", "true");
@@ -1891,45 +1733,8 @@
       closeFilterSheet(false);
       render();
     });
-    els.openCalendar.addEventListener("click", () => {
-      state.view = "calendar";
-      state.weekStart = state.listStart;
-      state.stripDay = state.listStart;
-      closeFilterSheet(false);
-      render();
-    });
     els.weekPrev.addEventListener("click", () => shiftWeek(-1));
     els.weekNext.addEventListener("click", () => shiftWeek(1));
-    els.calPrev.addEventListener("click", () => {
-      const next = monthOf(state.miniYear, state.miniMonth, -1);
-      if (!monthOverlapsCalendar(next.y, next.m)) return;
-      state.miniYear = next.y;
-      state.miniMonth = next.m;
-      renderMiniCalendar();
-    });
-    els.calNext.addEventListener("click", () => {
-      const next = monthOf(state.miniYear, state.miniMonth, 1);
-      if (!monthOverlapsCalendar(next.y, next.m)) return;
-      state.miniYear = next.y;
-      state.miniMonth = next.m;
-      renderMiniCalendar();
-    });
-    els.calendarGrid.addEventListener("click", (e) => {
-      const button = e.target.closest("button[data-ymd]");
-      if (!button || button.disabled) return;
-      const ymd = parseYmdKey(button.dataset.ymd);
-      focusYmdKey = button.dataset.ymd;
-      state.listStart = ymd;
-      state.weekStart = ymd;
-      state.stripDay = ymd;
-      state.view = "list";
-      state.miniYear = ymd.y;
-      state.miniMonth = ymd.m;
-      state.openEventId = null;
-      closeFilterSheet(false);
-      closeMonthSheet(false);
-      render();
-    });
     if (els.phoneStrip) {
       els.phoneStrip.addEventListener("click", (e) => {
         const button = e.target.closest("button[data-ymd]");
@@ -1939,8 +1744,8 @@
         state.weekStart = ymd;
         state.stripDay = ymd;
         state.view = "list";
-        state.miniYear = ymd.y;
-        state.miniMonth = ymd.m;
+
+
         state.openEventId = null;
         render();
       });
@@ -1958,9 +1763,6 @@
         if (isPhoneLayout()) closeMenu();
       });
     }
-    if (els.openMonth) els.openMonth.addEventListener("click", openMonthSheet);
-    if (els.closeMonth) els.closeMonth.addEventListener("click", () => closeMonthSheet(true));
-    if (els.monthBackdrop) els.monthBackdrop.addEventListener("click", () => closeMonthSheet(true));
     els.dayStrip.addEventListener("click", (e) => {
       const button = e.target.closest("button[data-ymd]");
       if (!button) return;
@@ -1974,8 +1776,7 @@
       if (document.body.classList.contains("menu-open") && !e.target.closest(".top-actions")) closeMenu();
     });
     document.addEventListener("keydown", (e) => {
-      if (document.body.classList.contains("month-open")) trapIn(e, els.monthPanel);
-      else if (document.body.classList.contains("filters-open")) trapIn(e, els.sidebar);
+      if (document.body.classList.contains("filters-open")) trapIn(e, els.sidebar);
       if (e.key === "ArrowDown" || e.key === "ArrowUp") {
         const panel = e.target.closest(".cal-menu-panel");
         if (!panel) return;
@@ -1994,11 +1795,6 @@
       const openMenuEl = document.querySelector(".cal-menu.is-open");
       if (openMenuEl) {
         closeMenus(true);
-        e.preventDefault();
-        return;
-      }
-      if (document.body.classList.contains("month-open")) {
-        closeMonthSheet(true);
         e.preventDefault();
         return;
       }
@@ -2031,7 +1827,6 @@
       if (!isMobileLayout()) closeFilterSheet(false);
       if (!isPhoneLayout()) {
         closeMenu();
-        closeMonthSheet(false);
       }
       const mobile = isMobileLayout();
       const phone = isPhoneLayout();
@@ -2336,8 +2131,6 @@
     state.listStart = today;
     state.weekStart = today;
     state.stripDay = today;
-    state.miniYear = today.y;
-    state.miniMonth = today.m;
     bind();
     bindFocusRefresh();
     registerServiceWorker();
