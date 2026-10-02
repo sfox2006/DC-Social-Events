@@ -1,7 +1,7 @@
 /* DC Social Events — shell cache, network-first events.
    Bump SHELL_CACHE when HTML, CSS, JS, fonts, or icons change. */
-const SHELL_CACHE = "dc-social-v5";
-const DATA_CACHE = "dc-social-data-v5";
+const SHELL_CACHE = "dc-social-v6";
+const DATA_CACHE = "dc-social-data-v6";
 
 const SHELL = [
   "./",
