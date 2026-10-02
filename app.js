@@ -33,8 +33,7 @@
     hybrid: "Hybrid",
     online: "Online",
   };
-  const LIST_HORIZON_YEARS = 1;
-  const CALENDAR_HORIZON_DAYS = 90;
+  const HORIZON_DAYS = 31;
   const TOPIC_MIN = 2;
   const TOPIC_MAX = 16;
   const TOPIC_RULES = [
@@ -125,6 +124,30 @@
   let lastFetchedAt = 0;
   let refreshInFlight = null;
   let deferredInstallPrompt = null;
+  let cachedFilterKey = "";
+  let cachedFiltered = null;
+  let cachedDayIndex = null;
+  let cachedCountKey = "";
+  let phoneStripKey = "";
+  let searchTimer = 0;
+  const NO_EVENTS = [];
+  const ymdFormatter = new Intl.DateTimeFormat("en-US", {
+    timeZone: TZ,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  });
+  const minuteFormatter = new Intl.DateTimeFormat("en-US", {
+    timeZone: TZ,
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23",
+  });
+  const timeLabelFormatter = new Intl.DateTimeFormat("en-US", {
+    timeZone: TZ,
+    hour: "numeric",
+    minute: "2-digit",
+  });
 
   function escapeHtml(str) {
     return String(str)
@@ -170,12 +193,7 @@
 
   function eventYmdInTz(iso) {
     const d = iso instanceof Date ? iso : new Date(iso);
-    const parts = new Intl.DateTimeFormat("en-US", {
-      timeZone: TZ,
-      year: "numeric",
-      month: "2-digit",
-      day: "2-digit",
-    }).formatToParts(d);
+    const parts = ymdFormatter.formatToParts(d);
     const get = (t) => parts.find((p) => p.type === t).value;
     return {
       y: Number(get("year")),
@@ -199,24 +217,6 @@
     };
   }
 
-  function addYears(ymd, years) {
-    const monthIndex = ymd.m - 1;
-    const utc = new Date(Date.UTC(ymd.y + years, monthIndex, ymd.d));
-    if (utc.getUTCMonth() !== monthIndex) {
-      const last = new Date(Date.UTC(ymd.y + years, ymd.m, 0));
-      return {
-        y: last.getUTCFullYear(),
-        m: last.getUTCMonth() + 1,
-        d: last.getUTCDate(),
-      };
-    }
-    return {
-      y: utc.getUTCFullYear(),
-      m: utc.getUTCMonth() + 1,
-      d: utc.getUTCDate(),
-    };
-  }
-
   function inYmdRange(ymd, range) {
     return ymdCmp(ymd, range.start) >= 0 && ymdCmp(ymd, range.end) <= 0;
   }
@@ -227,19 +227,11 @@
 
   function listWindow() {
     const start = todayYmd();
-    return { start, end: addYears(start, LIST_HORIZON_YEARS) };
+    return { start, end: addDays(start, HORIZON_DAYS) };
   }
 
   function horizonEnd() {
-    const start = todayYmd();
-    let end = addDays(start, CALENDAR_HORIZON_DAYS);
-    const listEnd = listWindow().end;
-    allEvents.forEach((event) => {
-      if (!event.start) return;
-      const ymd = eventYmdInTz(event.start);
-      if (ymdCmp(ymd, end) > 0 && ymdCmp(ymd, listEnd) <= 0) end = ymd;
-    });
-    return end;
+    return listWindow().end;
   }
 
   function inListWindow(event) {
@@ -261,12 +253,7 @@
     if (!iso) return null;
     const d = new Date(iso);
     if (Number.isNaN(d.getTime())) return null;
-    const parts = new Intl.DateTimeFormat("en-US", {
-      timeZone: TZ,
-      hour: "2-digit",
-      minute: "2-digit",
-      hourCycle: "h23",
-    }).formatToParts(d);
+    const parts = minuteFormatter.formatToParts(d);
     let hour = Number(parts.find((p) => p.type === "hour").value);
     const minute = Number(parts.find((p) => p.type === "minute").value);
     if (hour === 24) hour = 0;
@@ -285,11 +272,7 @@
   }
 
   function formatStartTime(iso) {
-    return new Intl.DateTimeFormat("en-US", {
-      timeZone: TZ,
-      hour: "numeric",
-      minute: "2-digit",
-    }).format(new Date(iso));
+    return timeLabelFormatter.format(iso instanceof Date ? iso : new Date(iso));
   }
 
   function formatLongDate(ymd) {
@@ -448,7 +431,53 @@
   }
 
   function topicHay(event) {
+    if (event._topicHay != null) return event._topicHay;
     return `${event.title || ""} ${event.description || ""}`;
+  }
+
+  function annotateEvent(event) {
+    const startDate = event.start ? new Date(event.start) : null;
+    const startMs = startDate ? startDate.getTime() : NaN;
+    event._startMs = startMs;
+    if (!startDate || Number.isNaN(startMs)) {
+      event._ymd = null;
+      event._day = "";
+      event._bucket = null;
+      event._timeLabel = "";
+    } else {
+      event._ymd = eventYmdInTz(startDate);
+      event._day = ymdKey(event._ymd);
+      event._bucket = timeBucket(event.start);
+      event._timeLabel = formatStartTime(startDate);
+    }
+    event._cost = costKind(event.cost);
+    event._age = ageKind(event.age);
+    event._format = formatKind(event.format);
+    event._hay = [event.title, event.description, event.org, event.venue, event.address]
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase();
+    event._topicHay = `${event.title || ""} ${event.description || ""}`;
+    event._topicIds = [];
+  }
+
+  function indexEventTopics(events) {
+    events.forEach((event) => {
+      const hay = event._topicHay;
+      const ids = [];
+      topicCatalog.forEach((topic) => {
+        if (topic.re.test(hay)) ids.push(topic.id);
+      });
+      event._topicIds = ids;
+    });
+  }
+
+  function invalidateEventCaches() {
+    cachedFilterKey = "";
+    cachedFiltered = null;
+    cachedDayIndex = null;
+    cachedCountKey = "";
+    phoneStripKey = "";
   }
 
   function deriveTopics(events) {
@@ -613,11 +642,19 @@
 
   function selectedTopicsMatch(event, ids) {
     if (!ids.length) return false;
+    const have = event._topicIds;
+    if (have) {
+      for (let i = 0; i < have.length; i += 1) {
+        if (ids.includes(have[i])) return true;
+      }
+      return false;
+    }
     const hay = topicHay(event);
     return topicCatalog.some((topic) => ids.includes(topic.id) && topic.re.test(hay));
   }
 
   function searchHit(event, query) {
+    if (event._hay != null) return event._hay.includes(query);
     const hay = [event.title, event.description, event.org, event.venue, event.address]
       .filter(Boolean)
       .join(" ")
@@ -659,26 +696,71 @@
     if (f.freeFood && !tags.free_food) return false;
     if (f.freeDrinks && !tags.free_drinks) return false;
     if (f.outdoor && !tags.outdoor) return false;
-    if (!matchesCost(event, f.cost)) return false;
-    if (!matchesAge(event, f.age)) return false;
-    if (f.format && f.format !== "all" && f.format !== formatKind(event.format)) return false;
-    if (f.time && f.time.length && !f.time.includes(timeBucket(event.start))) return false;
-    const ymd = eventYmdInTz(event.start);
+    const cost = event._cost || costKind(event.cost);
+    if (f.cost && f.cost !== "all" && cost !== f.cost) return false;
+    const age = event._age || ageKind(event.age);
+    if (f.age && f.age !== "all" && age !== f.age) return false;
+    const format = event._format || formatKind(event.format);
+    if (f.format && f.format !== "all" && format !== f.format) return false;
+    if (f.time && f.time.length) {
+      const bucket = event._bucket !== undefined ? event._bucket : timeBucket(event.start);
+      if (!f.time.includes(bucket)) return false;
+    }
+    const ymd = event._ymd || eventYmdInTz(event.start);
     if (f.from && ymdCmp(ymd, f.from) < 0) return false;
     if (f.to && ymdCmp(ymd, f.to) > 0) return false;
     return true;
   }
 
+  function filterSignature(f) {
+    return JSON.stringify([
+      f.search,
+      f.topics,
+      f.categories,
+      f.freeEntry,
+      f.freeFood,
+      f.freeDrinks,
+      f.outdoor,
+      f.cost,
+      f.format,
+      f.age,
+      f.time,
+      f.from ? ymdKey(f.from) : "",
+      f.to ? ymdKey(f.to) : "",
+    ]);
+  }
+
+  function dayIndexFor(events) {
+    const map = new Map();
+    events.forEach((event) => {
+      const key = event._day;
+      if (!key) return;
+      let bucket = map.get(key);
+      if (!bucket) {
+        bucket = [];
+        map.set(key, bucket);
+      }
+      bucket.push(event);
+    });
+    return map;
+  }
+
   function filteredEvents() {
     const f = getFilters();
-    return allEvents
-      .filter((event) => matches(event, f))
-      .sort((a, b) => new Date(a.start) - new Date(b.start));
+    const key = filterSignature(f);
+    if (key === cachedFilterKey && cachedFiltered) return cachedFiltered;
+    const events = allEvents.filter((event) => matches(event, f));
+    events.sort((a, b) => a._startMs - b._startMs);
+    cachedFilterKey = key;
+    cachedFiltered = events;
+    cachedDayIndex = dayIndexFor(events);
+    return events;
   }
 
   function eventsOnDay(ymd, events) {
     const key = ymdKey(ymd);
-    return events.filter((event) => ymdKey(eventYmdInTz(event.start)) === key);
+    if (cachedDayIndex && events === cachedFiltered) return cachedDayIndex.get(key) || NO_EVENTS;
+    return events.filter((event) => (event._day || ymdKey(eventYmdInTz(event.start))) === key);
   }
 
   function toUtcStamp(iso) {
@@ -1078,13 +1160,13 @@
   }
 
   function formatCardWhen(event) {
-    const ymd = eventYmdInTz(event.start);
+    const ymd = event._ymd || eventYmdInTz(event.start);
     const today = todayYmd();
     let day;
     if (ymdCmp(ymd, today) === 0) day = "Today";
     else if (ymdCmp(ymd, addDays(today, 1)) === 0) day = "Tomorrow";
     else day = `${WEEKDAYS_SHORT[weekdayIndex(ymd)]}, ${MONTHS_SMALL[ymd.m - 1]} ${ymd.d}`;
-    return `${day} · ${formatStartTime(event.start)}`;
+    return `${day} · ${event._timeLabel || formatStartTime(event.start)}`;
   }
 
   function renderEventRow(event) {
@@ -1101,7 +1183,7 @@
       <article class="event-row${open ? " is-open" : ""}" data-id="${escapeHtml(event.id)}" style="--category:${color}">
         <button type="button" class="event-summary" aria-expanded="${open ? "true" : "false"}" aria-controls="${detailsId}">
           <span class="event-when">
-            <span class="event-time">${escapeHtml(formatStartTime(event.start))}</span>
+            <span class="event-time">${escapeHtml(event._timeLabel || formatStartTime(event.start))}</span>
             <span class="event-format">${escapeHtml(formatLabel(event.format))}</span>
           </span>
           <span class="event-main">
@@ -1155,7 +1237,7 @@
     return `
       <article class="cal-card" data-id="${escapeHtml(event.id)}" style="--category:${color}">
         <button type="button" class="cal-card-hit" aria-expanded="${open ? "true" : "false"}" aria-controls="${detailsId}">
-          <span class="cal-card-time">${escapeHtml(formatStartTime(event.start))}</span>
+          <span class="cal-card-time">${escapeHtml(event._timeLabel || formatStartTime(event.start))}</span>
           <span class="cal-card-title">${escapeHtml(event.title || "Untitled event")}</span>
           ${org ? `<span class="cal-card-org">${escapeHtml(org)}</span>` : ""}
           <span class="cal-tags">
@@ -1249,14 +1331,30 @@
     }
   }
 
+  function centerPhoneDay(button) {
+    if (!button || !els.phoneStrip) return;
+    const left = button.offsetLeft - (els.phoneStrip.clientWidth - button.offsetWidth) / 2;
+    els.phoneStrip.scrollLeft = Math.max(0, left);
+  }
+
   function renderPhoneStrip(events) {
     if (!els.phoneStrip) return;
     const today = todayYmd();
     const selected = state.listStart || today;
     let last = horizonEnd();
-    const cap = addDays(today, 120);
-    if (ymdCmp(last, cap) > 0) last = cap;
     if (ymdCmp(selected, last) > 0) last = selected;
+    const selectedKey = ymdKey(selected);
+    const stripKey = `${cachedFilterKey}|${ymdKey(today)}|${ymdKey(last)}`;
+    if (phoneStripKey === stripKey && els.phoneStrip.querySelector(`[data-ymd="${selectedKey}"]`)) {
+      els.phoneStrip.querySelectorAll(".phone-day").forEach((btn) => {
+        const on = btn.dataset.ymd === selectedKey;
+        btn.classList.toggle("is-selected", on);
+        btn.setAttribute("aria-selected", on ? "true" : "false");
+      });
+      centerPhoneDay(els.phoneStrip.querySelector(".is-selected"));
+      return;
+    }
+    phoneStripKey = stripKey;
     const parts = [];
     for (let ymd = today; ymdCmp(ymd, last) <= 0; ymd = addDays(ymd, 1)) {
       const count = eventsOnDay(ymd, events).length;
@@ -1271,11 +1369,7 @@
       );
     }
     els.phoneStrip.innerHTML = parts.join("");
-    const current = els.phoneStrip.querySelector(".is-selected");
-    if (current) {
-      const left = current.offsetLeft - (els.phoneStrip.clientWidth - current.offsetWidth) / 2;
-      els.phoneStrip.scrollLeft = Math.max(0, left);
-    }
+    centerPhoneDay(els.phoneStrip.querySelector(".is-selected"));
   }
 
   function renderWeek(events) {
@@ -1294,6 +1388,7 @@
       const dayEvents = eventsOnDay(ymd, events);
       const isToday = ymdCmp(ymd, today) === 0;
       const selected = state.stripDay && ymdCmp(ymd, state.stripDay) === 0;
+      const pastHorizon = ymdCmp(ymd, horizonEnd()) > 0;
       if (!mobile) {
         const body = dayEvents.length
           ? dayEvents.map(renderCalendarCard).join("")
@@ -1309,7 +1404,7 @@
         `);
       } else {
         strip.push(`
-          <button type="button" class="strip-btn${selected ? " is-selected" : ""}${dayEvents.length ? " has-events" : ""}" role="tab" data-ymd="${ymdKey(ymd)}" aria-selected="${selected ? "true" : "false"}" aria-label="${escapeHtml(formatLongDate(ymd))}, ${dayEvents.length} event${dayEvents.length === 1 ? "" : "s"}">
+          <button type="button" class="strip-btn${selected ? " is-selected" : ""}${dayEvents.length ? " has-events" : ""}" role="tab" data-ymd="${ymdKey(ymd)}" aria-selected="${selected ? "true" : "false"}" aria-label="${escapeHtml(formatLongDate(ymd))}, ${dayEvents.length} event${dayEvents.length === 1 ? "" : "s"}"${pastHorizon ? " disabled" : ""}>
             <span class="dow">${WEEKDAYS_SHORT[weekdayIndex(ymd)]}</span>
             <span class="n">${ymd.d}</span>
             <span class="strip-dot"></span>
@@ -1347,6 +1442,8 @@
   function updateCategoryCounts() {
     const f = getFilters();
     const base = { ...f, categories: [] };
+    const key = filterSignature(base);
+    if (key === cachedCountKey) return;
     const counts = Object.fromEntries(CATEGORIES.map((item) => [item.id, 0]));
     allEvents.forEach((event) => {
       if (!matches(event, base)) return;
@@ -1357,6 +1454,7 @@
       const el = document.querySelector(`[data-count-for="${cat.id}"]`);
       if (el) el.textContent = String(counts[cat.id] || 0);
     });
+    cachedCountKey = key;
   }
 
   function visibleCount(events) {
@@ -1459,6 +1557,7 @@
   }
 
   function render() {
+    window.clearTimeout(searchTimer);
     syncPhoneDom();
     const events = eventsLoaded ? filteredEvents() : [];
     updateChrome(events);
@@ -1542,9 +1641,38 @@
     if (first) first.focus({ preventScroll: true });
   }
 
+  function eventRoots() {
+    if (isPhoneLayout() || state.view === "list") return [els.eventList];
+    if (isMobileLayout()) return [els.stripDay];
+    return [els.weekBoard];
+  }
+
+  function patchOpenCards(prev, next) {
+    const ids = [];
+    if (prev) ids.push(prev);
+    if (next && next !== prev) ids.push(next);
+    if (!ids.length) return true;
+    let patched = 0;
+    eventRoots().forEach((root) => {
+      if (!root) return;
+      ids.forEach((id) => {
+        const card = root.querySelector(`[data-id="${cssEscape(id)}"]`);
+        if (!card) return;
+        const event = findEvent(id);
+        if (!event) return;
+        const html = card.classList.contains("cal-card") ? renderCalendarCard(event) : renderEventRow(event);
+        card.outerHTML = html;
+        patched += 1;
+      });
+    });
+    return patched > 0;
+  }
+
   function toggleOpen(id) {
-    state.openEventId = state.openEventId === id ? null : id;
-    render();
+    const prev = state.openEventId;
+    const next = prev === id ? null : id;
+    state.openEventId = next;
+    if (!patchOpenCards(prev, next)) render();
   }
 
   function findEvent(id) {
@@ -1667,10 +1795,20 @@
   }
 
   function bind() {
-    [els.search, els.dateFrom, els.dateTo].forEach((el) => {
+    [els.dateFrom, els.dateTo].forEach((el) => {
       el.addEventListener("input", render);
       el.addEventListener("change", render);
     });
+    const flushSearch = () => {
+      window.clearTimeout(searchTimer);
+      render();
+    };
+    els.search.addEventListener("input", () => {
+      window.clearTimeout(searchTimer);
+      searchTimer = window.setTimeout(render, 200);
+    });
+    els.search.addEventListener("change", flushSearch);
+    els.search.addEventListener("search", flushSearch);
     document.getElementById("category-list").addEventListener("change", render);
     els.sidebar.addEventListener("click", (e) => {
       const toggle = e.target.closest(".section-toggle");
@@ -1738,8 +1876,9 @@
     if (els.phoneStrip) {
       els.phoneStrip.addEventListener("click", (e) => {
         const button = e.target.closest("button[data-ymd]");
-        if (!button) return;
+        if (!button || button.disabled) return;
         const ymd = parseYmdKey(button.dataset.ymd);
+        if (ymdCmp(ymd, horizonEnd()) > 0) return;
         state.listStart = ymd;
         state.weekStart = ymd;
         state.stripDay = ymd;
@@ -1765,8 +1904,10 @@
     }
     els.dayStrip.addEventListener("click", (e) => {
       const button = e.target.closest("button[data-ymd]");
-      if (!button) return;
-      state.stripDay = parseYmdKey(button.dataset.ymd);
+      if (!button || button.disabled) return;
+      const ymd = parseYmdKey(button.dataset.ymd);
+      if (ymdCmp(ymd, horizonEnd()) > 0) return;
+      state.stripDay = ymd;
       render();
     });
     els.eventList.addEventListener("click", onResultClick);
@@ -1812,7 +1953,7 @@
       if (state.openEventId) {
         const id = state.openEventId;
         state.openEventId = null;
-        render();
+        if (!patchOpenCards(id, null)) render();
         const card = document.querySelector(`[data-id="${cssEscape(id)}"] .event-summary, [data-id="${cssEscape(id)}"] .cal-card-hit`);
         if (card) card.focus();
       }
@@ -1889,9 +2030,20 @@
     el.classList.toggle("is-error", kind === "error");
   }
 
+  function eventsFromPayload(data) {
+    if (Array.isArray(data)) return data;
+    if (!data || typeof data !== "object") return null;
+    // `window` is optional pipeline metadata: the file's two cut-off dates.
+    // Loading uses `events` only, so a missing or unexpected `window` still works.
+    if (!Array.isArray(data.events)) return null;
+    return data.events;
+  }
+
   function applyEventsPayload(data) {
-    const raw = Array.isArray(data) ? data : data.events || [];
+    const raw = eventsFromPayload(data) || [];
     allEvents = raw.filter(inListWindow);
+    allEvents.forEach(annotateEvent);
+    invalidateEventCaches();
     const win = listWindow();
     const min = ymdKey(win.start);
     const max = ymdKey(win.end);
@@ -1904,6 +2056,7 @@
       els.dateTo.max = max;
     }
     topicCatalog = deriveTopics(allEvents);
+    indexEventTopics(allEvents);
     renderTopicChips(topicCatalog);
     eventsLoaded = true;
     applyDeepLink();
@@ -1927,15 +2080,16 @@
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const fromCache = res.headers.get("X-DC-Social-Source") === "cache";
     const text = await res.text();
+    if (text === lastPayload && eventsLoaded) return { text, data: null, fromCache, unchanged: true };
     let data;
     try {
       data = JSON.parse(text);
     } catch (err) {
       throw new Error("Invalid events JSON");
     }
-    const events = Array.isArray(data) ? data : data && data.events;
+    const events = eventsFromPayload(data);
     if (!Array.isArray(events)) throw new Error("No events array");
-    return { text, data, fromCache, events };
+    return { text, data, fromCache, events, unchanged: false };
   }
 
   async function loadEvents(reason) {
@@ -1953,7 +2107,7 @@
     try {
       const payload = await fetchEventsDocument(`${LOCAL_EVENTS_URL}?ts=${Date.now()}`);
       lastFetchedAt = Date.now();
-      if (payload.text === lastPayload && eventsLoaded) {
+      if (payload.unchanged || (payload.text === lastPayload && eventsLoaded)) {
         if (explicit) {
           setRefreshStatus(payload.fromCache ? "Offline — saved copy" : "Updated just now", payload.fromCache ? "error" : "");
         }
