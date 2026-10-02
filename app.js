@@ -2030,8 +2030,17 @@
     el.classList.toggle("is-error", kind === "error");
   }
 
+  function eventsFromPayload(data) {
+    if (Array.isArray(data)) return data;
+    if (!data || typeof data !== "object") return null;
+    // `window` is optional pipeline metadata: the file's two cut-off dates.
+    // Loading uses `events` only, so a missing or unexpected `window` still works.
+    if (!Array.isArray(data.events)) return null;
+    return data.events;
+  }
+
   function applyEventsPayload(data) {
-    const raw = Array.isArray(data) ? data : data.events || [];
+    const raw = eventsFromPayload(data) || [];
     allEvents = raw.filter(inListWindow);
     allEvents.forEach(annotateEvent);
     invalidateEventCaches();
@@ -2078,7 +2087,7 @@
     } catch (err) {
       throw new Error("Invalid events JSON");
     }
-    const events = Array.isArray(data) ? data : data && data.events;
+    const events = eventsFromPayload(data);
     if (!Array.isArray(events)) throw new Error("No events array");
     return { text, data, fromCache, events, unchanged: false };
   }

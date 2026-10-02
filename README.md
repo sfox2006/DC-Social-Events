@@ -12,7 +12,7 @@ Published URL: https://sfox2006.github.io/DC-Social-Events/
 - Filter by category, format (in person, hybrid, online), cost (free, paid, unknown), age (all ages, 18+, 21+), time of day, free entry, free food, free drinks, and outdoor. Search matches the title, description, organizer, or venue.
 - Open an event for its description, then add it to Google Calendar, download an ICS file, or open it in Outlook.
 - Share a link that deep-links to that event by id (`?event=`).
-- Install the page as an app. Refresh re-fetches `data/events.json`. The service worker keeps a shell cache named `dc-social-v6` and a network-first data cache named `dc-social-data-v6`.
+- Install the page as an app. Refresh re-fetches `data/events.json`. The service worker keeps a shell cache named `dc-social-v7` and a network-first data cache named `dc-social-data-v7`.
 - The list and week calendar include events from today through the next 31 days (Eastern Time). The date picker and day strip stop at that horizon.
 - “Get the weekly email” opens a short note that the signup form is not open yet. It does not leave this site.
 
@@ -25,11 +25,13 @@ When `events` is empty, the page says “First events arriving shortly”.
 ```json
 {
   "generated": "2026-10-01T00:00:00-04:00",
+  "timezone": "America/New_York",
+  "window": { "start": "2026-10-02", "end": "2026-11-02" },
   "events": []
 }
 ```
 
-`generated` is an ISO 8601 timestamp with an Eastern Time offset. `events` is an array of objects:
+`generated` is an ISO 8601 timestamp with an Eastern Time offset. `timezone` is `America/New_York`. `window` is optional. When the pipeline includes it, the value carries the file’s two cut-off dates (for example the object above, or a pair of `YYYY-MM-DD` strings). The page reads `events` and ignores `window`, so the site still loads when the field is missing or has another shape. `events` is an array of objects:
 
 | Field | Meaning |
 | --- | --- |
