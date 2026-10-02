@@ -278,31 +278,6 @@
    "id": "rosslyn-bid-rosslyn-fall-fest-2026-10-03"
   },
   {
-   "title": "Adams Morgan PorchFest (Fall 2026)",
-   "org": "Adams Morgan PorchFest",
-   "start": "2026-10-03T14:00:00-04:00",
-   "end": "2026-10-03T18:00:00-04:00",
-   "venue": "18th Street NW (Columbia Rd to Vernon St)",
-   "address": "18th St NW, Washington, DC",
-   "maps_url": "https://maps.google.com/?q=18th+St+NW%2C+Washington%2C+DC",
-   "url": "https://www.festivalsinamerica.com/festival/adams-morgan-porchfest-washington",
-   "category": "music",
-   "format": "in_person",
-   "cost": "Free",
-   "age": "all_ages",
-   "tags": {
-    "free_food": null,
-    "free_drinks": null,
-    "free_entry": true,
-    "young_adults": null,
-    "outdoor": true
-   },
-   "description": "Free neighborhood music festival with 100+ bands on porches, yards and stages along 18th Street NW.",
-   "source": "social",
-   "source_ref": "festivalsinamerica",
-   "id": "adams-morgan-porchfest-adams-morgan-porchfest-fall-2026-2026-10-03"
-  },
-  {
    "title": "Oktoberfest at The Wharf: Wiener 500 Dachshund Dash",
    "org": "The Wharf DC",
    "start": "2026-10-03T14:00:00-04:00",
@@ -328,8 +303,8 @@
    "id": "the-wharf-dc-oktoberfest-at-the-wharf-wiener-500-dachshund-dash-2026-10-03"
   },
   {
-   "title": "Nü Androids x Union Market Block Party feat. Marc Rebillet",
-   "org": "Union Market District / Nü Androids",
+   "title": "N\u00fc Androids x Union Market Block Party feat. Marc Rebillet",
+   "org": "Union Market District / N\u00fc Androids",
    "start": "2026-10-03T15:30:00-04:00",
    "end": "2026-10-03T21:30:00-04:00",
    "venue": "Union Market",
@@ -1934,7 +1909,7 @@
    "org": "AV Entertainment",
    "start": "2026-10-23T22:00:00-04:00",
    "end": null,
-   "venue": "THRōW Social DC",
+   "venue": "THR\u014dW Social DC",
    "address": "1401 Okie St NE, Suite 102, Washington, DC 20002",
    "maps_url": "https://www.google.com/maps/search/?api=1&query=THR%C5%8DW+Social+DC%2C+1401+Okie+St+NE%2C+Suite+102%2C+Washington%2C+DC+20002",
    "url": "https://www.eventbrite.com/e/bollyween-dc-2026-the-ultimate-desi-rave-halloween-takeover-tickets-2001255871183",
@@ -2556,7 +2531,7 @@
    "id": "union-stage-presents-the-howard-theatre-femme-fatale-halloween-night-21-2026-10-31"
   },
   {
-   "title": "Celebración Día de los Muertos at The Wharf",
+   "title": "Celebraci\u00f3n D\u00eda de los Muertos at The Wharf",
    "org": "The Wharf / Mexican Cultural Institute / Fiesta DC",
    "start": "2026-11-01T15:00:00-05:00",
    "end": "2026-11-01T18:00:00-05:00",
@@ -2738,7 +2713,7 @@
    "venue": "Throughout Adams Morgan",
    "address": "2424 18th St NW, Washington, DC 20009",
    "maps_url": "https://maps.google.com/?q=2424+18th+St+NW%2C+Washington%2C+DC+20009",
-   "url": "https://washington.org/event/adams-morgan-fall-porchfest",
+   "url": "https://adamsmorgan.com/porchfest",
    "category": "music",
    "format": "in_person",
    "cost": "Free",
@@ -2750,7 +2725,7 @@
     "young_adults": null,
     "outdoor": true
    },
-   "description": "Free neighborhood-wide live music across porches, patios and businesses in Adams Morgan.",
+   "description": "Free neighborhood-wide live music across porches, patios and businesses in Adams Morgan. Date confirmed by Sam from the official Adams Morgan PorchFest page.",
    "source": "social",
    "source_ref": "washington.org",
    "id": "adams-morgan-partnership-bid-adams-morgan-fall-porchfest-november-2026-11-07"
