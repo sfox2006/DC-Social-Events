@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-03T09:37:15-04:00",
+  "generated": "2026-10-03T14:14:40-04:00",
   "timezone": "America/New_York",
   "events": [
     {
@@ -157,6 +157,31 @@
       "id": "pacers-running-asics-rise-shine-with-pacers-and-netc-supported-long-run-2026-10-03"
     },
     {
+      "title": "DC Half Shakeout Run (District Running Collective)",
+      "org": "District Running Collective",
+      "start": "2026-10-03T08:00:00-04:00",
+      "end": "2026-10-03T10:00:00-04:00",
+      "venue": "Pacers Running Navy Yard",
+      "address": "300 Tingey St SE, Washington, DC 20003",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Pacers+Running+Navy+Yard%2C+300+Tingey+St+SE%2C+Washington%2C+DC+20003",
+      "url": "https://www.districtrunningcollective.com/rsvp",
+      "category": "sports_fitness",
+      "format": "in_person",
+      "cost": "Free",
+      "age": "unknown",
+      "tags": {
+        "free_food": null,
+        "free_drinks": null,
+        "free_entry": true,
+        "young_adults": null,
+        "outdoor": true
+      },
+      "description": "Free 3-mile community shakeout run for the DC Half, all paces welcome; sign-up required through DRC Pass, with a post-run Impact Lounge and bib pickup from 10 AM.",
+      "source": "web",
+      "source_ref": "https://www.districtrunningcollective.com/rsvp",
+      "id": "district-running-collective-dc-half-shakeout-run-district-running-collective-2026-10-03"
+    },
+    {
       "title": "DC Coffee Festival 2026 (Oct 3-4)",
       "org": "Craft Hospitality",
       "start": "2026-10-03T09:00:00-04:00",
@@ -257,6 +282,31 @@
       "id": "freshfarm-freshfarm-columbia-heights-market-saturday-2026-10-03"
     },
     {
+      "title": "FRESHFARM H Street NE Market",
+      "org": "FRESHFARM",
+      "start": "2026-10-03T09:00:00-04:00",
+      "end": "2026-10-03T12:30:00-04:00",
+      "venue": "FRESHFARM H Street NE Market",
+      "address": "H Street NE, Washington, DC",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=FRESHFARM+H+Street+NE+Market%2C+H+Street+NE%2C+Washington%2C+DC",
+      "url": "https://www.freshfarm.org/markets/h-street-ne",
+      "category": "market",
+      "format": "in_person",
+      "cost": "Unknown",
+      "age": "all_ages",
+      "tags": {
+        "free_food": null,
+        "free_drinks": null,
+        "free_entry": null,
+        "young_adults": null,
+        "outdoor": true
+      },
+      "description": "Year-round Saturday farmers market, 9 AM-12:30 PM, with produce, meats, baked goods, coffee and prepared foods. Accepts SNAP/EBT, WIC and Senior FMNP with FreshMatch; weekly recurring (next date shown).",
+      "source": "web",
+      "source_ref": "https://www.freshfarm.org/markets/h-street-ne",
+      "id": "freshfarm-freshfarm-h-street-ne-market-2026-10-03"
+    },
+    {
       "title": "FRESHFARM Mount Vernon Triangle Market",
       "org": "FRESHFARM",
       "start": "2026-10-03T09:00:00-04:00",
@@ -280,6 +330,56 @@
       "source": "web",
       "source_ref": "https://www.freshfarm.org/markets/mount-vernon-triangle",
       "id": "freshfarm-freshfarm-mount-vernon-triangle-market-2026-10-03"
+    },
+    {
+      "title": "Fall Bird Walk- Saturday, October 3",
+      "org": "Friends of the National Arboretum",
+      "start": "2026-10-03T09:00:00-04:00",
+      "end": "2026-10-03T11:00:00-04:00",
+      "venue": "U.S. National Arboretum",
+      "address": "2400 R Street Northeast, Washington, DC 20002",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=U.S.+National+Arboretum%2C+2400+R+Street+Northeast%2C+Washington%2C+DC+20002",
+      "url": "https://www.eventbrite.com/e/fall-bird-walk-saturday-october-3-tickets-1997984889589",
+      "category": "outdoors",
+      "format": "in_person",
+      "cost": "Free",
+      "age": "unknown",
+      "tags": {
+        "free_food": null,
+        "free_drinks": null,
+        "free_entry": null,
+        "young_adults": null,
+        "outdoor": true
+      },
+      "description": "SOLD OUT per Eventbrite listing. Guided fall bird walk led by DC Bird Alliance at the U.S. National Arboretum.",
+      "source": "web",
+      "source_ref": "https://www.eventbrite.com/e/fall-bird-walk-saturday-october-3-tickets-1997984889589",
+      "id": "friends-of-the-national-arboretum-fall-bird-walk-saturday-october-3-2026-10-03"
+    },
+    {
+      "title": "Move With Me x FP Movement",
+      "org": "She Clubs Collective",
+      "start": "2026-10-03T09:00:00-04:00",
+      "end": "2026-10-03T11:00:00-04:00",
+      "venue": "FP Movement",
+      "address": "1256 4th St NE, Washington, DC 20002",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=FP+Movement%2C+1256+4th+St+NE%2C+Washington%2C+DC+20002",
+      "url": "https://luma.com/jxfq0q6k",
+      "category": "sports_fitness",
+      "format": "in_person",
+      "cost": "Free",
+      "age": "unknown",
+      "tags": {
+        "free_food": true,
+        "free_drinks": null,
+        "free_entry": true,
+        "young_adults": null,
+        "outdoor": true
+      },
+      "description": "All-pace Saturday morning walk/run from FP Movement at Union Market, followed by a women's health conversation and snacks from local vendors.",
+      "source": "web",
+      "source_ref": "https://luma.com/jxfq0q6k",
+      "id": "she-clubs-collective-move-with-me-x-fp-movement-2026-10-03"
     },
     {
       "title": "DC Coffee Festival",
@@ -355,6 +455,31 @@
       "source": "web",
       "source_ref": "https://www.mountvernontriangle.org/event/freshfarm-mvt-market-5-2-2026-04-11-2026-10-03/",
       "id": "mount-vernon-triangle-cid-freshfarm-mvt-market-2026-10-03"
+    },
+    {
+      "title": "Hike Into Fall: DPR Hike Club Finale",
+      "org": "The Hike Crew / DC Parks & Recreation",
+      "start": "2026-10-03T09:30:00-04:00",
+      "end": "2026-10-03T11:30:00-04:00",
+      "venue": "Alethia Tanner Park",
+      "address": "227 Harry Thomas Way NE, Washington, DC 20002",
+      "maps_url": "https://maps.google.com/?q=227+Harry+Thomas+Way+NE%2C+Washington%2C+DC+20002",
+      "url": "https://posh.vip/e/hike-into-fall-dpr-hike-club-finale",
+      "category": "outdoors",
+      "format": "in_person",
+      "cost": "Free",
+      "age": "unknown",
+      "tags": {
+        "free_food": null,
+        "free_drinks": null,
+        "free_entry": true,
+        "young_adults": null,
+        "outdoor": true
+      },
+      "description": "details come from an aggregator (FoundTheMove) only. Easy 3-mile hike closing out the DPR Hike Club season.",
+      "source": "social",
+      "source_ref": "foundthemove.com",
+      "id": "the-hike-crew-dc-parks-recreation-hike-into-fall-dpr-hike-club-finale-2026-10-03"
     },
     {
       "title": "Union Market District Street Fest",
@@ -555,6 +680,31 @@
       "source": "web",
       "source_ref": "https://unionmarketdc.com/event/her-a-womens-wellness-social-vol-3/",
       "id": "union-market-district-her-a-women-s-wellness-social-vol-3-2026-10-03"
+    },
+    {
+      "title": "Guided Tour: Hirshhorn Highlights",
+      "org": "Hirshhorn Museum",
+      "start": "2026-10-03T11:30:00-04:00",
+      "end": "2026-10-03T12:30:00-04:00",
+      "venue": "Hirshhorn Museum and Sculpture Garden",
+      "address": "Independence Ave SW and 7th St SW, Washington, DC 20560",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Hirshhorn+Museum+and+Sculpture+Garden%2C+Independence+Ave+SW+and+7th+St+SW%2C+Washington%2C+DC+20560",
+      "url": "https://hirshhorn.si.edu/event/hirshhorn-highlights/2026-10-03/",
+      "category": "arts_museums",
+      "format": "in_person",
+      "cost": "Unknown",
+      "age": "unknown",
+      "tags": {
+        "free_food": null,
+        "free_drinks": null,
+        "free_entry": null,
+        "young_adults": null,
+        "outdoor": null
+      },
+      "description": "Hirshhorn Museum listing: Guided Tour: Hirshhorn Highlights, 11:30 am-12:30 pm ET; price not shown on the calendar page.",
+      "source": "web",
+      "source_ref": "https://hirshhorn.si.edu/event/hirshhorn-highlights/2026-10-03/",
+      "id": "hirshhorn-museum-guided-tour-hirshhorn-highlights-2026-10-03"
     },
     {
       "title": "A Better Brunch: Wine Glass Painting at Pinstripes Georgetown",
@@ -1382,31 +1532,6 @@
       "id": "georgetown-university-athletics-georgetown-hoyas-volleyball-vs-providence-2026-10-03"
     },
     {
-      "title": "Cuban Jazz Series",
-      "org": "Georgetown BID",
-      "start": "2026-10-03T18:00:00-04:00",
-      "end": "2026-10-03T23:00:00-04:00",
-      "venue": "Blues Alley Jazz Club (1073 Wisconsin Ave NW)",
-      "address": "Georgetown, Washington, DC 20007",
-      "maps_url": "https://www.google.com/maps/search/?api=1&query=Blues+Alley+Jazz+Club+%281073+Wisconsin+Ave+NW%29%2C+Georgetown%2C+Washington%2C+DC+20007",
-      "url": "https://www.hispanicheritagejazzmonth.com/shows",
-      "category": "music",
-      "format": "in_person",
-      "cost": "Unknown",
-      "age": "unknown",
-      "tags": {
-        "free_food": null,
-        "free_drinks": null,
-        "free_entry": null,
-        "young_adults": null,
-        "outdoor": null
-      },
-      "description": "Join Blues Alley in celebrating our annual Hispanic Heritage Jazz Month with our Cuban Jazz",
-      "source": "web",
-      "source_ref": "https://www.georgetowndc.com/event/cuban-jazz-series/2026-10-03/",
-      "id": "georgetown-bid-cuban-jazz-series-2026-10-03"
-    },
-    {
       "title": "LIZARD GIRL + Stumped",
       "org": "Washington Improv Theater",
       "start": "2026-10-03T18:00:00-04:00",
@@ -1480,6 +1605,31 @@
       "source": "web",
       "source_ref": "https://songbyrddc.com/event/kiefer/",
       "id": "songbyrd-music-house-kiefer-with-shibo-2026-10-03"
+    },
+    {
+      "title": "Cuban Jazz Series: Arturo O'Farrill Quintet",
+      "org": "Georgetown BID",
+      "start": "2026-10-03T19:00:00-04:00",
+      "end": "2026-10-03T22:30:00-04:00",
+      "venue": "Blues Alley Jazz Club (1073 Wisconsin Ave NW)",
+      "address": "Georgetown, Washington, DC 20007",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Blues+Alley+Jazz+Club+%281073+Wisconsin+Ave+NW%29%2C+Georgetown%2C+Washington%2C+DC+20007",
+      "url": "https://www.hispanicheritagejazzmonth.com/shows",
+      "category": "music",
+      "format": "in_person",
+      "cost": "$50",
+      "age": "unknown",
+      "tags": {
+        "free_food": null,
+        "free_drinks": null,
+        "free_entry": null,
+        "young_adults": null,
+        "outdoor": null
+      },
+      "description": "Arturo O'Farrill Quintet, Cuban Jazz Series at Blues Alley (1073 Rear Wisconsin Ave NW). Two shows, 7:00 PM and 9:30 PM; start time is the first show. Ticketed via the Blues Alley ticketing page ($50 plus $7 fees), with a $15 food/beverage minimum per person not included in ticket price.",
+      "source": "web",
+      "source_ref": "https://www.georgetowndc.com/event/cuban-jazz-series/2026-10-03/",
+      "id": "georgetown-bid-cuban-jazz-series-2026-10-03"
     },
     {
       "title": "Ghosts of Georgetown & Exorcist Steps Haunted Walking Tour",
@@ -3158,17 +3308,17 @@
       "id": "kbird-washington-publishing-book-event-2026-10-04"
     },
     {
-      "title": "Cuban Jazz Series",
-      "org": "Georgetown BID",
-      "start": "2026-10-04T18:00:00-04:00",
-      "end": "2026-10-04T23:00:00-04:00",
+      "title": "Cuban Jazz Series: Arturo O'Farrill Quintet",
+      "org": "Blues Alley",
+      "start": "2026-10-04T17:30:00-04:00",
+      "end": null,
       "venue": "Blues Alley Jazz Club (1073 Wisconsin Ave NW)",
-      "address": "Georgetown, Washington, DC 20007",
+      "address": "1073 Wisconsin Ave NW, Georgetown, Washington, DC 20007",
       "maps_url": "https://www.google.com/maps/search/?api=1&query=Blues+Alley+Jazz+Club+%281073+Wisconsin+Ave+NW%29%2C+Georgetown%2C+Washington%2C+DC+20007",
-      "url": "https://www.georgetowndc.com/event/cuban-jazz-series/2026-10-04/",
+      "url": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=9E8CEB9D-ACE0-06C7-DC89839D1E64E660",
       "category": "music",
       "format": "in_person",
-      "cost": "Unknown",
+      "cost": "$35",
       "age": "unknown",
       "tags": {
         "free_food": null,
@@ -3177,10 +3327,10 @@
         "young_adults": null,
         "outdoor": null
       },
-      "description": "Join Blues Alley in celebrating our annual Hispanic Heritage Jazz Month with our Cuban Jazz",
+      "description": "Arturo O'Farrill Quintet, Cuban Jazz Series, part of Blues Alley's Hispanic Heritage Jazz Month; two shows, 5:30 PM (start time listed) and 8 PM ET; ticketed via the Blues Alley ticketing page ($35 plus $7 fees), with a $15 food/beverage minimum per person not included in ticket price.",
       "source": "web",
-      "source_ref": "https://www.georgetowndc.com/events/",
-      "id": "georgetown-bid-cuban-jazz-series-2026-10-04"
+      "source_ref": "https://www.hispanicheritagejazzmonth.com/shows",
+      "id": "blues-alley-cuban-jazz-series-arturo-o-farrill-quintet-2026-10-04"
     },
     {
       "title": "Everything Everything - Get to Heaven, 10th Anniversary, North America",
@@ -3633,31 +3783,6 @@
       "id": "profs-and-pints-meetup-metro-dc-profs-pints-dc-venturing-into-eco-horror-2026-10-05"
     },
     {
-      "title": "Colombian Jazz Series",
-      "org": "Georgetown BID",
-      "start": "2026-10-05T18:00:00-04:00",
-      "end": "2026-10-05T23:00:00-04:00",
-      "venue": "Blues Alley Jazz Club (1073 Wisconsin Ave NW)",
-      "address": "Georgetown, Washington, DC 20007",
-      "maps_url": "https://www.google.com/maps/search/?api=1&query=Blues+Alley+Jazz+Club+%281073+Wisconsin+Ave+NW%29%2C+Georgetown%2C+Washington%2C+DC+20007",
-      "url": "https://www.hispanicheritagejazzmonth.com/shows",
-      "category": "music",
-      "format": "in_person",
-      "cost": "Unknown",
-      "age": "unknown",
-      "tags": {
-        "free_food": null,
-        "free_drinks": null,
-        "free_entry": null,
-        "young_adults": null,
-        "outdoor": null
-      },
-      "description": "Please join Blues Alley Jazz in celebrating Hispanic Heritage Jazz Month with our Colombian Jazz",
-      "source": "web",
-      "source_ref": "https://www.georgetowndc.com/event/colombian-jazz-series/",
-      "id": "georgetown-bid-colombian-jazz-series-2026-10-05"
-    },
-    {
       "title": "LGBTQ+ Happy Hour with DCGaymers",
       "org": "The DC-MD-VA (DMV) D&D Group",
       "start": "2026-10-05T18:00:00-04:00",
@@ -3881,6 +4006,31 @@
       "source": "web",
       "source_ref": "https://songbyrddc.com/event/songbyrd-music-trivia-night-emo-trivia-hosted-by-sam-todd/",
       "id": "songbyrd-music-house-songbyrd-music-trivia-night-emo-trivia-2026-10-05"
+    },
+    {
+      "title": "Colombian Jazz Series: M. Alex Ramirez feat. Arturo O'Farrill",
+      "org": "Georgetown BID",
+      "start": "2026-10-05T19:00:00-04:00",
+      "end": "2026-10-05T22:30:00-04:00",
+      "venue": "Blues Alley Jazz Club (1073 Wisconsin Ave NW)",
+      "address": "Georgetown, Washington, DC 20007",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Blues+Alley+Jazz+Club+%281073+Wisconsin+Ave+NW%29%2C+Georgetown%2C+Washington%2C+DC+20007",
+      "url": "https://www.hispanicheritagejazzmonth.com/shows",
+      "category": "music",
+      "format": "in_person",
+      "cost": "$25",
+      "age": "unknown",
+      "tags": {
+        "free_food": null,
+        "free_drinks": null,
+        "free_entry": null,
+        "young_adults": null,
+        "outdoor": null
+      },
+      "description": "M. Alex Ramirez feat. Arturo O'Farrill, recording release, Colombian Jazz Series at Blues Alley. Two shows, 7:00 PM and 9:30 PM; start time is the first show. Ticketed via the Blues Alley ticketing page ($25 plus $7 fees), with a $15 food/beverage minimum per person not included in ticket price.",
+      "source": "web",
+      "source_ref": "https://www.georgetowndc.com/event/colombian-jazz-series/",
+      "id": "georgetown-bid-colombian-jazz-series-2026-10-05"
     },
     {
       "title": "Sylvan Esso",
@@ -4584,6 +4734,31 @@
       "id": "hungary-foundation-land-of-the-free-celebrating-250-years-of-hungarian-american--2026-10-06"
     },
     {
+      "title": "Peruvian Jazz Series: Perkutao",
+      "org": "Blues Alley",
+      "start": "2026-10-06T19:00:00-04:00",
+      "end": null,
+      "venue": "Blues Alley Jazz Club (1073 Wisconsin Ave NW)",
+      "address": "1073 Wisconsin Ave NW, Georgetown, Washington, DC 20007",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Blues+Alley+Jazz+Club+%281073+Wisconsin+Ave+NW%29%2C+Georgetown%2C+Washington%2C+DC+20007",
+      "url": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=54AC8DD8-CF5C-6DF7-6ED60ECB5BF57145",
+      "category": "music",
+      "format": "in_person",
+      "cost": "$30",
+      "age": "unknown",
+      "tags": {
+        "free_food": null,
+        "free_drinks": null,
+        "free_entry": null,
+        "young_adults": null,
+        "outdoor": null
+      },
+      "description": "Perkutao, Peruvian Jazz Series, part of Blues Alley's Hispanic Heritage Jazz Month; two shows, 7 PM (start time listed) and 9:30 PM ET; ticketed via the Blues Alley ticketing page ($30 plus $7 fees), with a $15 food/beverage minimum per person not included in ticket price.",
+      "source": "web",
+      "source_ref": "https://www.hispanicheritagejazzmonth.com/shows",
+      "id": "blues-alley-peruvian-jazz-series-perkutao-2026-10-06"
+    },
+    {
       "title": "Justin Nozuka at Pearl Street Warehouse",
       "org": "Pearl Street Warehouse",
       "start": "2026-10-06T20:00:00-04:00",
@@ -4936,31 +5111,6 @@
       "id": "district-riso-print-sip-2026-10-07"
     },
     {
-      "title": "Uruguayan Jazz Series",
-      "org": "Georgetown BID",
-      "start": "2026-10-07T18:00:00-04:00",
-      "end": "2026-10-07T23:00:00-04:00",
-      "venue": "Blues Alley Jazz Club (1073 Wisconsin Ave NW)",
-      "address": "Georgetown, Washington, DC 20007",
-      "maps_url": "https://www.google.com/maps/search/?api=1&query=Blues+Alley+Jazz+Club+%281073+Wisconsin+Ave+NW%29%2C+Georgetown%2C+Washington%2C+DC+20007",
-      "url": "https://www.hispanicheritagejazzmonth.com/shows",
-      "category": "music",
-      "format": "in_person",
-      "cost": "Unknown",
-      "age": "unknown",
-      "tags": {
-        "free_food": null,
-        "free_drinks": null,
-        "free_entry": null,
-        "young_adults": null,
-        "outdoor": null
-      },
-      "description": "Join Blues Alley in celebrating our annual Hispanic Heritage Jazz Month with our Uruguayan Jazz",
-      "source": "web",
-      "source_ref": "https://www.georgetowndc.com/event/uruguayan-jazz-series/",
-      "id": "georgetown-bid-uruguayan-jazz-series-2026-10-07"
-    },
-    {
       "title": "Sweden on the Roof Film Series: Live a Little & Ultimatum",
       "org": "Embassy of Sweden, Washington DC",
       "start": "2026-10-07T18:15:00-04:00",
@@ -5209,6 +5359,31 @@
       "source": "web",
       "source_ref": "https://www.eventbrite.com/e/weekly-intermediate-line-dancing-at-dirty-rhino-tickets-2001237929519",
       "id": "southern-rhythm-line-dancing-weekly-intermediate-line-dancing-at-dirty-rhino-2026-10-07"
+    },
+    {
+      "title": "Uruguayan Jazz Series: Gustavo Casenave solo piano",
+      "org": "Georgetown BID",
+      "start": "2026-10-07T19:00:00-04:00",
+      "end": "2026-10-07T22:30:00-04:00",
+      "venue": "Blues Alley Jazz Club (1073 Wisconsin Ave NW)",
+      "address": "Georgetown, Washington, DC 20007",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Blues+Alley+Jazz+Club+%281073+Wisconsin+Ave+NW%29%2C+Georgetown%2C+Washington%2C+DC+20007",
+      "url": "https://www.hispanicheritagejazzmonth.com/shows",
+      "category": "music",
+      "format": "in_person",
+      "cost": "$35",
+      "age": "unknown",
+      "tags": {
+        "free_food": null,
+        "free_drinks": null,
+        "free_entry": null,
+        "young_adults": null,
+        "outdoor": null
+      },
+      "description": "Gustavo Casenave solo piano performance, Uruguayan Jazz Series at Blues Alley. Two shows, 7:00 PM and 9:30 PM; start time is the first show. Ticketed via the Blues Alley ticketing page ($35 plus $7 fees), with a $15 food/beverage minimum per person not included in ticket price. Georgetown BID page says Oct 8; Blues Alley's own site says Oct 7.",
+      "source": "web",
+      "source_ref": "https://www.georgetowndc.com/event/uruguayan-jazz-series/",
+      "id": "georgetown-bid-uruguayan-jazz-series-2026-10-07"
     },
     {
       "title": "Foster The People – Good Mourning Sunshine",
@@ -5657,7 +5832,7 @@
         "young_adults": null,
         "outdoor": null
       },
-      "description": "Kids program at the National Air and Space Museum, 11 AM-12 PM; free, timed-entry passes required.",
+      "description": "UNVERIFIED (link is the organiser's general calendar; the page did not list this event and date when checked): Kids program at the National Air and Space Museum, 11 AM-12 PM; free, timed-entry passes required.",
       "source": "web",
       "source_ref": "https://nmaahc.si.edu/events",
       "id": "national-museum-of-african-american-history-and-culture-nmaahc-kids-at-the-natio-2026-10-08"
@@ -6112,6 +6287,31 @@
       "source": "mail",
       "source_ref": "Gmail msg 1a0fde700d3b3218 – info@sixthandi.org – Sixth & Spiritual: Dance on I Street for Simchat Torah, How to be a Jewish Adult, and Small Groups, Big Questions",
       "id": "sixth-i-small-groups-big-questions-2026-10-08"
+    },
+    {
+      "title": "Argentinian Jazz Series: Juan Megna",
+      "org": "Blues Alley",
+      "start": "2026-10-08T19:00:00-04:00",
+      "end": null,
+      "venue": "Blues Alley Jazz Club (1073 Wisconsin Ave NW)",
+      "address": "1073 Wisconsin Ave NW, Georgetown, Washington, DC 20007",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Blues+Alley+Jazz+Club+%281073+Wisconsin+Ave+NW%29%2C+Georgetown%2C+Washington%2C+DC+20007",
+      "url": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=DDFEEB26-0C0B-A5EF-6E2315A6C228C60E",
+      "category": "music",
+      "format": "in_person",
+      "cost": "$35",
+      "age": "unknown",
+      "tags": {
+        "free_food": null,
+        "free_drinks": null,
+        "free_entry": null,
+        "young_adults": null,
+        "outdoor": null
+      },
+      "description": "Juan Megna, Argentinian Jazz Series, part of Blues Alley's Hispanic Heritage Jazz Month; two shows, 7 PM (start time listed) and 9:30 PM ET; ticketed via the Blues Alley ticketing page ($35 plus $7 fees), with a $15 food/beverage minimum per person not included in ticket price.",
+      "source": "web",
+      "source_ref": "https://www.hispanicheritagejazzmonth.com/shows",
+      "id": "blues-alley-argentinian-jazz-series-juan-megna-2026-10-08"
     },
     {
       "title": "Frida...A Self Portrait (opening night)",
@@ -6715,31 +6915,6 @@
       "id": "pinstripes-georgetown-sips-sounds-at-pinstripes-2026-10-09"
     },
     {
-      "title": "Mexican Jazz Series",
-      "org": "Georgetown BID",
-      "start": "2026-10-09T18:00:00-04:00",
-      "end": "2026-10-09T23:00:00-04:00",
-      "venue": "Blues Alley Jazz Club (1073 Wisconsin Ave NW)",
-      "address": "Georgetown, Washington, DC 20007",
-      "maps_url": "https://www.google.com/maps/search/?api=1&query=Blues+Alley+Jazz+Club+%281073+Wisconsin+Ave+NW%29%2C+Georgetown%2C+Washington%2C+DC+20007",
-      "url": "https://www.hispanicheritagejazzmonth.com/shows",
-      "category": "music",
-      "format": "in_person",
-      "cost": "Unknown",
-      "age": "unknown",
-      "tags": {
-        "free_food": null,
-        "free_drinks": null,
-        "free_entry": null,
-        "young_adults": null,
-        "outdoor": null
-      },
-      "description": "Join Blues Alley in celebrating our annual Hispanic Heritage Jazz Month with our Mexican Jazz",
-      "source": "web",
-      "source_ref": "https://www.georgetowndc.com/event/mexican-jazz-series/",
-      "id": "georgetown-bid-mexican-jazz-series-2026-10-09"
-    },
-    {
       "title": "The Silly Goose Club's 40th Anniversary: A Stand-up Comedy Show",
       "org": "Silly Goose Club",
       "start": "2026-10-09T18:00:00-04:00",
@@ -6963,6 +7138,31 @@
       "source": "web",
       "source_ref": "https://www.eventbrite.com/e/movie-craft-night-9-to-5-1980-tickets-2002226899555",
       "id": "the-fanthropologist-movie-craft-night-9-to-5-1980-2026-10-09"
+    },
+    {
+      "title": "Mexican Jazz Series: Mireya Ramos",
+      "org": "Georgetown BID",
+      "start": "2026-10-09T19:00:00-04:00",
+      "end": "2026-10-09T22:30:00-04:00",
+      "venue": "Blues Alley Jazz Club (1073 Wisconsin Ave NW)",
+      "address": "Georgetown, Washington, DC 20007",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Blues+Alley+Jazz+Club+%281073+Wisconsin+Ave+NW%29%2C+Georgetown%2C+Washington%2C+DC+20007",
+      "url": "https://www.hispanicheritagejazzmonth.com/shows",
+      "category": "music",
+      "format": "in_person",
+      "cost": "$50",
+      "age": "unknown",
+      "tags": {
+        "free_food": null,
+        "free_drinks": null,
+        "free_entry": null,
+        "young_adults": null,
+        "outdoor": null
+      },
+      "description": "Mireya Ramos, Mexican Jazz Series at Blues Alley. Two shows, 7:00 PM and 9:30 PM; start time is the first show. Ticketed via the Blues Alley ticketing page ($50 plus $7 fees), with a $15 food/beverage minimum per person not included in ticket price.",
+      "source": "web",
+      "source_ref": "https://www.georgetowndc.com/event/mexican-jazz-series/",
+      "id": "georgetown-bid-mexican-jazz-series-2026-10-09"
     },
     {
       "title": "Michael Kosta: Big Dad Energy",
@@ -8340,31 +8540,6 @@
       "id": "i-m-p-9-30-club-mo-lowda-the-humble-tailing-the-ghost-tour-2026-10-10"
     },
     {
-      "title": "Cuban Jazz Series (Continued)",
-      "org": "Georgetown BID",
-      "start": "2026-10-10T18:00:00-04:00",
-      "end": "2026-10-10T23:00:00-04:00",
-      "venue": "Blues Alley Jazz Club (1073 Wisconsin Ave NW)",
-      "address": "Georgetown, Washington, DC 20007",
-      "maps_url": "https://www.google.com/maps/search/?api=1&query=Blues+Alley+Jazz+Club+%281073+Wisconsin+Ave+NW%29%2C+Georgetown%2C+Washington%2C+DC+20007",
-      "url": "https://www.georgetowndc.com/event/cuban-jazz-series-continued/2026-10-10/",
-      "category": "music",
-      "format": "in_person",
-      "cost": "Unknown",
-      "age": "unknown",
-      "tags": {
-        "free_food": null,
-        "free_drinks": null,
-        "free_entry": null,
-        "young_adults": null,
-        "outdoor": null
-      },
-      "description": "Join Blues Alley in celebrating our annual Hispanic Heritage Jazz Month with our Cuban Jazz",
-      "source": "web",
-      "source_ref": "https://www.georgetowndc.com/events/",
-      "id": "georgetown-bid-cuban-jazz-series-continued-2026-10-10"
-    },
-    {
       "title": "Nox! + Stumped",
       "org": "Washington Improv Theater",
       "start": "2026-10-10T18:00:00-04:00",
@@ -8538,6 +8713,31 @@
       "source": "web",
       "source_ref": "https://www.unionstagepresents.com/",
       "id": "union-stage-presents-union-stage-bayonne-the-filters-tour-2026-10-10"
+    },
+    {
+      "title": "Cuban Jazz Series: Orquesta Akokán",
+      "org": "Blues Alley",
+      "start": "2026-10-10T19:00:00-04:00",
+      "end": null,
+      "venue": "Blues Alley Jazz Club (1073 Wisconsin Ave NW)",
+      "address": "1073 Wisconsin Ave NW, Georgetown, Washington, DC 20007",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Blues+Alley+Jazz+Club+%281073+Wisconsin+Ave+NW%29%2C+Georgetown%2C+Washington%2C+DC+20007",
+      "url": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=10F661AE-CAE4-C030-E54BB5562808A4B4",
+      "category": "music",
+      "format": "in_person",
+      "cost": "$50-$60",
+      "age": "unknown",
+      "tags": {
+        "free_food": null,
+        "free_drinks": null,
+        "free_entry": null,
+        "young_adults": null,
+        "outdoor": null
+      },
+      "description": "Orquesta Akokán, Cuban Jazz Series, part of Blues Alley's Hispanic Heritage Jazz Month; two shows, 7 PM (start time listed) and 9:30 PM ET; ticketed via the Blues Alley ticketing page (7 PM show $60 and 9:30 PM show $50 plus $7 fees), with a $15 food/beverage minimum per person not included in ticket price.",
+      "source": "web",
+      "source_ref": "https://www.hispanicheritagejazzmonth.com/shows",
+      "id": "blues-alley-cuban-jazz-series-orquesta-akok-n-2026-10-10"
     },
     {
       "title": "Ryman Leon – The Family Reunion Tour",
@@ -9794,17 +9994,17 @@
       "id": "national-park-service-national-mall-and-memorial-parks-nps-ranger-program-thomas-2026-10-11"
     },
     {
-      "title": "Cuban Jazz Series (Continued)",
-      "org": "Georgetown BID",
-      "start": "2026-10-11T18:00:00-04:00",
-      "end": "2026-10-11T23:00:00-04:00",
+      "title": "Cuban Jazz Series: Melvis Santa's Gata Jazz Trio",
+      "org": "Blues Alley",
+      "start": "2026-10-11T17:30:00-04:00",
+      "end": null,
       "venue": "Blues Alley Jazz Club (1073 Wisconsin Ave NW)",
-      "address": "Georgetown, Washington, DC 20007",
+      "address": "1073 Wisconsin Ave NW, Georgetown, Washington, DC 20007",
       "maps_url": "https://www.google.com/maps/search/?api=1&query=Blues+Alley+Jazz+Club+%281073+Wisconsin+Ave+NW%29%2C+Georgetown%2C+Washington%2C+DC+20007",
-      "url": "https://www.georgetowndc.com/event/cuban-jazz-series-continued/2026-10-11/",
+      "url": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=4726A84A-AF80-D751-B3BF7A641AAA67AB",
       "category": "music",
       "format": "in_person",
-      "cost": "Unknown",
+      "cost": "$35",
       "age": "unknown",
       "tags": {
         "free_food": null,
@@ -9813,10 +10013,10 @@
         "young_adults": null,
         "outdoor": null
       },
-      "description": "Join Blues Alley in celebrating our annual Hispanic Heritage Jazz Month with our Cuban Jazz",
+      "description": "Melvis Santa's Gata Jazz Trio, Cuban Jazz Series, part of Blues Alley's Hispanic Heritage Jazz Month; two shows, 5:30 PM (start time listed) and 8 PM ET; ticketed via the Blues Alley ticketing page ($35 plus $7 fees), with a $15 food/beverage minimum per person not included in ticket price.",
       "source": "web",
-      "source_ref": "https://www.georgetowndc.com/events/",
-      "id": "georgetown-bid-cuban-jazz-series-continued-2026-10-11"
+      "source_ref": "https://www.hispanicheritagejazzmonth.com/shows",
+      "id": "blues-alley-cuban-jazz-series-melvis-santa-s-gata-jazz-trio-2026-10-11"
     },
     {
       "title": "Brian Fallon and The Painkillers",
@@ -10217,6 +10417,31 @@
       "source": "web",
       "source_ref": "https://www.930.com/",
       "id": "i-m-p-9-30-club-knox-2026-10-12"
+    },
+    {
+      "title": "Cuban Jazz Series: Kemuel Roig \"Solo Piano Recording Release\"",
+      "org": "Blues Alley",
+      "start": "2026-10-12T19:00:00-04:00",
+      "end": null,
+      "venue": "Blues Alley Jazz Club (1073 Wisconsin Ave NW)",
+      "address": "1073 Wisconsin Ave NW, Georgetown, Washington, DC 20007",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Blues+Alley+Jazz+Club+%281073+Wisconsin+Ave+NW%29%2C+Georgetown%2C+Washington%2C+DC+20007",
+      "url": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=9EA9296D-CB65-4BB9-069EC570E51F95E0",
+      "category": "music",
+      "format": "in_person",
+      "cost": "$25",
+      "age": "unknown",
+      "tags": {
+        "free_food": null,
+        "free_drinks": null,
+        "free_entry": null,
+        "young_adults": null,
+        "outdoor": null
+      },
+      "description": "Kemuel Roig \"Solo Piano Recording Release\", Cuban Jazz Series, part of Blues Alley's Hispanic Heritage Jazz Month; two shows, 7 PM (start time listed) and 9:30 PM ET; ticketed via the Blues Alley ticketing page ($25 plus $7 fees), with a $15 food/beverage minimum per person not included in ticket price.",
+      "source": "web",
+      "source_ref": "https://www.hispanicheritagejazzmonth.com/shows",
+      "id": "blues-alley-cuban-jazz-series-kemuel-roig-solo-piano-recording-release-2026-10-12"
     },
     {
       "title": "42nd! meeting of DC History Book Club",
@@ -10718,6 +10943,31 @@
       "source": "mail",
       "source_ref": "Gmail msg 1a0fe0b02f41785b – wit@witdc.org – WIT Minute: It's weekend 2 of our hit comedies Stumped and Fraudway!",
       "id": "wit-shoes-off-improv-aanhpi-affinity-group-improv-jam-shoes-off-2026-10-13"
+    },
+    {
+      "title": "Cuban Jazz Series: Kalí Rodríguez-Peña feat. Dayme Arocena",
+      "org": "Blues Alley",
+      "start": "2026-10-13T19:00:00-04:00",
+      "end": null,
+      "venue": "Blues Alley Jazz Club (1073 Wisconsin Ave NW)",
+      "address": "1073 Wisconsin Ave NW, Georgetown, Washington, DC 20007",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Blues+Alley+Jazz+Club+%281073+Wisconsin+Ave+NW%29%2C+Georgetown%2C+Washington%2C+DC+20007",
+      "url": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=8933920D-CE37-8DEB-6AAADF056FB4DBE7",
+      "category": "music",
+      "format": "in_person",
+      "cost": "$30",
+      "age": "unknown",
+      "tags": {
+        "free_food": null,
+        "free_drinks": null,
+        "free_entry": null,
+        "young_adults": null,
+        "outdoor": null
+      },
+      "description": "Kalí Rodríguez-Peña feat. Dayme Arocena, Cuban Jazz Series, part of Blues Alley's Hispanic Heritage Jazz Month; two shows, 7 PM (start time listed) and 9:30 PM ET; ticketed via the Blues Alley ticketing page ($30 plus $7 fees), with a $15 food/beverage minimum per person not included in ticket price.",
+      "source": "web",
+      "source_ref": "https://www.hispanicheritagejazzmonth.com/shows",
+      "id": "blues-alley-cuban-jazz-series-kal-rodr-guez-pe-a-feat-dayme-arocena-2026-10-13"
     },
     {
       "title": "Tricky",
@@ -11473,6 +11723,31 @@
       "id": "hill-center-at-the-old-naval-hospital-arkhaios-film-festival-documentary-film-sc-2026-10-14"
     },
     {
+      "title": "Cuban Jazz Series: Dayramir González",
+      "org": "Blues Alley",
+      "start": "2026-10-14T19:00:00-04:00",
+      "end": null,
+      "venue": "Blues Alley Jazz Club (1073 Wisconsin Ave NW)",
+      "address": "1073 Wisconsin Ave NW, Georgetown, Washington, DC 20007",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Blues+Alley+Jazz+Club+%281073+Wisconsin+Ave+NW%29%2C+Georgetown%2C+Washington%2C+DC+20007",
+      "url": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=32EB69DB-9FD1-65C3-1E289624B25441DA",
+      "category": "music",
+      "format": "in_person",
+      "cost": "$35",
+      "age": "unknown",
+      "tags": {
+        "free_food": null,
+        "free_drinks": null,
+        "free_entry": null,
+        "young_adults": null,
+        "outdoor": null
+      },
+      "description": "Dayramir González, Cuban Jazz Series, part of Blues Alley's Hispanic Heritage Jazz Month; two shows, 7 PM (start time listed) and 9:30 PM ET; ticketed via the Blues Alley ticketing page ($35 plus $7 fees), with a $15 food/beverage minimum per person not included in ticket price.",
+      "source": "web",
+      "source_ref": "https://www.hispanicheritagejazzmonth.com/shows",
+      "id": "blues-alley-cuban-jazz-series-dayramir-gonz-lez-2026-10-14"
+    },
+    {
       "title": "D.C. United vs New York Red Bulls (Noche Latina)",
       "org": "D.C. United",
       "start": "2026-10-14T19:30:00-04:00",
@@ -12098,6 +12373,31 @@
       "source": "mail",
       "source_ref": "Gmail msg 1a0ff1d7af13a159 – newsletter@m.blackcatdc.com – October Shows at Black Cat",
       "id": "black-cat-weedeater-zeke-royal-thunder-yes-ma-am-2026-10-15"
+    },
+    {
+      "title": "Cuban Jazz Series: Chuchito Valdés",
+      "org": "Blues Alley",
+      "start": "2026-10-15T19:00:00-04:00",
+      "end": null,
+      "venue": "Blues Alley Jazz Club (1073 Wisconsin Ave NW)",
+      "address": "1073 Wisconsin Ave NW, Georgetown, Washington, DC 20007",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Blues+Alley+Jazz+Club+%281073+Wisconsin+Ave+NW%29%2C+Georgetown%2C+Washington%2C+DC+20007",
+      "url": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=575523CE-FB1D-6ACA-497E0DB7C8070660",
+      "category": "music",
+      "format": "in_person",
+      "cost": "$35",
+      "age": "unknown",
+      "tags": {
+        "free_food": null,
+        "free_drinks": null,
+        "free_entry": null,
+        "young_adults": null,
+        "outdoor": null
+      },
+      "description": "Chuchito Valdés, Cuban Jazz Series, part of Blues Alley's Hispanic Heritage Jazz Month; two shows, 7 PM (start time listed) and 9:30 PM ET; ticketed via the Blues Alley ticketing page ($35 plus $7 fees), with a $15 food/beverage minimum per person not included in ticket price.",
+      "source": "web",
+      "source_ref": "https://www.hispanicheritagejazzmonth.com/shows",
+      "id": "blues-alley-cuban-jazz-series-chuchito-vald-s-2026-10-15"
     },
     {
       "title": "Morrissey at The Anthem",
@@ -13050,6 +13350,31 @@
       "id": "black-cat-pretty-bitter-pulses-padfoot-thisdogllhunt-2026-10-16"
     },
     {
+      "title": "Cuban Jazz Series: Chuchito Valdés",
+      "org": "Blues Alley",
+      "start": "2026-10-16T19:00:00-04:00",
+      "end": null,
+      "venue": "Blues Alley Jazz Club (1073 Wisconsin Ave NW)",
+      "address": "1073 Wisconsin Ave NW, Georgetown, Washington, DC 20007",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Blues+Alley+Jazz+Club+%281073+Wisconsin+Ave+NW%29%2C+Georgetown%2C+Washington%2C+DC+20007",
+      "url": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=5755259E-E2B5-4B52-C2CA5589EDAF76EC",
+      "category": "music",
+      "format": "in_person",
+      "cost": "$50-$60",
+      "age": "unknown",
+      "tags": {
+        "free_food": null,
+        "free_drinks": null,
+        "free_entry": null,
+        "young_adults": null,
+        "outdoor": null
+      },
+      "description": "Chuchito Valdés, Cuban Jazz Series, part of Blues Alley's Hispanic Heritage Jazz Month; two shows, 7 PM (start time listed) and 9:30 PM ET; ticketed via the Blues Alley ticketing page (7 PM show $60 and 9:30 PM show $50 plus $7 fees), with a $15 food/beverage minimum per person not included in ticket price.",
+      "source": "web",
+      "source_ref": "https://www.hispanicheritagejazzmonth.com/shows",
+      "id": "blues-alley-cuban-jazz-series-chuchito-vald-s-2026-10-16"
+    },
+    {
       "title": "SOFI TUKKER with Kungs and Nala",
       "org": "I.M.P. / The Anthem",
       "start": "2026-10-16T19:30:00-04:00",
@@ -13624,7 +13949,7 @@
         "young_adults": null,
         "outdoor": null
       },
-      "description": "Kids book day on the 4th Floor Overlook, 10:30 AM-12:45 PM; free, registration required.",
+      "description": "UNVERIFIED (link is the organiser's general calendar; the page did not list this event and date when checked): Kids book day on the 4th Floor Overlook, 10:30 AM-12:45 PM; free, registration required.",
       "source": "web",
       "source_ref": "https://nmaahc.si.edu/events",
       "id": "national-museum-of-african-american-history-and-culture-nmaahc-kids-book-day-2026-10-17"
@@ -14605,6 +14930,31 @@
       "id": "black-cat-guitar-hero-flashband-showcase-2026-10-17"
     },
     {
+      "title": "Cuban Jazz Series: Carlo Alfonso",
+      "org": "Blues Alley",
+      "start": "2026-10-17T19:00:00-04:00",
+      "end": null,
+      "venue": "Blues Alley Jazz Club (1073 Wisconsin Ave NW)",
+      "address": "1073 Wisconsin Ave NW, Georgetown, Washington, DC 20007",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Blues+Alley+Jazz+Club+%281073+Wisconsin+Ave+NW%29%2C+Georgetown%2C+Washington%2C+DC+20007",
+      "url": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=77118825-E17D-099E-7F61344E36640562",
+      "category": "music",
+      "format": "in_person",
+      "cost": "$50",
+      "age": "unknown",
+      "tags": {
+        "free_food": null,
+        "free_drinks": null,
+        "free_entry": null,
+        "young_adults": null,
+        "outdoor": null
+      },
+      "description": "Carlo Alfonso, Cuban Jazz Series, part of Blues Alley's Hispanic Heritage Jazz Month; two shows, 7 PM (start time listed) and 9:30 PM ET; ticketed via the Blues Alley ticketing page ($50 plus $7 fees), with a $15 food/beverage minimum per person not included in ticket price.",
+      "source": "web",
+      "source_ref": "https://www.hispanicheritagejazzmonth.com/shows",
+      "id": "blues-alley-cuban-jazz-series-carlo-alfonso-2026-10-17"
+    },
+    {
       "title": "Arena Stage: Are You Now or Have You Ever Been? - College Night",
       "org": "Arena Stage",
       "start": "2026-10-17T20:00:00-04:00",
@@ -15505,6 +15855,31 @@
       "source": "web",
       "source_ref": "https://www.nps.gov/nama/planyourvisit/calendar.htm",
       "id": "national-park-service-national-mall-and-memorial-parks-nps-ranger-program-thomas-2026-10-18"
+    },
+    {
+      "title": "Cuban Jazz Series: Carlo Alfonso",
+      "org": "Blues Alley",
+      "start": "2026-10-18T17:30:00-04:00",
+      "end": null,
+      "venue": "Blues Alley Jazz Club (1073 Wisconsin Ave NW)",
+      "address": "1073 Wisconsin Ave NW, Georgetown, Washington, DC 20007",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Blues+Alley+Jazz+Club+%281073+Wisconsin+Ave+NW%29%2C+Georgetown%2C+Washington%2C+DC+20007",
+      "url": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=77118A40-DB44-D344-816535DC21CA35A5",
+      "category": "music",
+      "format": "in_person",
+      "cost": "$35",
+      "age": "unknown",
+      "tags": {
+        "free_food": null,
+        "free_drinks": null,
+        "free_entry": null,
+        "young_adults": null,
+        "outdoor": null
+      },
+      "description": "Carlo Alfonso, Cuban Jazz Series, part of Blues Alley's Hispanic Heritage Jazz Month; two shows, 5:30 PM (start time listed) and 8 PM ET; ticketed via the Blues Alley ticketing page ($35 plus $7 fees), with a $15 food/beverage minimum per person not included in ticket price.",
+      "source": "web",
+      "source_ref": "https://www.hispanicheritagejazzmonth.com/shows",
+      "id": "blues-alley-cuban-jazz-series-carlo-alfonso-2026-10-18"
     },
     {
       "title": "Steve Lacy: Oh yeah? Tour",
@@ -16605,7 +16980,7 @@
         "young_adults": null,
         "outdoor": null
       },
-      "description": "Book signing on the Concourse Level, 11 AM-3 PM; free to attend.",
+      "description": "UNVERIFIED (link is the organiser's general calendar; the page did not list this event and date when checked): Book signing on the Concourse Level, 11 AM-3 PM; free to attend.",
       "source": "web",
       "source_ref": "https://nmaahc.si.edu/events",
       "id": "national-museum-of-african-american-history-and-culture-book-signing-with-celebr-2026-10-21"
@@ -21092,7 +21467,7 @@
         "young_adults": null,
         "outdoor": null
       },
-      "description": "Talk in the Oprah Winfrey Theater, 7:00-8:45 PM; free, registration required.",
+      "description": "UNVERIFIED (link is the organiser's general calendar; the page did not list this event and date when checked): Talk in the Oprah Winfrey Theater, 7:00-8:45 PM; free, registration required.",
       "source": "web",
       "source_ref": "https://nmaahc.si.edu/events",
       "id": "national-museum-of-african-american-history-and-culture-historically-speaking-wh-2026-10-27"
@@ -22776,7 +23151,7 @@
         "young_adults": null,
         "outdoor": null
       },
-      "description": "Halloween kids event at the National Postal Museum, 11 AM-3 PM; free, no registration required.",
+      "description": "UNVERIFIED (link is the organiser's general calendar; the page did not list this event and date when checked): Halloween kids event at the National Postal Museum, 11 AM-3 PM; free, no registration required.",
       "source": "web",
       "source_ref": "https://nmaahc.si.edu/events",
       "id": "national-museum-of-african-american-history-and-culture-nmaahc-kids-at-the-natio-2026-10-31"
