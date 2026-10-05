@@ -12,7 +12,7 @@ Published URL: https://sfox2006.github.io/DC-Social-Events/
 - Filter by category, format (in person, hybrid, online), cost (free, paid, unknown), age (all ages, 18+, 21+), time of day, free entry, free food, free drinks, and outdoor. Search matches the title, description, organizer, or venue.
 - Open an event for its description, then add it to Google Calendar, download an ICS file, or open it in Outlook.
 - Share a link that deep-links to that event by id (`?event=`).
-- Install the page as an app. Refresh re-fetches `data/events.json`. The service worker keeps a shell cache named `dc-social-v7` and a network-first data cache named `dc-social-data-v7`.
+- Install the page as an app. Refresh re-fetches `data/events.json`. The service worker keeps a shell cache named `dc-social-v8` and a network-first data cache named `dc-social-data-v7`.
 - The list and week calendar include events from today through the next 31 days (Eastern Time). The date picker and day strip stop at that horizon.
 - “Get the weekly email” opens a short note that the signup form is not open yet. It does not leave this site.
 
