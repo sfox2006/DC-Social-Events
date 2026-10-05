@@ -1158,7 +1158,8 @@ input[type="search"] {
 }
 
 .newsletter {
-  margin-top: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
   background: linear-gradient(105deg, #7c2d12 0%, #5b21b6 52%, #115e59 100%);
   color: #fff;
   padding: 28px 32px;
@@ -2073,7 +2074,8 @@ body.filters-open {
   }
 
   .newsletter {
-    margin-top: 28px;
+    margin-top: 0;
+    margin-bottom: 28px;
     padding: 20px 16px;
   }
 
