@@ -212,6 +212,34 @@ a:hover {
   color: #6d28d9;
 }
 
+.brand-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 8px;
+  min-width: 0;
+}
+
+.brand-heading .brand-name {
+  white-space: nowrap;
+}
+
+.beta-badge {
+  flex: none;
+  padding: 3px 7px;
+  border: 1px solid #e7c56a;
+  border-radius: 4px;
+  background: #fff4d6;
+  color: #785500;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
 .brand-sub {
   font-family: "Crimson Pro", Georgia, serif;
   font-style: italic;
@@ -1690,6 +1718,11 @@ body.filters-open {
 
   .brand-name {
     font-size: 22px;
+  }
+
+  .beta-badge {
+    padding: 2px 5px;
+    font-size: 9px;
   }
 
   .brand-sub {
