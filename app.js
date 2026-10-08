@@ -192,6 +192,7 @@
   }
 
   function eventYmdInTz(iso) {
+    if (typeof iso === "string" && /^\d{4}-\d{2}-\d{2}$/.test(iso)) return parseYmdKey(iso);
     const d = iso instanceof Date ? iso : new Date(iso);
     const parts = ymdFormatter.formatToParts(d);
     const get = (t) => parts.find((p) => p.type === t).value;
@@ -238,7 +239,7 @@
     if (!event || !event.start) return false;
     const startDate = new Date(event.start);
     if (Number.isNaN(startDate.getTime())) return false;
-    return inYmdRange(eventYmdInTz(startDate), listWindow());
+    return inYmdRange(eventYmdInTz(event.start), listWindow());
   }
 
   function daysInMonthUtc(year, month) {
@@ -273,6 +274,19 @@
 
   function formatStartTime(iso) {
     return timeLabelFormatter.format(iso instanceof Date ? iso : new Date(iso));
+  }
+
+  function timeIsUnknown(event) {
+    return event.time_unknown === true || /^\d{4}-\d{2}-\d{2}$/.test(fieldText(event.start));
+  }
+
+  function allDayBounds(event) {
+    const start = eventYmdInTz(event.start);
+    return { start, end: addDays(start, 1) };
+  }
+
+  function compactDate(ymd) {
+    return ymdKey(ymd).replace(/-/g, "");
   }
 
   function formatLongDate(ymd) {
@@ -445,10 +459,10 @@
       event._bucket = null;
       event._timeLabel = "";
     } else {
-      event._ymd = eventYmdInTz(startDate);
+      event._ymd = eventYmdInTz(event.start);
       event._day = ymdKey(event._ymd);
-      event._bucket = timeBucket(event.start);
-      event._timeLabel = formatStartTime(startDate);
+      event._bucket = timeIsUnknown(event) ? null : timeBucket(event.start);
+      event._timeLabel = timeIsUnknown(event) ? "Time TBC" : formatStartTime(startDate);
     }
     event._cost = costKind(event.cost);
     event._age = ageKind(event.age);
@@ -703,7 +717,7 @@
     const format = event._format || formatKind(event.format);
     if (f.format && f.format !== "all" && format !== f.format) return false;
     if (f.time && f.time.length) {
-      const bucket = event._bucket !== undefined ? event._bucket : timeBucket(event.start);
+      const bucket = timeIsUnknown(event) ? null : event._bucket !== undefined ? event._bucket : timeBucket(event.start);
       if (!f.time.includes(bucket)) return false;
     }
     const ymd = event._ymd || eventYmdInTz(event.start);
@@ -789,6 +803,7 @@
 
   function calendarDetails(event) {
     const lines = [];
+    if (timeIsUnknown(event)) lines.push("Start time is unconfirmed. This calendar entry uses an all-day placeholder; confirm the actual times with the organizer.");
     const description = fieldText(event.description);
     if (description) lines.push(description);
     const speakers = speakersLabel(event.speakers);
@@ -806,8 +821,9 @@
   }
 
   function googleCalendarUrl(event) {
-    const start = toUtcStamp(event.start);
-    const end = toUtcStamp(eventEndIso(event));
+    const bounds = timeIsUnknown(event) ? allDayBounds(event) : null;
+    const start = bounds ? compactDate(bounds.start) : toUtcStamp(event.start);
+    const end = bounds ? compactDate(bounds.end) : toUtcStamp(eventEndIso(event));
     const parts = [
       "action=TEMPLATE",
       `text=${encodeURIComponent(event.title || "Event")}`,
@@ -849,8 +865,9 @@
   }
 
   function outlookCalendarUrl(event) {
-    const start = toEtStamp(event.start);
-    const end = toEtStamp(eventEndIso(event));
+    const bounds = timeIsUnknown(event) ? allDayBounds(event) : null;
+    const start = bounds ? ymdKey(bounds.start) : toEtStamp(event.start);
+    const end = bounds ? ymdKey(bounds.end) : toEtStamp(eventEndIso(event));
     const parts = [
       "path=/calendar/action/compose",
       "rru=addevent",
@@ -858,6 +875,7 @@
       `startdt=${encodeURIComponent(start)}`,
       `enddt=${encodeURIComponent(end)}`,
     ];
+    if (bounds) parts.push("allday=true");
     const loc = locationText(event);
     if (loc) parts.push(`location=${encodeURIComponent(loc)}`);
     const details = calendarDetails(event);
@@ -901,10 +919,16 @@
       "BEGIN:VEVENT",
       `UID:${icsEscape(uid)}`,
       `DTSTAMP:${toUtcStamp(new Date())}`,
-      `DTSTART:${toUtcStamp(event.start)}`,
-      `DTEND:${toUtcStamp(eventEndIso(event))}`,
-      `SUMMARY:${icsEscape(event.title || "Event")}`,
     ];
+    if (timeIsUnknown(event)) {
+      const bounds = allDayBounds(event);
+      lines.push(`DTSTART;VALUE=DATE:${compactDate(bounds.start)}`);
+      lines.push(`DTEND;VALUE=DATE:${compactDate(bounds.end)}`);
+    } else {
+      lines.push(`DTSTART:${toUtcStamp(event.start)}`);
+      lines.push(`DTEND:${toUtcStamp(eventEndIso(event))}`);
+    }
+    lines.push(`SUMMARY:${icsEscape(event.title || "Event")}`);
     const loc = locationText(event);
     if (loc) lines.push(`LOCATION:${icsEscape(loc)}`);
     const details = calendarDetails(event);
@@ -1112,6 +1136,7 @@
 
   function detailsInner(event) {
     const parts = [];
+    if (timeIsUnknown(event)) parts.push('<p class="detail-line"><span class="detail-label">Time</span> Time TBC; confirm the actual start with the organizer.</p>');
     const description = fieldText(event.description);
     if (description) {
       parts.push(`<p class="event-description">${escapeHtml(description).replace(/\n/g, "<br>")}</p>`);

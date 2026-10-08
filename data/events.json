@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-07T13:01:05-04:00",
+ "generated": "2026-10-08T10:31:38-04:00",
  "timezone": "America/New_York",
  "window": [
-  "2026-10-07",
-  "2026-11-07"
+  "2026-10-08",
+  "2026-11-08"
  ],
  "events": [
   {
@@ -2529,9 +2529,9 @@
     "young_adults": null,
     "outdoor": true
    },
-   "description": "NPS ranger program (1 hour); meet: World War II Memorial (contact station). Meet at the World War II Kiosk and join a National Park Service volunteer for an immersive 90-minute walking tour exploring the evolution of individual liberty and economic freedom while visiting several National Mall monuments and memorials. From the",
+   "description": "Free National Park Service walking tour beginning at the World War II Memorial contact station at 9:30 AM. Official recurrence runs Thursdays through October 29. Exact end is Unknown: the page narrative says 90 minutes but its duration field says one hour.",
    "source": "web",
-   "source_ref": "https://www.nps.gov/nama/planyourvisit/calendar.htm",
+   "source_ref": "https://www.nps.gov/planyourvisit/event-details.htm?id=C2B14BE6-0693-B9ED-495CF224F4F0DF6B",
    "id": "national-park-service-national-mall-and-memorial-parks-nps-ranger-program-the-un-2026-10-08"
   },
   {
@@ -2892,7 +2892,7 @@
    "venue": "National Gallery of Art, East Building",
    "address": "4th St and Constitution Ave NW, Washington, DC 20565",
    "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Gallery+of+Art%2C+East+Building%2C+4th+St+and+Constitution+Ave+NW%2C+Washington%2C+DC+20565",
-   "url": "https://tickets.nga.gov/events/01a01626-9da6-ba52-17d2-ff460bddad08",
+   "url": "https://www.nga.gov/calendar/national-gallery-nights/national-gallery-nights-monster-mash?evd=202610082200",
    "category": "arts_museums",
    "format": "in_person",
    "cost": "Free",
@@ -2904,9 +2904,9 @@
     "young_adults": false,
     "outdoor": false
    },
-   "description": "Halloween-themed after-hours night with live music from Oh He Dead, costumes and a take-home art activity; free via lottery (lottery closed Oct 1) with limited walk-up passes at 5:30 p.m.",
+   "description": "Free after-hours event, 6–9 PM in the East Building. Registration lottery is closed; limited first-come walk-up passes begin at 5:30 PM at the East Building entrance. Music by Oh He Dead and artmaking. Full-cover face masks and accessories larger than 17 by 26 inches are prohibited.",
    "source": "web",
-   "source_ref": "https://tickets.nga.gov/events/01a01626-9da6-ba52-17d2-ff460bddad08",
+   "source_ref": "https://www.nga.gov/calendar/national-gallery-nights/national-gallery-nights-monster-mash?evd=202610082200",
    "id": "national-gallery-of-art-national-gallery-nights-monster-mash-2026-10-08"
   },
   {
@@ -2921,7 +2921,7 @@
    "category": "nightlife",
    "format": "in_person",
    "cost": "Free",
-   "age": "unknown",
+   "age": "all_ages",
    "tags": {
     "free_food": null,
     "free_drinks": null,
@@ -2929,9 +2929,9 @@
     "young_adults": null,
     "outdoor": true
    },
-   "description": "Thursday salsa dancing on the waterfront at M Street Landing, 6-8 PM, presented by Heineken.",
+   "description": "Free salsa lesson from 6 PM, followed by open dancing; 6–8 PM at M Street Landing. All ages welcome; 21+ to consume alcohol. Outside alcohol is prohibited. Weather updates appear on the Dancing on the Waterfront Facebook page.",
    "source": "web",
-   "source_ref": "https://www.wharfdc.com/upcoming-events/",
+   "source_ref": "https://www.wharfdc.com/dancing-on-the-waterfront/",
    "id": "the-wharf-dc-dancing-on-the-waterfront-at-the-wharf-final-night-2026-10-08"
   },
   {
@@ -3083,31 +3083,6 @@
    "source": "web",
    "source_ref": "https://www.smithsonianassociates.org/ticketing/programs/techniques-in-modernist-painting",
    "id": "smithsonian-associates-techniques-in-modernist-painting-2026-10-08"
-  },
-  {
-   "title": "Coco Smith / Flo Petite / Ethan McNeal / Aiden Cramp",
-   "org": "Rhizome DC",
-   "start": "2026-10-08T18:00:00-04:00",
-   "end": "2026-10-08T22:00:00-04:00",
-   "venue": "Rhizome DC",
-   "address": "6950 Maple St NW, Washington, DC 20012",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=Rhizome+DC%2C+6950+Maple+St+NW%2C+Washington%2C+DC+20012",
-   "url": "https://www.rhizomedc.org/new-events/2026/10/8/coco-smith-linda-marie-smith-ethan-mcneal-aiden-cramp",
-   "category": "music",
-   "format": "in_person",
-   "cost": "$15-$25",
-   "age": "unknown",
-   "tags": {
-    "free_food": null,
-    "free_drinks": null,
-    "free_entry": null,
-    "young_adults": null,
-    "outdoor": null
-   },
-   "description": "Coco Smith / Flo Petite / Ethan McNeal / Aiden Cramp at Rhizome DC (Thursday October 8 * doors at 6, music at 7 * $15-25) per the Rhizome DC event page.",
-   "source": "web",
-   "source_ref": "https://www.rhizomedc.org/new-events",
-   "id": "rhizome-dc-coco-smith-flo-petite-ethan-mcneal-aiden-cramp-2026-10-08"
   },
   {
    "title": "Friends of Manna (Reception & Networking) 2026",
@@ -3686,6 +3661,31 @@
    "id": "noma-run-club-noma-run-club-thursday-run-2026-10-08"
   },
   {
+   "title": "Coco Smith / Flo Petite / Ethan McNeal / Aiden Cramp",
+   "org": "Rhizome DC",
+   "start": "2026-10-08T19:00:00-04:00",
+   "end": "2026-10-08T22:00:00-04:00",
+   "venue": "Rhizome DC",
+   "address": "6950 Maple St NW, Washington, DC 20012",
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Rhizome+DC%2C+6950+Maple+St+NW%2C+Washington%2C+DC+20012",
+   "url": "https://www.rhizomedc.org/new-events/2026/10/8/coco-smith-linda-marie-smith-ethan-mcneal-aiden-cramp",
+   "category": "music",
+   "format": "in_person",
+   "cost": "$15-$25",
+   "age": "unknown",
+   "tags": {
+    "free_food": null,
+    "free_drinks": null,
+    "free_entry": null,
+    "young_adults": null,
+    "outdoor": null
+   },
+   "description": "Coco Smith, Flo Petite, Ethan McNeal and Aiden Cramp at Rhizome DC. Doors 6 PM; music starts 7 PM. Published price $15–$25; any ticket fees and current availability are Unknown. Calendar lists 10 PM end.",
+   "source": "web",
+   "source_ref": "https://www.rhizomedc.org/new-events/2026/10/8/coco-smith-linda-marie-smith-ethan-mcneal-aiden-cramp",
+   "id": "rhizome-dc-coco-smith-flo-petite-ethan-mcneal-aiden-cramp-2026-10-08"
+  },
+  {
    "title": "Hellraiser III: Hell on Earth at Suns Cinema",
    "org": "Suns Cinema",
    "start": "2026-10-08T19:00:00-04:00",
@@ -3872,7 +3872,7 @@
    "url": "https://dcimprov-com.seatengine.com/shows/376488",
    "category": "comedy",
    "format": "in_person",
-   "cost": "Unknown",
+   "cost": "$29.50 GA; $42 reserved (service charges included)",
    "age": "18+",
    "tags": {
     "free_food": null,
@@ -3881,9 +3881,9 @@
     "young_adults": null,
     "outdoor": null
    },
-   "description": "Jenny Tian: Ripe at DC Improv Comedy Club, 7:00 PM show on Thu Oct 8 per the DC Improv show page; ticket price not shown on the page. The venue lists a two-item food/drink minimum and 18+ admission.",
+   "description": "Jenny Tian: Ripe at DC Improv. Ticket page lists a 7 PM show with 5:45 PM doors, while the organiser event page says 7:30 PM; confirm the start time before attending. Published admission is $29.50 GA or $42 reserved, service charges included, plus a two-item food/drink minimum. Ages 18+.",
    "source": "web",
-   "source_ref": "https://dcimprov-com.seatengine.com/events",
+   "source_ref": "https://www.dcimprov.com/shows/main-showroom/jenny-tian ; https://dcimprov-com.seatengine.com/shows/376488",
    "id": "dc-improv-jenny-tian-ripe-at-dc-improv-2026-10-08"
   },
   {
@@ -4397,7 +4397,7 @@
    "url": "https://dcimprov-com.seatengine.com/shows/388241",
    "category": "comedy",
    "format": "in_person",
-   "cost": "Unknown",
+   "cost": "$14.50 (service charges included; two-item minimum extra)",
    "age": "18+",
    "tags": {
     "free_food": null,
@@ -4406,9 +4406,9 @@
     "young_adults": null,
     "outdoor": null
    },
-   "description": "New Wave Showcase at DC Improv Comedy Club, 7:30 PM show on Thu Oct 8 per the DC Improv show page (Lounge Showroom); ticket price not shown on the page. The venue lists a two-item food/drink minimum and 18+ admission.",
+   "description": "New Wave Showcase in the DC Improv Lounge, 7:30 PM show; doors 6:15 PM. Admission is $14.50 including service charges, plus a two-item food/drink minimum. Ages 18+. Runtime is generally about 90 minutes; exact end and live inventory are Unknown.",
    "source": "web",
-   "source_ref": "https://dcimprov-com.seatengine.com/events",
+   "source_ref": "https://www.dcimprov.com/shows/lounge-showroom/showcase-1008 ; https://dcimprov-com.seatengine.com/shows/388241",
    "id": "dc-improv-new-wave-showcase-at-dc-improv-2026-10-08"
   },
   {
@@ -6762,6 +6762,31 @@
    "source": "social",
    "source_ref": "https://www.eventbrite.com/d/dc--washington/",
    "id": "dc-spartans-dc-spartans-msu-army-rotc-happy-hour-social-2026-10-09"
+  },
+  {
+   "id": "dc-improv-rafi-bastos-7-30-pm-show-2026-10-09",
+   "title": "Rafi Bastos (7:30 PM show)",
+   "org": "DC Improv",
+   "start": "2026-10-09T19:30:00-04:00",
+   "end": null,
+   "venue": "DC Improv Comedy Club",
+   "address": "1140 Connecticut Ave NW, Washington, DC 20036",
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=DC+Improv+Comedy+Club%2C+1140+Connecticut+Ave+NW%2C+Washington%2C+DC+20036",
+   "url": "https://dcimprov-com.seatengine.com/shows/367124",
+   "category": "comedy",
+   "format": "in_person",
+   "cost": "Unknown",
+   "age": "18+",
+   "tags": {
+    "free_food": null,
+    "free_drinks": null,
+    "free_entry": null,
+    "young_adults": null,
+    "outdoor": false
+   },
+   "description": "English-language stand-up. Show 7:30 PM; doors 6:15 PM. Two-item food/drink minimum. Exact show price and live inventory are Unknown; published series prices range $29.50–$47.50 including service charges.",
+   "source": "web",
+   "source_ref": "https://dcimprov-com.seatengine.com/shows/367124 ; https://www.dcimprov.com/shows/main-showroom/rafi-bastos"
   },
   {
    "title": "DC's Best Showcase at Hotbed (Fri Oct 9)",
@@ -9666,6 +9691,31 @@
    "id": "dc-language-and-cultural-exchange-club-saturday-language-exchange-2026-10-10"
   },
   {
+   "title": "Robert Drew and Associates: Primary (Camera Goes Anywhere)",
+   "org": "National Gallery of Art",
+   "start": "2026-10-10T14:00:00-04:00",
+   "end": "2026-10-10T16:00:00-04:00",
+   "venue": "National Gallery of Art, East Building Large Auditorium",
+   "address": "4th St and Constitution Ave NW, Washington, DC 20565",
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Gallery+of+Art+East+Building+Washington+DC",
+   "url": "https://www.nga.gov/calendar/camera-goes-anywhere-american-cinema-verite/robert-drew-and-associates-primary-preceded-camera-goes-anywhere",
+   "category": "film",
+   "format": "in_person",
+   "cost": "Free",
+   "age": "unknown",
+   "tags": {
+    "free_food": false,
+    "free_drinks": false,
+    "free_entry": true,
+    "young_adults": false,
+    "outdoor": false
+   },
+   "description": "Free screening in the East Building Large Auditorium. Official program starts at 2 PM and ends at 4 PM. Registration required; current ticket availability is Unknown because the ticket page could not be accessed. The organiser categorizes the program for adults; no numeric age restriction is published.",
+   "source": "social",
+   "source_ref": "https://www.nga.gov/calendar/camera-goes-anywhere-american-cinema-verite/robert-drew-and-associates-primary-preceded-camera-goes-anywhere",
+   "id": "national-gallery-of-art-robert-drew-and-associates-primary-camera-goes-anywhere-2026-10-10"
+  },
+  {
    "title": "USWNT vs Spain",
    "org": "U.S. Soccer",
    "start": "2026-10-10T14:30:00-04:00",
@@ -10189,31 +10239,6 @@
    "source": "web",
    "source_ref": "https://www.eventbrite.com/d/dc--washington/events/",
    "id": "trade-open-play-a-celebration-of-lgbtq-athletes-and-sports-fans-2026-10-10"
-  },
-  {
-   "title": "Robert Drew and Associates: Primary (Camera Goes Anywhere)",
-   "org": "National Gallery of Art",
-   "start": "2026-10-10T18:00:00-04:00",
-   "end": null,
-   "venue": "National Gallery of Art",
-   "address": "6th & Constitution Ave NW, Washington, DC 20565",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Gallery+of+Art+Washington+DC",
-   "url": "https://www.nga.gov/calendar/camera-goes-anywhere-american-cinema-verite/robert-drew-and-associates-primary-preceded-camera-goes-anywhere",
-   "category": "arts_museums",
-   "format": "in_person",
-   "cost": "Free",
-   "age": "all_ages",
-   "tags": {
-    "free_food": false,
-    "free_drinks": false,
-    "free_entry": true,
-    "young_adults": false,
-    "outdoor": false
-   },
-   "description": "UNVERIFIED: NGA calendar listing; free museum programming (confirm details on page).",
-   "source": "social",
-   "source_ref": "nga",
-   "id": "national-gallery-of-art-robert-drew-and-associates-primary-camera-goes-anywhere-2026-10-10"
   },
   {
    "title": "EP Movie Night: E.T. The Extra-Terrestrial",
@@ -12369,31 +12394,6 @@
    "id": "samasama-umpukan-a-fil-am-history-month-celebration-2026-10-04"
   },
   {
-   "title": "Fall Family Fest 2026",
-   "org": "SW DC CC",
-   "start": "2026-10-11T12:00:00-04:00",
-   "end": "2026-10-11T15:00:00-04:00",
-   "venue": "515 Water St SW",
-   "address": "515 Water Street Southwest, Washington, DC 20024",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=515+Water+St+SW%2C+515+Water+Street+Southwest%2C+Washington%2C+DC+20024",
-   "url": "https://www.eventbrite.com/e/fall-family-fest-2026-tickets-1997982661926",
-   "category": "family",
-   "format": "in_person",
-   "cost": "Free",
-   "age": "all_ages",
-   "tags": {
-    "free_food": null,
-    "free_drinks": null,
-    "free_entry": true,
-    "young_adults": null,
-    "outdoor": true
-   },
-   "description": "Fall Family Fest hosted by the Southwest DC Community Center; free.",
-   "source": "web",
-   "source_ref": "https://www.eventbrite.com/e/fall-family-fest-2026-tickets-1997982661926",
-   "id": "sw-dc-cc-fall-family-fest-2026-2026-10-11"
-  },
-  {
    "title": "NoMA CARIBBEAN FESTIVAL",
    "org": "CARLOS DALEY",
    "start": "2026-10-11T12:00:00-04:00",
@@ -12442,31 +12442,6 @@
    "source": "web",
    "source_ref": "https://www.nps.gov/nama/planyourvisit/calendar.htm",
    "id": "national-park-service-national-mall-and-memorial-parks-nps-ranger-program-vietna-2026-10-11"
-  },
-  {
-   "title": "Fall Family Fest 2026 (Southwest DC Community Center)",
-   "org": "The Wharf DC",
-   "start": "2026-10-11T12:00:00-04:00",
-   "end": "2026-10-11T15:00:00-04:00",
-   "venue": "Waterfront Park",
-   "address": "Waterfront Park, Southwest Waterfront, Washington, DC 20024",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=Waterfront+Park%2C+Waterfront+Park%2C+Southwest+Waterfront%2C+Washington%2C+DC+20024",
-   "url": "https://www.wharfdc.com/upcoming-events/2026-10-11-fall-family-fest-2026-with-the-southwest-dc-community-center/",
-   "category": "family",
-   "format": "in_person",
-   "cost": "Unknown",
-   "age": "unknown",
-   "tags": {
-    "free_food": null,
-    "free_drinks": null,
-    "free_entry": null,
-    "young_adults": null,
-    "outdoor": true
-   },
-   "description": "Community event hosted with the Southwest DC Community Center in Waterfront Park, 12-3 PM per The Wharf events page; cost not stated.",
-   "source": "web",
-   "source_ref": "https://www.wharfdc.com/upcoming-events/",
-   "id": "the-wharf-dc-fall-family-fest-2026-southwest-dc-community-center-2026-10-11"
   },
   {
    "title": "The R&B Club Discusses Protest R&B",
@@ -12892,6 +12867,31 @@
    "source": "web",
    "source_ref": "https://www.eventbrite.com/d/dc--washington/events/",
    "id": "wunder-garten-pop-up-gallery-monthly-creative-market-2026-10-11"
+  },
+  {
+   "title": "30th Anniversary: If You Lived Here, You Would Be Home Now",
+   "org": "National Gallery of Art",
+   "start": "2026-10-11T14:00:00-04:00",
+   "end": "2026-10-11T16:30:00-04:00",
+   "venue": "National Gallery of Art, East Building Large Auditorium",
+   "address": "4th St and Constitution Ave NW, Washington, DC 20565",
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Gallery+of+Art+East+Building+Washington+DC",
+   "url": "https://www.nga.gov/calendar/30th-anniversary-if-you-lived-here-you-would-be-home-now",
+   "category": "film",
+   "format": "in_person",
+   "cost": "Free",
+   "age": "unknown",
+   "tags": {
+    "free_food": false,
+    "free_drinks": false,
+    "free_entry": true,
+    "young_adults": false,
+    "outdoor": false
+   },
+   "description": "Free screening in the East Building Large Auditorium. Official program starts at 2 PM and ends at 4:30 PM. Registration required; current ticket availability is Unknown because the ticket page could not be accessed. The organiser categorizes the program for adults; no numeric age restriction is published.",
+   "source": "social",
+   "source_ref": "https://www.nga.gov/calendar/30th-anniversary-if-you-lived-here-you-would-be-home-now",
+   "id": "national-gallery-of-art-30th-anniversary-if-you-lived-here-you-would-be-home-now-2026-10-11"
   },
   {
    "title": "Sunday Love: Enamour",
@@ -13518,31 +13518,6 @@
    "source": "social",
    "source_ref": "eventbrite",
    "id": "king-trivia-trivia-night-at-the-queen-vic-2026-10-11"
-  },
-  {
-   "title": "30th Anniversary: If You Lived Here, You Would Be Home Now",
-   "org": "National Gallery of Art",
-   "start": "2026-10-11T18:00:00-04:00",
-   "end": null,
-   "venue": "National Gallery of Art",
-   "address": "6th & Constitution Ave NW, Washington, DC 20565",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Gallery+of+Art+Washington+DC",
-   "url": "https://www.nga.gov/calendar/30th-anniversary-if-you-lived-here-you-would-be-home-now",
-   "category": "arts_museums",
-   "format": "in_person",
-   "cost": "Free",
-   "age": "all_ages",
-   "tags": {
-    "free_food": false,
-    "free_drinks": false,
-    "free_entry": true,
-    "young_adults": false,
-    "outdoor": false
-   },
-   "description": "UNVERIFIED: NGA calendar listing; free museum programming (confirm details on page).",
-   "source": "social",
-   "source_ref": "nga",
-   "id": "national-gallery-of-art-30th-anniversary-if-you-lived-here-you-would-be-home-now-2026-10-11"
   },
   {
    "title": "Sundays at Yours Cafe | Woodley Park Comedy Show",
@@ -15533,7 +15508,7 @@
    "category": "family",
    "format": "online",
    "cost": "Free",
-   "age": "unknown",
+   "age": "all_ages",
    "tags": {
     "free_food": null,
     "free_drinks": null,
@@ -16370,31 +16345,6 @@
    "source": "social",
    "source_ref": "https://www.eventbrite.com/d/dc--washington/",
    "id": "the-capital-city-showcase-tuesday-night-bingo-at-red-derby-2026-10-13"
-  },
-  {
-   "title": "Young Single Adults Institute",
-   "org": "The Church of Jesus Christ of Latter-day Saints",
-   "start": "2026-10-13T19:00:00-04:00",
-   "end": "2026-10-13T20:30:00-04:00",
-   "venue": "The Church of Jesus Christ of Latter-day Saints",
-   "address": "522 Seventh Street SE, Washington, DC 20003",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=The+Church+of+Jesus+Christ+of+Latter-day+Saints%2C+522+Seventh+Street+SE%2C+Washington%2C+DC+20003",
-   "url": "https://www.eventbrite.com/e/young-single-adults-institute-tickets-1976666408438",
-   "category": "community",
-   "format": "in_person",
-   "cost": "Free",
-   "age": "unknown",
-   "tags": {
-    "free_food": null,
-    "free_drinks": null,
-    "free_entry": true,
-    "young_adults": null,
-    "outdoor": null
-   },
-   "description": "Scripture Study. All are welcome. (Eventbrite event page by The Church of Jesus Christ of Latter-day Saints; starts 7:00 PM; Free.)",
-   "source": "social",
-   "source_ref": "https://www.eventbrite.com/d/dc--washington/",
-   "id": "the-church-of-jesus-christ-of-latter-day-saints-young-single-adults-institute-2026-10-13"
   },
   {
    "title": "October History Bk Club - \"King of Kings\" by Scott Anderson",
@@ -17786,7 +17736,7 @@
    "category": "family",
    "format": "online",
    "cost": "Free",
-   "age": "unknown",
+   "age": "all_ages",
    "tags": {
     "free_food": null,
     "free_drinks": null,
@@ -18873,9 +18823,9 @@
     "young_adults": null,
     "outdoor": true
    },
-   "description": "NPS ranger program (1 hour); meet: World War II Memorial (contact station). Meet at the World War II Kiosk and join a National Park Service volunteer for an immersive 90-minute walking tour exploring the evolution of individual liberty and economic freedom while visiting several National Mall monuments and memorials. From the",
+   "description": "Free National Park Service walking tour beginning at the World War II Memorial contact station at 9:30 AM. Official recurrence runs Thursdays through October 29. Exact end is Unknown: the page narrative says 90 minutes but its duration field says one hour.",
    "source": "web",
-   "source_ref": "https://www.nps.gov/nama/planyourvisit/calendar.htm",
+   "source_ref": "https://www.nps.gov/planyourvisit/event-details.htm?id=C2B14BE6-0693-B9ED-495CF224F4F0DF6B",
    "id": "national-park-service-national-mall-and-memorial-parks-nps-ranger-program-the-un-2026-10-15"
   },
   {
@@ -21580,31 +21530,6 @@
    "id": "flor-coffee-books-shabbat-dinner-at-flor-2026-10-16"
   },
   {
-   "title": "YJP Shabbat Dinner Under The Stars",
-   "org": "Chabad YJP Alexandria-Arlington",
-   "start": "2026-10-16T18:30:00-04:00",
-   "end": null,
-   "venue": "Young Jewish Professionals of Alexandria-Arlington",
-   "address": "1307 North Highland Street, Arlington, VA 22201",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=Young+Jewish+Professionals+of+Alexandria-Arlington%2C+1307+North+Highland+Street%2C+Arlington%2C+VA+22201",
-   "url": "https://www.eventbrite.com/e/yjp-shabbat-dinner-under-the-stars-tickets-2001391145793",
-   "category": "food_drink",
-   "format": "in_person",
-   "cost": "$28.52-$40.25",
-   "age": "unknown",
-   "tags": {
-    "free_food": null,
-    "free_drinks": null,
-    "free_entry": null,
-    "young_adults": null,
-    "outdoor": null
-   },
-   "description": "Join our Israeli-themed Shabbat Dinner Under The Stars for Young Jewish Professionals! - Enjoy A Delicious Shabbat Dinner, Drinks & more (Eventbrite event page by Chabad YJP Alexandria-Arlington; starts 6:30 PM; $28.52-$40.25.)",
-   "source": "social",
-   "source_ref": "https://www.eventbrite.com/d/dc--washington/",
-   "id": "chabad-yjp-alexandria-arlington-yjp-shabbat-dinner-under-the-stars-2026-10-16"
-  },
-  {
    "title": "Georgetown Hoyas men's soccer vs. Seton Hall",
    "org": "Georgetown University Athletics",
    "start": "2026-10-16T19:00:00-04:00",
@@ -22935,12 +22860,12 @@
   },
   {
    "title": "Shatterproof Walk to End Addiction - Washington, D.C.",
-   "org": "The Wharf DC",
+   "org": "Shatterproof",
    "start": "2026-10-17T08:00:00-04:00",
    "end": "2026-10-17T13:00:00-04:00",
    "venue": "The Wharf",
-   "address": "Washington, DC 20024",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=The+Wharf%2C+Washington%2C+DC+20024",
+   "address": "101 District Square SW, Washington, DC 20024",
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=The+Wharf%2C+101+District+Square+SW%2C+Washington%2C+DC+20024",
    "url": "https://fundraise.shatterproof.org/dcwalk",
    "category": "community",
    "format": "in_person",
@@ -22953,9 +22878,9 @@
     "young_adults": null,
     "outdoor": true
    },
-   "description": "Shatterproof Walk to End Addiction at The Wharf, Saturday Oct 17, 8 AM-1 PM.",
+   "description": "Shatterproof hosts this October 17 walk. Grounds open at 8 AM, the official program begins at 9:30 AM and the walk starts at 10 AM; The Wharf calendar lists the full event through 1 PM. Accessible, dog-friendly route. Registration is offered online and at on-site check-in; price remains Unknown.",
    "source": "web",
-   "source_ref": "https://www.wharfdc.com/upcoming-events/",
+   "source_ref": "https://fundraise.shatterproof.org/dcwalk",
    "id": "the-wharf-dc-shatterproof-walk-to-end-addiction-washington-d-c-2026-10-17"
   },
   {
@@ -24284,6 +24209,31 @@
    "description": "An interactive, approximately one-hour theatre experience. Runs October 14–25; participation is encouraged but optional. See the official calendar for each performance. Exact end time is not stated.",
    "source": "web",
    "source_ref": "https://www.studiotheatre.org/handle-with-care"
+  },
+  {
+   "id": "national-gallery-of-art-maysles-films-incs-salesman-2026-10-17",
+   "title": "Maysles Films Inc.’s Salesman",
+   "org": "National Gallery of Art",
+   "start": "2026-10-17T14:00:00-04:00",
+   "end": "2026-10-17T16:30:00-04:00",
+   "venue": "National Gallery of Art, East Building Large Auditorium",
+   "address": "4th St and Constitution Ave NW, Washington, DC 20565",
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Gallery+of+Art+East+Building+Washington+DC",
+   "url": "https://www.nga.gov/calendar/camera-goes-anywhere-american-cinema-verite/maysles-films-incs-salesman?evd=202610171800",
+   "category": "film",
+   "format": "in_person",
+   "cost": "Free",
+   "age": "unknown",
+   "tags": {
+    "free_food": null,
+    "free_drinks": null,
+    "free_entry": true,
+    "young_adults": null,
+    "outdoor": false
+   },
+   "description": "Screening of Salesman, preceded by More Than a Paycheck: America’s Hardest Workers. October 17, 2–4:30 PM in the East Building Large Auditorium. Registration required; current ticket availability is Unknown. Adult-oriented program; no numeric age restriction published.",
+   "source": "web",
+   "source_ref": "https://www.nga.gov/calendar/camera-goes-anywhere-american-cinema-verite/maysles-films-incs-salesman?evd=202610171800"
   },
   {
    "title": "Teen Studio: Action and Abstraction",
@@ -26526,13 +26476,13 @@
    "category": "market",
    "format": "in_person",
    "cost": "Free",
-   "age": "unknown",
+   "age": "all_ages",
    "tags": {
     "free_food": null,
     "free_drinks": null,
     "free_entry": true,
     "young_adults": null,
-    "outdoor": null
+    "outdoor": true
    },
    "description": "Pop-up market of Asian-owned brands; Maum lists 11 AM-4 PM (The Wharf's calendar says 12-5 PM), tickets are complimentary, RSVP requested, pet- and family-friendly.",
    "source": "web",
@@ -26765,6 +26715,31 @@
    "id": "dc-literature-society-the-leopard-book-club-2026-10-18"
   },
   {
+   "title": "Fall Family Fest 2026",
+   "org": "Southwest DC Community Center",
+   "start": "2026-10-18T12:00:00-04:00",
+   "end": "2026-10-18T15:00:00-04:00",
+   "venue": "Waterfront Park",
+   "address": "515 Water Street SW, Washington, DC 20024",
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Waterfront+Park%2C+515+Water+Street+SW%2C+Washington%2C+DC+20024",
+   "url": "https://www.eventbrite.com/e/fall-family-fest-2026-tickets-1997982661926",
+   "category": "family",
+   "format": "in_person",
+   "cost": "Free",
+   "age": "all_ages",
+   "tags": {
+    "free_food": null,
+    "free_drinks": null,
+    "free_entry": true,
+    "young_adults": null,
+    "outdoor": true
+   },
+   "description": "Postponed from October 11 to October 18 because of the weather forecast. Free family festival and Mutt Strutt, noon–3 PM at Waterfront Park. Food and market purchases cost extra. Dogs must have current rabies vaccinations and use a standard 4-foot leash; retractable leashes are prohibited.",
+   "source": "web",
+   "source_ref": "https://www.eventbrite.com/e/fall-family-fest-2026-tickets-1997982661926 ; https://www.wharfdc.com/upcoming-events/2026-10-18-fall-family-fest-2026-with-the-southwest-dc-community-center/",
+   "id": "sw-dc-cc-fall-family-fest-2026-2026-10-11"
+  },
+  {
    "title": "The Roost Ancient World Wine Fest",
    "org": "The Roost",
    "start": "2026-10-18T12:00:00-04:00",
@@ -26938,31 +26913,6 @@
    "source": "social",
    "source_ref": "https://www.meetup.com/find/?location=us--dc--Washington&source=EVENTS",
    "id": "substack-writers-dc-meet-up-dc-substack-writers-meet-up-2026-10-18"
-  },
-  {
-   "title": "Sisterhood Swap & Shop",
-   "org": "Sixteenth Tabernacle Beth-el",
-   "start": "2026-10-18T12:45:00-04:00",
-   "end": "2026-10-18T15:45:00-04:00",
-   "venue": "634 N Patrick St",
-   "address": "634 North Patrick Street, Alexandria, VA 22314",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=634+N+Patrick+St%2C+634+North+Patrick+Street%2C+Alexandria%2C+VA+22314",
-   "url": "https://www.eventbrite.com/e/sisterhood-swap-shop-tickets-2002104561639",
-   "category": "community",
-   "format": "in_person",
-   "cost": "$17.85",
-   "age": "unknown",
-   "tags": {
-    "free_food": null,
-    "free_drinks": null,
-    "free_entry": null,
-    "young_adults": null,
-    "outdoor": null
-   },
-   "description": "Join us for Sisterhood Swap & Shop, a fun in-person event to trade goodies and snag some new finds! (Eventbrite event page by Sixteenth Tabernacle Beth-el; starts 12:45 PM; $17.85.)",
-   "source": "social",
-   "source_ref": "https://www.eventbrite.com/d/dc--washington/",
-   "id": "sixteenth-tabernacle-beth-el-sisterhood-swap-shop-2026-10-18"
   },
   {
    "title": "NPS ranger program: Lincoln Memorial",
@@ -31447,6 +31397,31 @@
    "id": "arena-stage-are-you-now-or-have-you-ever-been-opening-night-at-arena-stage-2026-10-22"
   },
   {
+   "title": "NPS ranger program: The Unfinished America: A 250-Year Journey of Liberty and Economic Freedom",
+   "org": "National Park Service - National Mall and Memorial Parks",
+   "start": "2026-10-22T09:30:00-04:00",
+   "end": null,
+   "venue": "World War II Memorial",
+   "address": "National Mall, Washington, DC",
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=World+War+II+Memorial%2C+National+Mall%2C+Washington%2C+DC",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=C2B14BE6-0693-B9ED-495CF224F4F0DF6B",
+   "category": "outdoors",
+   "format": "in_person",
+   "cost": "Free",
+   "age": "unknown",
+   "tags": {
+    "free_food": null,
+    "free_drinks": null,
+    "free_entry": true,
+    "young_adults": null,
+    "outdoor": true
+   },
+   "description": "Free National Park Service walking tour beginning at the World War II Memorial contact station at 9:30 AM. Official recurrence runs Thursdays through October 29. Exact end is Unknown: the page narrative says 90 minutes but its duration field says one hour.",
+   "source": "web",
+   "source_ref": "https://www.nps.gov/planyourvisit/event-details.htm?id=C2B14BE6-0693-B9ED-495CF224F4F0DF6B",
+   "id": "national-park-service-national-mall-and-memorial-parks-nps-ranger-program-the-un-2026-10-22"
+  },
+  {
    "title": "Mussel Survey in Heritage Marsh (volunteer)",
    "org": "Anacostia Watershed Society",
    "start": "2026-10-22T10:00:00-04:00",
@@ -33427,16 +33402,16 @@
   },
   {
    "title": "Halloween BINGOAT: Bingo + Goats",
-   "org": "Faith Lutheran Church (Arlington)",
+   "org": "Beth A Wolfe Yoga",
    "start": "2026-10-23T18:00:00-04:00",
-   "end": null,
+   "end": "2026-10-23T19:00:00-04:00",
    "venue": "Faith Lutheran Church (Arlington)",
-   "address": "Arlington, VA",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=Faith+Lutheran+Church+(Arlington)%2C+Arlington,+VA",
+   "address": "3313 Arlington Boulevard, Arlington, VA 22201",
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=3313%20Arlington%20Boulevard%2C%20Arlington%2C%20VA%2022201",
    "url": "https://www.eventbrite.com/e/halloween-bingoat-bingo-goats-tickets-1998970117432",
    "category": "family",
    "format": "in_person",
-   "cost": "$44.43",
+   "cost": "Unknown",
    "age": "unknown",
    "tags": {
     "free_food": null,
@@ -33445,10 +33420,11 @@
     "young_adults": null,
     "outdoor": null
    },
-   "description": "Halloween BINGOAT (bingo with goats) at Faith Lutheran Church in Arlington; 6:00 PM start per Eventbrite.",
+   "description": "Halloween bingo with goats from Walnut Creek Farm, presented by Beth A Wolfe Yoga at Faith Lutheran Church. October 23, 6–7 PM. Attendees must be age 10 or older. The ticket page states refunds are available up to seven days before the event; current ticket inventory and all-in price have not been reverified.",
    "source": "web",
-   "source_ref": "https://www.eventbrite.com/e/halloween-bingoat-bingo-goats-tickets-1998970117432",
-   "id": "faith-lutheran-church-arlington-halloween-bingoat-bingo-goats-2026-10-23"
+   "source_ref": "https://www.bethawolfe.com/event-page/halloweenbingoat2026",
+   "id": "faith-lutheran-church-arlington-halloween-bingoat-bingo-goats-2026-10-23",
+   "rsvp_url": "https://www.eventbrite.com/e/halloween-bingoat-bingo-goats-tickets-1998970117432"
   },
   {
    "title": "THE DINNER SOCIETY",
@@ -35432,31 +35408,6 @@
    "id": "del-ray-artisans-radical-sewing-club-alx-2026-2026-10-24"
   },
   {
-   "title": "Community Day: Service & Connection",
-   "org": "Temple Mother Earth",
-   "start": "2026-10-24T10:00:00-04:00",
-   "end": "2026-10-24T16:00:00-04:00",
-   "venue": "Temple Mother Earth",
-   "address": "Washington, Washington, DC 20020",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=Temple+Mother+Earth%2C+Washington%2C+Washington%2C+DC+20020",
-   "url": "https://www.eventbrite.com/e/community-day-service-connection-registration-1989782139944",
-   "category": "arts_museums",
-   "format": "in_person",
-   "cost": "Free",
-   "age": "unknown",
-   "tags": {
-    "free_food": null,
-    "free_drinks": null,
-    "free_entry": true,
-    "young_adults": null,
-    "outdoor": null
-   },
-   "description": "A heart-centered gathering for service, land care, shared purpose, and meaningful community connection. (Eventbrite event page by Temple Mother Earth; starts 10:00 AM; Free.)",
-   "source": "social",
-   "source_ref": "https://www.eventbrite.com/d/dc--washington/",
-   "id": "temple-mother-earth-community-day-service-connection-2026-10-24"
-  },
-  {
    "title": "#CleanWard8",
    "org": "Eventbrite organiser",
    "start": "2026-10-24T10:00:00-04:00",
@@ -36136,7 +36087,7 @@
    "title": "DC Halloween Crawl 2026 (Washington, DC)",
    "org": "Project DC Events",
    "start": "2026-10-24T14:00:00-04:00",
-   "end": "2026-10-24T00:00:00-04:00",
+   "end": "2026-10-24T22:00:00-04:00",
    "venue": "DUPONT CIRCLE'S BEST BARS",
    "address": "Connecticut Ave NW, Washington, DC, DC 20036, Washington, DC, DC",
    "maps_url": "https://www.google.com/maps/search/?api=1&query=Connecticut+Ave+NW%2C+Washington%2C+DC%2C+DC+20036%2C+Washington%2C+DC%2C+DC",
@@ -36144,7 +36095,7 @@
    "category": "nightlife",
    "format": "in_person",
    "cost": "$14.33-$17.66",
-   "age": "unknown",
+   "age": "21+",
    "tags": {
     "free_food": false,
     "free_drinks": false,
@@ -36152,9 +36103,9 @@
     "young_adults": false,
     "outdoor": false
    },
-   "description": "WASHINGTON, DC'S LARGEST HALLOWEEN BAR CRAWL IS BACK!",
+   "description": "Project DC Events’ Halloween crawl runs 2–10 PM on October 24. Ages 21+. Wristband registration runs 2–6 PM at the check-in locations; consult the organiser for exact pickup venue. Tickets are non-refundable. Current fee-inclusive price and inventory remain unverified.",
    "source": "social",
-   "source_ref": "eventbrite",
+   "source_ref": "https://www.eventbrite.com/e/dc-halloween-crawl-2026-washington-dc-tickets-2001883845471",
    "id": "project-dc-events-dc-halloween-crawl-2026-washington-dc-2026-10-24"
   },
   {
@@ -36295,7 +36246,7 @@
    "category": "networking",
    "format": "in_person",
    "cost": "$17.85",
-   "age": "unknown",
+   "age": "21+",
    "tags": {
     "free_food": null,
     "free_drinks": null,
@@ -36303,7 +36254,7 @@
     "young_adults": null,
     "outdoor": null
    },
-   "description": "There are people you haven’t met, conversations you haven’t had, and connections you haven’t made yet. We want to change that! (Eventbrite event page by Connecting 4 Christ; starts 2:30 PM; $17.85.)",
+   "description": "There are people you haven’t met, conversations you haven’t had, and connections you haven’t made yet. We want to change that! (Eventbrite event page by Connecting 4 Christ; starts 2:30 PM; $17.85.) Ages 21+. Advance tickets required; none sold at the door. Exact address is provided after purchase.",
    "source": "social",
    "source_ref": "https://www.eventbrite.com/d/dc--washington/",
    "id": "connecting-4-christ-have-we-met-yet-a-christian-social-mixer-2026-10-24"
@@ -36532,31 +36483,6 @@
    "source": "social",
    "source_ref": "https://www.eventbrite.com/d/dc--washington/",
    "id": "barnes-noble-georgetown-b-n-georgetown-foreign-affairs-book-club-2026-10-24"
-  },
-  {
-   "title": "2239 Havdalah Yoga",
-   "org": "2239",
-   "start": "2026-10-24T17:00:00-04:00",
-   "end": "2026-10-24T19:00:00-04:00",
-   "venue": "Edlavitch DC Jewish Community Center",
-   "address": "1529 16th Street Northwest, Washington, DC 20036",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=Edlavitch+DC+Jewish+Community+Center%2C+1529+16th+Street+Northwest%2C+Washington%2C+DC+20036",
-   "url": "https://www.eventbrite.com/e/2239-havdalah-yoga-tickets-2002799472135",
-   "category": "sports_fitness",
-   "format": "in_person",
-   "cost": "$18.92-$22.31",
-   "age": "unknown",
-   "tags": {
-    "free_food": null,
-    "free_drinks": null,
-    "free_entry": null,
-    "young_adults": null,
-    "outdoor": null
-   },
-   "description": "A beautifully blended class of yoga and Judaism! (Eventbrite event page by 2239; starts 5:00 PM; $18.92-$22.31.)",
-   "source": "social",
-   "source_ref": "https://www.eventbrite.com/d/dc--washington/",
-   "id": "2239-2239-havdalah-yoga-2026-10-24"
   },
   {
    "title": "Tacos & Mezcal Tasting at UPSIDE on Moore",
@@ -40300,7 +40226,7 @@
    "category": "family",
    "format": "online",
    "cost": "Free",
-   "age": "unknown",
+   "age": "all_ages",
    "tags": {
     "free_food": null,
     "free_drinks": null,
@@ -41602,7 +41528,7 @@
    "category": "family",
    "format": "online",
    "cost": "Free",
-   "age": "unknown",
+   "age": "all_ages",
    "tags": {
     "free_food": null,
     "free_drinks": null,
@@ -42441,6 +42367,31 @@
    "source_ref": "https://www.kennedy-center.org/whats-on/millennium-stage/all-upcoming-events/",
    "time_unknown": true,
    "id": "kennedy-center-millennium-stage-mary-voutsas-2026-10-29"
+  },
+  {
+   "title": "NPS ranger program: The Unfinished America: A 250-Year Journey of Liberty and Economic Freedom",
+   "org": "National Park Service - National Mall and Memorial Parks",
+   "start": "2026-10-29T09:30:00-04:00",
+   "end": null,
+   "venue": "World War II Memorial",
+   "address": "National Mall, Washington, DC",
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=World+War+II+Memorial%2C+National+Mall%2C+Washington%2C+DC",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=C2B14BE6-0693-B9ED-495CF224F4F0DF6B",
+   "category": "outdoors",
+   "format": "in_person",
+   "cost": "Free",
+   "age": "unknown",
+   "tags": {
+    "free_food": null,
+    "free_drinks": null,
+    "free_entry": true,
+    "young_adults": null,
+    "outdoor": true
+   },
+   "description": "Free National Park Service walking tour beginning at the World War II Memorial contact station at 9:30 AM. Official recurrence runs Thursdays through October 29. Exact end is Unknown: the page narrative says 90 minutes but its duration field says one hour.",
+   "source": "web",
+   "source_ref": "https://www.nps.gov/planyourvisit/event-details.htm?id=C2B14BE6-0693-B9ED-495CF224F4F0DF6B",
+   "id": "national-park-service-national-mall-and-memorial-parks-nps-ranger-program-the-un-2026-10-29"
   },
   {
    "title": "Drawing Light and How the Masters Did It In Color",
@@ -44245,31 +44196,6 @@
    "source": "social",
    "source_ref": "https://www.eventbrite.com/d/dc--washington/",
    "id": "old-town-books-a-night-of-fiery-dragons-daring-quests-2026-10-30"
-  },
-  {
-   "title": "Catalyst Bonfire",
-   "org": "Grace Covenant Church Brookland",
-   "start": "2026-10-30T19:00:00-04:00",
-   "end": "2026-10-30T21:00:00-04:00",
-   "venue": "3104 18th St NE",
-   "address": "3104 18th Street Northeast, Washington, DC 20018",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=3104+18th+St+NE%2C+3104+18th+Street+Northeast%2C+Washington%2C+DC+20018",
-   "url": "https://www.eventbrite.com/e/catalyst-bonfire-tickets-2002307640052",
-   "category": "community",
-   "format": "in_person",
-   "cost": "$10.60",
-   "age": "unknown",
-   "tags": {
-    "free_food": null,
-    "free_drinks": null,
-    "free_entry": null,
-    "young_adults": true,
-    "outdoor": null
-   },
-   "description": "Young adults in their 20s & 30s, join us for a fall night of fellowship, s’mores, light bites & bonfire as we connect and build community! (Eventbrite event page by Grace Covenant Church Brookland; starts 7:00 PM; $10.60.)",
-   "source": "social",
-   "source_ref": "https://www.eventbrite.com/d/dc--washington/",
-   "id": "grace-covenant-church-brookland-catalyst-bonfire-2026-10-30"
   },
   {
    "title": "CatRad Halloween Eve",
@@ -46504,15 +46430,15 @@
    "title": "SCARED? A Haunting Halloween Party by DC Horror Book Club!",
    "org": "DC Horror Book Club",
    "start": "2026-10-31T19:00:00-04:00",
-   "end": "2026-10-31T00:00:00-04:00",
+   "end": null,
    "venue": "Little Miss Whiskey's Golden Dollar",
    "address": "1104 H Street Northeast, Washington, DC 20002, Washington, DC",
    "maps_url": "https://www.google.com/maps/search/?api=1&query=1104+H+Street+Northeast%2C+Washington%2C+DC+20002%2C+Washington%2C+DC",
    "url": "https://www.eventbrite.com/e/scared-a-haunting-halloween-party-by-dc-horror-book-club-tickets-1996657886487",
    "category": "nightlife",
    "format": "in_person",
-   "cost": "$22.31",
-   "age": "unknown",
+   "cost": "$18 online before fees; $20 at door advertised",
+   "age": "21+",
    "tags": {
     "free_food": false,
     "free_drinks": false,
@@ -46520,9 +46446,9 @@
     "young_adults": false,
     "outdoor": false
    },
-   "description": "DC Horror Book Club presents SCARED? A haunting Halloween party. Join us for this year's frightful festivities on October 31st!",
+   "description": "DC Horror Book Club Halloween party at Little Miss Whiskey’s, October 31 from 7 PM until close. Exact closing time is Unknown. Ages 21+. Advertised admission is $18 online before fees or $20 at the door; current checkout fees and availability are Unknown. Costume contest at 9 PM.",
    "source": "social",
-   "source_ref": "eventbrite",
+   "source_ref": "https://www.eventbrite.com/e/scared-a-haunting-halloween-party-by-dc-horror-book-club-tickets-1996657886487",
    "id": "dc-horror-book-club-scared-a-haunting-halloween-party-by-dc-horror-book-club-2026-10-31"
   },
   {
@@ -46554,14 +46480,14 @@
    "title": "The Fright Crawl: DC Halloween Bar Crawl",
    "org": "Events Per Se",
    "start": "2026-10-31T19:30:00-04:00",
-   "end": "2026-11-01T02:00:00-04:00",
+   "end": "2026-11-01T02:00:00-05:00",
    "venue": "Aslin Beer Company (wristband pickup)",
    "address": "1740 14th St NW, Washington, DC 20009",
    "maps_url": "https://www.google.com/maps/search/?api=1&query=Aslin+Beer+Company+%28wristband+pickup%29%2C+1740+14th+St+NW%2C+Washington%2C+DC+20009",
    "url": "https://frightcrawl.com/washington/",
    "category": "nightlife",
    "format": "in_person",
-   "cost": "$8-$119",
+   "cost": "From $25 GA; $60 VIP advertised (fees Unknown)",
    "age": "21+",
    "tags": {
     "free_food": null,
@@ -46570,9 +46496,9 @@
     "young_adults": false,
     "outdoor": false
    },
-   "description": "Halloween-night hosted crawl: one wristband, 4+ bars, no cover, DJs and a costume contest; 21+ with government ID.",
+   "description": "Halloween-night crawl, 7:30 PM–2 AM local time, with wristband pickup at Aslin Beer Company until 10 PM. 21+ with government photo ID. Advertised Saturday prices start at $25 GA or $60 VIP; checkout fees and current ticket inventory are Unknown. Venues may change.",
    "source": "web",
-   "source_ref": "https://happeningnext.com/event/the-fright-crawl-washington-dcs-halloween-bar-crawl-2026-sat-oct-31-eid1ef0l5cv50lr",
+   "source_ref": "https://frightcrawl.com/washington/",
    "id": "events-per-se-the-fright-crawl-dc-halloween-bar-crawl-2026-10-31"
   },
   {
@@ -46977,17 +46903,17 @@
   },
   {
    "title": "Sexy Nerds: Halloween Party at Penn Social",
-   "org": "Penn Social",
+   "org": "Sexy Nerds",
    "start": "2026-10-31T21:00:00-04:00",
-   "end": "2026-11-01T02:00:00-04:00",
+   "end": "2026-11-01T02:00:00-05:00",
    "venue": "Penn Social",
    "address": "801 E St NW, Washington, DC 20004",
    "maps_url": "https://www.google.com/maps/search/?api=1&query=Penn+Social%2C+801+E+St+NW%2C+Washington%2C+DC+20004",
    "url": "https://www.pennsocialdc.com/event-details/sexy-nerds-halloween-party",
    "category": "nightlife",
    "format": "in_person",
-   "cost": "Unknown",
-   "age": "unknown",
+   "cost": "$28.52 last-chance GA listed Oct 8 (fee and tax included; live inventory unconfirmed)",
+   "age": "21+",
    "tags": {
     "free_food": null,
     "free_drinks": null,
@@ -46995,9 +46921,9 @@
     "young_adults": false,
     "outdoor": false
    },
-   "description": "Geek and nerd culture Halloween party with gaming, cosplay and music at Penn Social.",
+   "description": "21+ Halloween party, October 31 at 9 PM–November 1 at 2 AM local time. Penn Social and the linked ticket page name Penn Social; the host landing page inconsistently names Hook Hall, so reconfirm the venue before attending. The ticket page checked October 8 lists sold-out early-bird and standard GA tiers, and $28.52 last-chance GA including fee and tax. Live inventory is unconfirmed. Tickets are non-refundable.",
    "source": "web",
-   "source_ref": "https://www.pennsocialdc.com/event-details/sexy-nerds-halloween-party",
+   "source_ref": "https://www.pennsocialdc.com/event-details/sexy-nerds-halloween-party ; https://sexynerds.net/washington-hlwn",
    "id": "penn-social-sexy-nerds-halloween-party-at-penn-social-2026-10-31"
   },
   {
@@ -47504,15 +47430,15 @@
    "title": "PlayNParty ENT Halloween Adult Costume Party",
    "org": "PlayNParty Ent.",
    "start": "2026-10-31T22:00:00-04:00",
-   "end": "2026-10-31T00:00:00-04:00",
+   "end": "2026-11-01T03:00:00-05:00",
    "venue": "Rendezvous",
    "address": "2020 9th St NW, Washington, DC 20001, Washington, DC",
    "maps_url": "https://www.google.com/maps/search/?api=1&query=2020+9th+St+NW%2C+Washington%2C+DC+20001%2C+Washington%2C+DC",
    "url": "https://www.eventbrite.com/e/playnparty-ent-halloween-adult-costume-party-tickets-2001948329344",
    "category": "nightlife",
    "format": "in_person",
-   "cost": "$25.31",
-   "age": "unknown",
+   "cost": "$25 advertised (checkout fees Unknown)",
+   "age": "21+",
    "tags": {
     "free_food": false,
     "free_drinks": false,
@@ -47520,9 +47446,9 @@
     "young_adults": false,
     "outdoor": false
    },
-   "description": "Halloween night at Rendezvous! Costumes, 2 floors, 2 bars, food, hookah, music & a 420/cigar-friendly patio. Come party with us!",
+   "description": "PlayNParty ENT hosts a 21+ costume party at Rendezvous, October 31 at 10 PM through November 1 at 3 AM local time. Advertised entry is $25; checkout fees and current inventory are Unknown. Tickets are non-refundable.",
    "source": "social",
-   "source_ref": "eventbrite",
+   "source_ref": "https://www.eventbrite.com/e/playnparty-ent-halloween-adult-costume-party-tickets-2001948329344",
    "id": "playnparty-ent-playnparty-ent-halloween-adult-costume-party-2026-10-31"
   },
   {
@@ -49164,7 +49090,7 @@
    "category": "family",
    "format": "online",
    "cost": "Free",
-   "age": "unknown",
+   "age": "all_ages",
    "tags": {
     "free_food": null,
     "free_drinks": null,
@@ -49790,7 +49716,7 @@
    "category": "family",
    "format": "online",
    "cost": "Free",
-   "age": "unknown",
+   "age": "all_ages",
    "tags": {
     "free_food": null,
     "free_drinks": null,
@@ -52261,32 +52187,6 @@
    "id": "navy-yard-bid-half-street-central-farmers-market-11-07-2026-11-07"
   },
   {
-   "title": "First Saturday Festival at the National Gallery of Art",
-   "org": "National Gallery of Art",
-   "start": "2026-11-07",
-   "end": null,
-   "venue": "National Gallery of Art, East Building",
-   "address": "4th St and Constitution Ave NW, Washington, DC 20565",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Gallery+of+Art%2C+East+Building%2C+4th+St+and+Constitution+Ave+NW%2C+Washington%2C+DC+20565",
-   "url": "https://www.nga.gov/calendar/first-saturday-festivals",
-   "category": "family",
-   "format": "in_person",
-   "cost": "Free",
-   "age": "unknown",
-   "tags": {
-    "free_food": null,
-    "free_drinks": null,
-    "free_entry": true,
-    "young_adults": null,
-    "outdoor": null
-   },
-   "description": "NGA series page lists this First Saturday date (this season's theme: find gratitude through art); the series page says all activities are free, and times for this date are not yet posted.",
-   "source": "web",
-   "source_ref": "https://www.nga.gov/calendar/first-saturday-festivals",
-   "time_unknown": true,
-   "id": "national-gallery-of-art-first-saturday-festival-at-the-national-gallery-of-art-2026-11-07"
-  },
-  {
    "title": "Millennium Stage: Konshens the MC",
    "org": "Kennedy Center",
    "start": "2026-11-07",
@@ -52511,6 +52411,32 @@
    "source": "social",
    "source_ref": "https://www.eventbrite.com/d/dc--washington/",
    "id": "embassy-of-the-czech-republic-czech-christmas-market-2026-2026-11-07"
+  },
+  {
+   "title": "First Saturday Festival at the National Gallery of Art",
+   "org": "National Gallery of Art",
+   "start": "2026-11-07T10:00:00-05:00",
+   "end": "2026-11-07T15:00:00-05:00",
+   "venue": "National Gallery of Art, East Building",
+   "address": "4th St and Constitution Ave NW, Washington, DC 20565",
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Gallery+of+Art%2C+East+Building%2C+4th+St+and+Constitution+Ave+NW%2C+Washington%2C+DC+20565",
+   "url": "https://www.nga.gov/calendar/first-saturday-festivals",
+   "category": "family",
+   "format": "in_person",
+   "cost": "Free",
+   "age": "all_ages",
+   "tags": {
+    "free_food": null,
+    "free_drinks": null,
+    "free_entry": true,
+    "young_adults": null,
+    "outdoor": null
+   },
+   "description": "Free First Saturday activities in the East Building, 10 AM–3 PM. November programming includes a play space, artmaking, storytime, face painting and children’s yoga. Listed November activities require no registration; capacity is first come, first served.",
+   "source": "web",
+   "source_ref": "https://www.nga.gov/calendar/first-saturday-festivals",
+   "time_unknown": false,
+   "id": "national-gallery-of-art-first-saturday-festival-at-the-national-gallery-of-art-2026-11-07"
   },
   {
    "title": "Tudor Place: Weekend Weeders",
@@ -52913,31 +52839,6 @@
    "id": "love-at-first-bite-singles-dinner-club-progressive-dinner-ot-2026-11-07"
   },
   {
-   "title": "Music for All Souls featuring Navasha Daya",
-   "org": "All Souls Church's Religious Education Program",
-   "start": "2026-11-07T17:00:00-05:00",
-   "end": "2026-11-07T18:00:00-05:00",
-   "venue": "All Souls Church Unitarian",
-   "address": "1500 Harvard Street Northwest, Washington, DC 20009",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=All+Souls+Church+Unitarian%2C+1500+Harvard+Street+Northwest%2C+Washington%2C+DC+20009",
-   "url": "https://www.eventbrite.com/e/music-for-all-souls-featuring-navasha-daya-registration-2002575081978",
-   "category": "music",
-   "format": "in_person",
-   "cost": "$28.52",
-   "age": "unknown",
-   "tags": {
-    "free_food": null,
-    "free_drinks": null,
-    "free_entry": null,
-    "young_adults": null,
-    "outdoor": null
-   },
-   "description": "A fundraiser to benefit All Souls Church's Religious Education Program (Eventbrite event page by All Souls Church's Religious Education Program; starts 5:00 PM; $28.52.)",
-   "source": "social",
-   "source_ref": "https://www.eventbrite.com/d/dc--washington/",
-   "id": "all-souls-church-s-religious-education-program-music-for-all-souls-featuring-nav-2026-11-07"
-  },
-  {
    "title": "Parents Night Out - Little Scientist & Mystery Night",
    "org": "Chesterbrook Academy Kingstowne",
    "start": "2026-11-07T17:00:00-05:00",
@@ -53164,7 +53065,7 @@
   },
   {
    "title": "The Humpty Experience",
-   "org": "St. Stephen and the Incarnation Episcopal Church",
+   "org": "House of Gus",
    "start": "2026-11-07T19:00:00-05:00",
    "end": "2026-11-07T20:30:00-05:00",
    "venue": "St. Stephen and the Incarnation Episcopal Church",
@@ -53173,19 +53074,20 @@
    "url": "https://www.eventbrite.com/e/the-humpty-experience-tickets-2000913516190",
    "category": "theatre",
    "format": "in_person",
-   "cost": "Free",
-   "age": "unknown",
+   "cost": "Unknown",
+   "age": "all_ages",
    "tags": {
     "free_food": null,
     "free_drinks": null,
-    "free_entry": true,
+    "free_entry": null,
     "young_adults": null,
     "outdoor": null
    },
-   "description": "\"The Humpty Experience\", a drag jukebox musical, at St. Stephen and the Incarnation Episcopal Church; free ticket listing.",
+   "description": "House of Gus presents The Humpty Experience, a drag jukebox musical, at St. Stephen and the Incarnation Episcopal Church. November 7: doors 6 PM, performance 7–8:30 PM; all ages. The organizer says proceeds support a mutual-aid organization to be determined and nobody will be turned away for lack of funds. Ticket amount and live availability are unverified; refunds are offered up to seven days before the event.",
    "source": "web",
    "source_ref": "https://www.eventbrite.com/e/the-humpty-experience-tickets-2000913516190",
-   "id": "st-stephen-and-the-incarnation-episcopal-church-the-humpty-experience-2026-11-07"
+   "id": "st-stephen-and-the-incarnation-episcopal-church-the-humpty-experience-2026-11-07",
+   "rsvp_url": "https://www.eventbrite.com/e/the-humpty-experience-tickets-2000913516190"
   },
   {
    "title": "Natanya – The Attitude Tour",
@@ -53986,6 +53888,107 @@
    "source": "web",
    "source_ref": "https://www.hotbedcomedydc.com/events",
    "id": "hotbed-comedy-club-underground-comedy-underground-comedy-at-hotbed-at-hotbed-11--2026-11-07"
+  },
+  {
+   "id": "black-cat-upstaged-a-night-of-drag-and-drama-2026-11-08",
+   "title": "Upstaged! A Night of Drag and Drama",
+   "org": "Black Cat",
+   "start": "2026-11-08",
+   "end": null,
+   "venue": "Black Cat",
+   "address": "1811 14th St NW, Washington, DC 20009",
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Black+Cat%2C+1811+14th+St+NW%2C+Washington%2C+DC+20009",
+   "url": "https://www.blackcatdc.com/shows/upstaged.html",
+   "category": "theatre",
+   "format": "in_person",
+   "cost": "Unknown",
+   "age": "18+",
+   "tags": {
+    "free_food": null,
+    "free_drinks": null,
+    "free_entry": null,
+    "young_adults": null,
+    "outdoor": false
+   },
+   "description": "Broadway-themed drag performances. Doors 7 PM; actual performance start, end, admission price and ticket availability are Unknown. Ages 18+.",
+   "source": "web",
+   "source_ref": "https://www.blackcatdc.com/shows/upstaged.html ; https://www.blackcatdc.com/schedule.html",
+   "time_unknown": true
+  },
+  {
+   "id": "the-comedy-loft-of-dc-desi-alexander-2026-11-08",
+   "title": "Desi Alexander",
+   "org": "The Comedy Loft of DC",
+   "start": "2026-11-08T18:00:00-05:00",
+   "end": null,
+   "venue": "The Comedy Loft of DC",
+   "address": "1523 22nd St NW, Washington, DC 20037",
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=The+Comedy+Loft+of+DC%2C+1523+22nd+St+NW%2C+Washington%2C+DC+20037",
+   "url": "https://www.dccomedyloft.com/shows/378457",
+   "category": "comedy",
+   "format": "in_person",
+   "cost": "Unknown",
+   "age": "18+",
+   "tags": {
+    "free_food": null,
+    "free_drinks": null,
+    "free_entry": null,
+    "young_adults": null,
+    "outdoor": false
+   },
+   "description": "Show 6 PM, doors 5 PM. Ages 18+; two-item food/drink minimum. All sales final, with no refunds or showtime exchanges. Admission price, exact end and live inventory are Unknown.",
+   "source": "web",
+   "source_ref": "https://www.dccomedyloft.com/shows/378457"
+  },
+  {
+   "id": "the-comedy-loft-of-dc-nori-reed-nori-is-present-live-at-dc-comedy-loft-2026-11-08",
+   "title": "Nori Reed: Nori Is Present LIVE at DC Comedy Loft",
+   "org": "The Comedy Loft of DC",
+   "start": "2026-11-08T18:00:00-05:00",
+   "end": null,
+   "venue": "The Comedy Loft of DC",
+   "address": "1523 22nd St NW, Washington, DC 20037",
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=The+Comedy+Loft+of+DC%2C+1523+22nd+St+NW%2C+Washington%2C+DC+20037",
+   "url": "https://www.dccomedyloft.com/shows/371802",
+   "category": "comedy",
+   "format": "in_person",
+   "cost": "Unknown",
+   "age": "18+",
+   "tags": {
+    "free_food": null,
+    "free_drinks": null,
+    "free_entry": null,
+    "young_adults": null,
+    "outdoor": false
+   },
+   "description": "Show 6 PM, doors 5 PM. Ages 18+; two-item food/drink minimum. All sales final, with no refunds or showtime exchanges. Admission price, exact end and live inventory are Unknown.",
+   "source": "web",
+   "source_ref": "https://www.dccomedyloft.com/shows/371802"
+  },
+  {
+   "id": "dc-improv-sejoe-2026-11-08",
+   "title": "Sejoe",
+   "org": "DC Improv",
+   "start": "2026-11-08T19:00:00-05:00",
+   "end": null,
+   "venue": "DC Improv Comedy Club",
+   "address": "1140 Connecticut Ave NW, Washington, DC 20036",
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=DC+Improv+Comedy+Club%2C+1140+Connecticut+Ave+NW%2C+Washington%2C+DC+20036",
+   "url": "https://dcimprov-com.seatengine.com/shows/376008",
+   "category": "comedy",
+   "format": "in_person",
+   "cost": "$35 GA; $56 VIP (service charges included; two-item minimum extra)",
+   "age": "18+",
+   "tags": {
+    "free_food": null,
+    "free_drinks": null,
+    "free_entry": false,
+    "young_adults": null,
+    "outdoor": false
+   },
+   "description": "Show 7 PM, doors 5:45 PM. Performance in English with some Creole. Ages 18+ and a two-item food/drink minimum. Refunds or exchanges only for cancellation or rescheduling. End time and live ticket inventory are Unknown.",
+   "source": "web",
+   "source_ref": "https://www.dcimprov.com/shows/main-showroom/sejoe ; https://dcimprov-com.seatengine.com/shows/376008"
   }
  ]
 }

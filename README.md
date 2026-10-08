@@ -12,7 +12,7 @@ Published URL: https://sfox2006.github.io/DC-Social-Events/
 - Filter by category, format (in person, hybrid, online), cost (free, paid, unknown), age (all ages, 18+, 21+), time of day, free entry, free food, free drinks, and outdoor. Search matches the title, description, organizer, or venue.
 - Open an event for its description, then add it to Google Calendar, download an ICS file, or open it in Outlook.
 - Share a link that deep-links to that event by id (`?event=`).
-- Install the page as an app. Refresh re-fetches `data/events.json`. The service worker keeps a shell cache named `dc-social-v8` and a network-first data cache named `dc-social-data-v7`.
+- Install the page as an app. Refresh re-fetches `data/events.json`. The service worker keeps a shell cache named `dc-social-v10` and a network-first data cache named `dc-social-data-v7`.
 - The list and week calendar include events from today through the next 31 days (Eastern Time). The date picker and day strip stop at that horizon.
 - “Get the weekly email” opens a short note that the signup form is not open yet. It does not leave this site.
 
@@ -55,6 +55,8 @@ Public `source_ref` values must contain public provenance only. Keep private ema
 | `source` | Where the pipeline found the event. |
 
 Times on the page are Eastern (`America/New_York`).
+
+Date-only starts and records with `time_unknown: true` show Time TBC on their stated date and do not match time-of-day filters. Calendar exports use an all-day placeholder with an explicit unknown-time caveat. This placeholder does not establish the actual duration.
 
 The 8 October 2026 source review is recorded in `research/source-review-2026-10-08.json`, with public historical records retained for the 13 reviewed Sixth & I-hosted programmes excluded from this catalogue. Two Washington Performing Arts concerts remain listed with their correct presenter and Sixth & I venue. Six arts listings awaiting host clarification remain included. This policy applies only to DC Social; DC Jewish retains its religious coverage. After sanitizing an imported feed, run `node scripts/reviewed-source-policy.cjs --apply path/to/events.json` before copying it into the repository, then `node scripts/reviewed-source-policy.cjs --check`. The import step rejects reviewed records whose host or URL has changed so they receive fresh review. CI checks the narrow reviewed policy alongside privacy.
 
