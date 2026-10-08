@@ -2,7 +2,7 @@
 
 A phone-first static site listing upcoming social events in Washington, DC: music, comedy, theatre, food, nightlife, markets, outdoors, and the rest of what is happening in the city. List and calendar views, filters, add-to-calendar, share links, and an installable home-screen app, with a coral, teal, plum, and sunshine palette.
 
-The site is plain HTML, CSS, and JavaScript. There is no build step. GitHub Pages should be served from the root of `main` (the repository owner turns Pages on; this repo does not enable it).
+The site is plain HTML, CSS, and JavaScript. There is no build step. GitHub Pages should be served from the root of `main` (the repository owner turns Pages on; this repo does not enable it). GitHub Actions checks public-data privacy on pushes and pull requests.
 
 Published URL: https://sfox2006.github.io/DC-Social-Events/
 
@@ -21,6 +21,8 @@ When `events` is empty, the page says “First events arriving shortly”.
 ## Data
 
 `data/events.json` is the only event source. A daily pipeline pushes the file; do not hand-edit it for production, and do not commit sample events.
+
+Public `source_ref` values must contain public provenance only. Keep private email messages, mailbox identifiers, Gmail inbox URLs, and audit files outside this repository. Before publishing an externally generated event file, run `node scripts/public-data.cjs --sanitize path/to/events.json` outside the repository, then copy only the validated public result to `data/events.json`. The sanitizer removes whole labelled mailbox-provenance segments from `source_ref`, retains public URLs and social references, and rejects other private mailbox metadata. It does not change event facts or source scope. Run `node scripts/public-data.cjs --check` and `node --test tests/*.test.cjs` before pushing; CI repeats these checks. There is no separate generated event output or collector in this repository.
 
 ```json
 {
@@ -53,6 +55,8 @@ When `events` is empty, the page says “First events arriving shortly”.
 | `source` | Where the pipeline found the event. |
 
 Times on the page are Eastern (`America/New_York`).
+
+The 8 October 2026 source review is recorded in `research/source-review-2026-10-08.json`, with public historical records retained for the 13 reviewed Sixth & I-hosted programmes excluded from this catalogue. Two Washington Performing Arts concerts remain listed with their correct presenter and Sixth & I venue. Six arts listings awaiting host clarification remain included. This policy applies only to DC Social; DC Jewish retains its religious coverage. After sanitizing an imported feed, run `node scripts/reviewed-source-policy.cjs --apply path/to/events.json` before copying it into the repository, then `node scripts/reviewed-source-policy.cjs --check`. The import step rejects reviewed records whose host or URL has changed so they receive fresh review. CI checks the narrow reviewed policy alongside privacy.
 
 ## Fonts
 
