@@ -44,9 +44,11 @@ if (require.main === module) {
   const filename = process.argv[3] || path.join(__dirname, '../data/events.json');
   try {
     if (!['--check', '--apply'].includes(mode)) throw new Error('Usage: node scripts/reviewed-source-policy.cjs [--check|--apply] [events.json]');
-    const input = JSON.parse(fs.readFileSync(filename, 'utf8'));
+    const text = fs.readFileSync(filename, 'utf8');
+    const indent = (text.match(/\n( +)\"/) || [null, '  '])[1].length;
+    const input = JSON.parse(text);
     const result = mode === '--apply' ? applyReviewedSources(input) : assertReviewedSources(input);
-    if (mode === '--apply') fs.writeFileSync(filename, JSON.stringify(result, null, 2) + '\n');
+    if (mode === '--apply') fs.writeFileSync(filename, JSON.stringify(result, null, indent) + (text.endsWith('\n') ? '\n' : ''));
     console.log(`Reviewed source policy passed (${result.events.length} public events).`);
   } catch (error) {
     console.error(error.message);

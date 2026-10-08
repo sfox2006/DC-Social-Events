@@ -56,9 +56,11 @@ if (require.main === module) {
   }
   const filename = process.argv[3] || path.join(__dirname, '../data/events.json');
   try {
-    const original = JSON.parse(fs.readFileSync(filename, 'utf8'));
+    const text = fs.readFileSync(filename, 'utf8');
+    const indent = (text.match(/\n( +)\"/) || [null, '  '])[1].length;
+    const original = JSON.parse(text);
     const result = mode === '--sanitize' ? sanitizePublicData(original) : assertPublicData(original);
-    if (mode === '--sanitize') fs.writeFileSync(filename, JSON.stringify(result, null, 2) + '\n');
+    if (mode === '--sanitize') fs.writeFileSync(filename, JSON.stringify(result, null, indent) + (text.endsWith('\n') ? '\n' : ''));
     console.log(`Public-data privacy check passed (${result.events.length} events).`);
   } catch (error) {
     console.error(error.message);
