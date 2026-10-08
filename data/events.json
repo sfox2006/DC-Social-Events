@@ -2230,7 +2230,7 @@
    },
    "description": "Weekly Wednesday trivia at Kbird, 8pm-10pm, up to 5 players per team (recurs every Wednesday).",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0f94bdb17f22f4 – boxoffice@studiotheatre.org – This Month at 1501: October Edition",
+   "source_ref": "https://www.kbirddc.com/events/weekly-trivia-with-goldilocks-trivia-july-8-9k3z8-pdzbt-5rypk-rfraz-8zpe4-yb9rj-n54wb-2ykae-6xyz3-8bg3t-axl5f-abmwe",
    "id": "kbird-weekly-trivia-with-goldilocks-trivia-2026-10-07"
   },
   {
@@ -3808,33 +3808,8 @@
    },
    "description": "Bestselling cookbook author Yotam Ottolenghi in conversation with Carla Hall.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0fde700d3b3218 – info@sixthandi.org – Sixth & Spiritual: Dance on I Street for Simchat Torah, How to be a Jewish Adult, and Small Groups, Big Questions",
+   "source_ref": "https://www.sixthandi.org/event/yotam-ottolenghi-2/",
    "id": "sixth-i-yotam-ottolenghi-with-carla-hall-2026-10-08"
-  },
-  {
-   "title": "Small Groups, Big Questions",
-   "org": "Sixth & I",
-   "start": "2026-10-08T19:00:00-04:00",
-   "end": null,
-   "venue": "Facilitators' homes",
-   "address": "Unknown (facilitators' homes)",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=Sixth+&+I+600+I+St+NW+Washington+DC+20001",
-   "url": "https://www.sixthandi.org/event/small-groups-big-questions-2/",
-   "category": "community",
-   "format": "in_person",
-   "cost": "$36",
-   "age": "unknown",
-   "tags": {
-    "free_food": null,
-    "free_drinks": null,
-    "free_entry": null,
-    "young_adults": null,
-    "outdoor": null
-   },
-   "description": "Small-group discussion program starting Thursday, October 8 at 7:00pm.",
-   "source": "mail",
-   "source_ref": "Gmail msg 1a0fde700d3b3218 – info@sixthandi.org – Sixth & Spiritual: Dance on I Street for Simchat Torah, How to be a Jewish Adult, and Small Groups, Big Questions",
-   "id": "sixth-i-small-groups-big-questions-2026-10-08"
   },
   {
    "title": "Argentinian Jazz Series: Juan Megna",
@@ -4408,7 +4383,7 @@
    },
    "description": "Cain Culto with Colette March and Neila at the Black Cat; doors at 7:30; listed as sold out.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0ff1d7af13a159 – newsletter@m.blackcatdc.com – October Shows at Black Cat",
+   "source_ref": "https://www.blackcatdc.com/shows/cain-culto.html",
    "id": "black-cat-cain-culto-colette-march-neila-sold-out-2026-10-08"
   },
   {
@@ -6239,31 +6214,6 @@
    "id": "washington-area-roadskaters-friday-night-skate-2026-10-09"
   },
   {
-   "title": "Friday Night Services + Dinner",
-   "org": "Sixth & I",
-   "start": "2026-10-09T19:00:00-04:00",
-   "end": null,
-   "venue": "Sixth & I",
-   "address": "600 I St NW, Washington, DC 20001",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=Sixth+&+I+600+I+St+NW+Washington+DC+20001",
-   "url": "https://www.sixthandi.org/event/friday-night-services-53/",
-   "category": "community",
-   "format": "in_person",
-   "cost": "Service free (registration required); Shabbat dinner $18 subsidized / $45 actual cost",
-   "age": "unknown",
-   "tags": {
-    "free_food": null,
-    "free_drinks": null,
-    "free_entry": null,
-    "young_adults": null,
-    "outdoor": null
-   },
-   "description": "Friday night services and dinner with Rabbi Jenna and guest Rabbi Rachel Gartner (6:00pm happy hour; 7:00pm service; 8:15pm dinner).",
-   "source": "mail",
-   "source_ref": "Gmail msg 1a0fde700d3b3218 – info@sixthandi.org – Sixth & Spiritual: Dance on I Street for Simchat Torah, How to be a Jewish Adult, and Small Groups, Big Questions",
-   "id": "sixth-i-friday-night-services-dinner-2026-10-09"
-  },
-  {
    "title": "White Ford Bronco: DC's All '90s Band",
    "org": "I.M.P. / The Atlantis",
    "start": "2026-10-09T19:00:00-04:00",
@@ -6760,7 +6710,7 @@
    },
    "description": "WIT's improvised election comedy Stumped runs Fridays at 7:30pm and Saturdays at 6pm through Oct. 24 at Studio Theatre.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0fe0b02f41785b – wit@witdc.org – WIT Minute: It's weekend 2 of our hit comedies Stumped and Fraudway!",
+   "source_ref": "https://witdc.org/performances/washington-improv-theater-presents-stumped-3/",
    "id": "washington-improv-theater-uncle-gorgeous-stumped-2026-10-09"
   },
   {
@@ -6910,7 +6860,7 @@
    },
    "description": "Strange Boutique with Cemetery Sex and DJ Sara Vox at the Black Cat; doors at 8:00.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0ff1d7af13a159 – newsletter@m.blackcatdc.com – October Shows at Black Cat",
+   "source_ref": "https://www.blackcatdc.com/shows/strange-boutique.html",
    "id": "black-cat-strange-boutique-cemetery-sex-dj-sara-vox-2026-10-09"
   },
   {
@@ -8691,6 +8641,31 @@
    "id": "smiley-social-learn-volleyball-for-beginners-week-4-spiking-2026-10-10"
   },
   {
+   "id": "merry-pin-dc-pickle-bash-2026-10-10",
+   "title": "DC Pickle Bash",
+   "org": "Merry Pin",
+   "start": "2026-10-10T10:00:00-04:00",
+   "end": "2026-10-10T17:00:00-04:00",
+   "venue": "Merry Pin / Georgia and Geranium Streets NW",
+   "address": "7350 Georgia Avenue NW, Washington, DC",
+   "maps_url": "",
+   "url": "https://dcpicklebash.com/",
+   "category": "festival",
+   "format": "in_person",
+   "cost": "Free entry; optional paid passes and purchases",
+   "age": "all_ages",
+   "tags": {
+    "free_food": null,
+    "free_drinks": null,
+    "free_entry": true,
+    "young_adults": null,
+    "outdoor": true
+   },
+   "description": "Community festival with pickle vendors, crafts and live entertainment. General admission is free; enhanced experiences and purchases cost extra.",
+   "source": "web",
+   "source_ref": "https://dcpicklebash.com/"
+  },
+  {
    "title": "Handmade Storybooks",
    "org": "Smithsonian Associates",
    "start": "2026-10-10T10:30:00-04:00",
@@ -9612,7 +9587,7 @@
    },
    "description": "Free all-play improv jam for Black improvisers of all experience levels, hosted by Krystal Ali and Jamal Newman.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0fe0b02f41785b – wit@witdc.org – WIT Minute: It's weekend 2 of our hit comedies Stumped and Fraudway!",
+   "source_ref": "https://www.eventbrite.com/e/cookout-jam-for-black-improvisers-october-2026-tickets-2002097820476",
    "id": "washington-improv-theater-the-cookout-jam-for-black-improvisers-october-2026-2026-10-10"
   },
   {
@@ -9637,7 +9612,7 @@
    },
    "description": "Discussion with the artists behind the show after the 2pm matinee.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0f94bdb17f22f4 – boxoffice@studiotheatre.org – This Month at 1501: October Edition",
+   "source_ref": "https://www.studiotheatre.org/plays/play-detail/2026-2027/wish-you-were-here",
    "id": "studio-theatre-wish-you-were-here-artists-in-conversation-2026-10-10"
   },
   {
@@ -10162,7 +10137,7 @@
    },
    "description": "WIT's improvised election comedy Stumped runs Fridays at 7:30pm and Saturdays at 6pm through Oct. 24 at Studio Theatre.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0fe0b02f41785b – wit@witdc.org – WIT Minute: It's weekend 2 of our hit comedies Stumped and Fraudway!",
+   "source_ref": "https://witdc.org/performances/washington-improv-theater-presents-stumped-2/",
    "id": "washington-improv-theater-nox-stumped-2026-10-10"
   },
   {
@@ -10912,7 +10887,7 @@
    },
    "description": "Fraudway! Presents: an improvised musical in which a performer who has never seen the original is dropped into its improvised version; Saturdays at 8pm through Oct. 24.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0f94bdb17f22f4 – boxoffice@studiotheatre.org – This Month at 1501: October Edition",
+   "source_ref": "https://witdc.org/performances/fraudway-presents-2/",
    "id": "washington-improv-theater-i-hate-my-boss-madeline-fraudway-presents-chicago-2026-10-10"
   },
   {
@@ -13140,7 +13115,7 @@
    },
    "description": "UNVERIFIED: Documentary screening and conversation at Kbird, 4pm-6pm.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0f94bdb17f22f4 – boxoffice@studiotheatre.org – This Month at 1501: October Edition",
+   "source_ref": "https://www.kbirddc.com/events",
    "id": "kbird-documentary-screening-conversation-2026-10-11"
   },
   {
@@ -15017,7 +14992,7 @@
    },
    "description": "Show Me The Body with Whispers, Lip Critic and Combust at the Black Cat; doors at 7:30.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0ff1d7af13a159 – newsletter@m.blackcatdc.com – October Shows at Black Cat",
+   "source_ref": "https://www.blackcatdc.com/shows/show-me-the-body.html",
    "id": "black-cat-show-me-the-body-whispers-lip-critic-combust-2026-10-12"
   },
   {
@@ -16118,7 +16093,7 @@
    },
    "description": "Monthly improv jam hosted by DC's all-AANHPI improv troupe Shoes Off!; free, sign-up required.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0fe0b02f41785b – wit@witdc.org – WIT Minute: It's weekend 2 of our hit comedies Stumped and Fraudway!",
+   "source_ref": "https://docs.google.com/forms/d/e/1FAIpQLSfHugVGano2ASCv_s_PRSLmzSI-PAvmulzg4PuWvaBsp_m1sg/viewform",
    "id": "wit-shoes-off-improv-aanhpi-affinity-group-improv-jam-shoes-off-2026-10-13"
   },
   {
@@ -16518,7 +16493,7 @@
    },
    "description": "Chanel Beads with Horse Vision and Car Culture at the Black Cat; doors at 7:30.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0ff1d7af13a159 – newsletter@m.blackcatdc.com – October Shows at Black Cat",
+   "source_ref": "https://www.blackcatdc.com/shows/chanel-beads.html",
    "id": "black-cat-chanel-beads-horse-vision-car-culture-2026-10-13"
   },
   {
@@ -16995,7 +16970,7 @@
    },
    "description": "UNVERIFIED: Charity Trivia Takeover at Kbird (time not stated).",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0f94bdb17f22f4 – boxoffice@studiotheatre.org – This Month at 1501: October Edition",
+   "source_ref": "https://www.kbirddc.com/events",
    "time_unknown": true,
    "id": "kbird-charity-trivia-takeover-2026-10-14"
   },
@@ -18246,7 +18221,7 @@
    },
    "description": "Man or Astro-Man? with Light Beams at the Black Cat; doors at 7:30.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0ff1d7af13a159 – newsletter@m.blackcatdc.com – October Shows at Black Cat",
+   "source_ref": "https://www.blackcatdc.com/shows/man-or-astroman.html",
    "id": "black-cat-man-or-astro-man-w-light-beams-2026-10-14"
   },
   {
@@ -18673,6 +18648,32 @@
    "source": "social",
    "source_ref": "https://www.eventbrite.com/d/dc--washington/",
    "id": "busboys-and-poets-2nd-wednesdays-open-mic-450-k-hosted-by-simply-sherri-2026-10-14"
+  },
+  {
+   "id": "studio-theatre-handle-with-care-2026-10-14",
+   "title": "Handle With Care",
+   "org": "Studio Theatre / Ontroerend Goed",
+   "start": "2026-10-14T20:00:00-04:00",
+   "end": null,
+   "venue": "Studio Theatre, Stage 4",
+   "address": "1501 14th Street NW, Washington, DC 20005",
+   "maps_url": "",
+   "url": "https://www.studiotheatre.org/handle-with-care",
+   "rsvp_url": "https://www.studiotheatre.org/buy/tickets/handle-with-care?id=13995",
+   "category": "theatre",
+   "format": "in_person",
+   "cost": "$37 for this October 14 performance; fees not verified",
+   "age": "unknown",
+   "tags": {
+    "free_food": null,
+    "free_drinks": null,
+    "free_entry": false,
+    "young_adults": null,
+    "outdoor": null
+   },
+   "description": "An interactive, approximately one-hour theatre experience. Runs October 14–25; participation is encouraged but optional. See the official calendar for each performance. Exact end time is not stated.",
+   "source": "web",
+   "source_ref": "https://www.studiotheatre.org/handle-with-care"
   },
   {
    "title": "Taisha Estrada",
@@ -19825,7 +19826,7 @@
    },
    "description": "Weedeater with Zeke, Royal Thunder and Yes Ma'am at the Black Cat; doors at 7:00.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0ff1d7af13a159 – newsletter@m.blackcatdc.com – October Shows at Black Cat",
+   "source_ref": "https://www.blackcatdc.com/shows/weedeater.html",
    "id": "black-cat-weedeater-zeke-royal-thunder-yes-ma-am-2026-10-15"
   },
   {
@@ -21479,31 +21480,6 @@
    "id": "french-language-culture-in-northern-virginia-french-happy-hour-in-dc-on-friday-l-2026-10-16"
   },
   {
-   "title": "Community-Led Shabbat Dinner",
-   "org": "Sixth & I",
-   "start": "2026-10-16T18:30:00-04:00",
-   "end": null,
-   "venue": "Sixth & I",
-   "address": "600 I Street NW, Washington, DC 20001",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=Sixth+%26+I%2C+600+I+Street+NW%2C+Washington%2C+DC+20001",
-   "url": "https://www.sixthandi.org/event/community-led-shabbat-dinner/",
-   "category": "community",
-   "format": "in_person",
-   "cost": "Free",
-   "age": "unknown",
-   "tags": {
-    "free_food": true,
-    "free_drinks": null,
-    "free_entry": true,
-    "young_adults": null,
-    "outdoor": null
-   },
-   "description": "Free community-hosted vegetarian potluck Shabbat dinner at Sixth & I for meeting new people; registration required.",
-   "source": "web",
-   "source_ref": "https://www.sixthandi.org/event/community-led-shabbat-dinner/",
-   "id": "sixth-i-community-led-shabbat-dinner-2026-10-16"
-  },
-  {
    "title": "Sienna Spiro - My House Tour",
    "org": "I.M.P. / Lincoln Theatre",
    "start": "2026-10-16T18:30:00-04:00",
@@ -21550,7 +21526,7 @@
    },
    "description": "Pre-show gathering with food catered by a local Persian-owned restaurant, the performance, and a post-show discussion with Marjan Moosavi.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0f94bdb17f22f4 – boxoffice@studiotheatre.org – This Month at 1501: October Edition",
+   "source_ref": "https://www.studiotheatre.org/plays/play-detail/2026-2027/wish-you-were-here",
    "id": "studio-theatre-a-celebration-of-the-dc-persian-community-wish-you-were-here-2026-10-16"
   },
   {
@@ -21627,31 +21603,6 @@
    "source": "social",
    "source_ref": "https://www.eventbrite.com/d/dc--washington/",
    "id": "chabad-yjp-alexandria-arlington-yjp-shabbat-dinner-under-the-stars-2026-10-16"
-  },
-  {
-   "title": "Pause and Play: A Musical Friday Night",
-   "org": "Sixth & I",
-   "start": "2026-10-16T19:00:00-04:00",
-   "end": null,
-   "venue": "Sixth & I",
-   "address": "600 I Street NW, Washington, DC 20001",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=Sixth+%26+I%2C+600+I+Street+NW%2C+Washington%2C+DC+20001",
-   "url": "https://www.sixthandi.org/event/pause-and-play-a-musical-friday-night-19/",
-   "category": "community",
-   "format": "in_person",
-   "cost": "Free",
-   "age": "unknown",
-   "tags": {
-    "free_food": null,
-    "free_drinks": null,
-    "free_entry": true,
-    "young_adults": null,
-    "outdoor": null
-   },
-   "description": "Laid-back musical Friday-night Shabbat service led by musician Aaron Shneyer at Sixth & I; free, RSVP required, doors 6:30 PM.",
-   "source": "web",
-   "source_ref": "https://www.sixthandi.org/event/pause-and-play-a-musical-friday-night-19/",
-   "id": "sixth-i-pause-and-play-a-musical-friday-night-2026-10-16"
   },
   {
    "title": "Georgetown Hoyas men's soccer vs. Seton Hall",
@@ -21825,7 +21776,7 @@
    },
    "description": "Pretty Bitter with Pulses., Padfoot and Thisdogllhunt at the Black Cat; doors at 7:00.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0ff1d7af13a159 – newsletter@m.blackcatdc.com – October Shows at Black Cat",
+   "source_ref": "https://www.blackcatdc.com/shows/pretty-bitter.html",
    "id": "black-cat-pretty-bitter-pulses-padfoot-thisdogllhunt-2026-10-16"
   },
   {
@@ -22100,7 +22051,7 @@
    },
    "description": "Under-30s night for the musical Hundred Days: happy hour at 7:00 PM, show at 8:00 PM. Patrons under 30 can buy discounted tickets that include 1 drink coupon, exclusive access to the mezzanine for mingling, and a seat for the performance (discounted price not stated; regular tickets $65 adult, $55 under-25/students).",
    "source": "mail",
-   "source_ref": "Gmail msg 1a1127b60bb1ce22 – Keegan Theatre newsletter (6 Oct 2026, unlabelled in samfoxbartending inbox)",
+   "source_ref": "https://keegantheatre.com/portfolio/hundred-days/",
    "id": "the-keegan-theatre-hundred-days-young-professionals-happy-hour-2026-10-16"
   },
   {
@@ -22175,7 +22126,7 @@
    },
    "description": "WIT's improvised election comedy Stumped runs Fridays at 7:30pm and Saturdays at 6pm through Oct. 24 at Studio Theatre.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0fe0b02f41785b – wit@witdc.org – WIT Minute: It's weekend 2 of our hit comedies Stumped and Fraudway!",
+   "source_ref": "https://witdc.org/performances/washington-improv-theater-presents-stumped-4/",
    "id": "washington-improv-theater-nox-stumped-2026-10-16"
   },
   {
@@ -22477,6 +22428,32 @@
    "source": "social",
    "source_ref": "https://www.meetup.com/find/?location=us--dc--Washington&source=EVENTS",
    "id": "dc-dining-and-social-group-social-dinner-and-club-hopping-please-read-2026-10-16"
+  },
+  {
+   "id": "studio-theatre-handle-with-care-2026-10-16",
+   "title": "Handle With Care",
+   "org": "Studio Theatre / Ontroerend Goed",
+   "start": "2026-10-16T20:00:00-04:00",
+   "end": null,
+   "venue": "Studio Theatre, Stage 4",
+   "address": "1501 14th Street NW, Washington, DC 20005",
+   "maps_url": "",
+   "url": "https://www.studiotheatre.org/handle-with-care",
+   "rsvp_url": "https://www.studiotheatre.org/buy/tickets/handle-with-care?id=13997",
+   "category": "theatre",
+   "format": "in_person",
+   "cost": "Unknown",
+   "age": "unknown",
+   "tags": {
+    "free_food": null,
+    "free_drinks": null,
+    "free_entry": false,
+    "young_adults": null,
+    "outdoor": null
+   },
+   "description": "An interactive, approximately one-hour theatre experience. Runs October 14–25; participation is encouraged but optional. See the official calendar for each performance. Exact end time is not stated.",
+   "source": "web",
+   "source_ref": "https://www.studiotheatre.org/handle-with-care"
   },
   {
    "title": "Jazz Room",
@@ -23979,7 +23956,7 @@
    },
    "description": "An improvised speed dating experiment: a high-energy, interactive singles event.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0f94bdb17f22f4 – boxoffice@studiotheatre.org – This Month at 1501: October Edition",
+   "source_ref": "https://www.eventbrite.com/e/playdatetm-lgbtq-edition-an-improvised-speed-dating-experiment-tickets-2001083675140",
    "id": "washington-improv-theater-play-date-lgbtq-edition-an-improvised-speed-dating-exp-2026-10-17"
   },
   {
@@ -24129,7 +24106,7 @@
    },
    "description": "Childcare Matinee performance with National Children's Theatre: parents see the show while kids do a creative activity led by teaching artists.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0f94bdb17f22f4 – boxoffice@studiotheatre.org – This Month at 1501: October Edition",
+   "source_ref": "https://www.studiotheatre.org/childcare-matinee-landing-2026-2027",
    "id": "studio-theatre-childcare-matinee-wish-you-were-here-2026-10-17"
   },
   {
@@ -24281,6 +24258,32 @@
    "source": "social",
    "source_ref": "https://www.meetup.com/find/?location=us--dc--Washington&source=EVENTS",
    "id": "the-dc-area-sojo-sing-out-jam-out-the-15th-annual-beatles-sojo-10-17-26-2026-10-17"
+  },
+  {
+   "id": "studio-theatre-handle-with-care-2026-10-17-1400",
+   "title": "Handle With Care",
+   "org": "Studio Theatre / Ontroerend Goed",
+   "start": "2026-10-17T14:00:00-04:00",
+   "end": null,
+   "venue": "Studio Theatre, Stage 4",
+   "address": "1501 14th Street NW, Washington, DC 20005",
+   "maps_url": "",
+   "url": "https://www.studiotheatre.org/handle-with-care",
+   "rsvp_url": "https://www.studiotheatre.org/buy/tickets/handle-with-care?id=13998",
+   "category": "theatre",
+   "format": "in_person",
+   "cost": "Unknown",
+   "age": "unknown",
+   "tags": {
+    "free_food": null,
+    "free_drinks": null,
+    "free_entry": false,
+    "young_adults": null,
+    "outdoor": null
+   },
+   "description": "An interactive, approximately one-hour theatre experience. Runs October 14–25; participation is encouraged but optional. See the official calendar for each performance. Exact end time is not stated.",
+   "source": "web",
+   "source_ref": "https://www.studiotheatre.org/handle-with-care"
   },
   {
    "title": "Teen Studio: Action and Abstraction",
@@ -24529,7 +24532,7 @@
    },
    "description": "WIT alum and author Sarah Flocken reads from her new book Be Well, followed by an improv show based on the readings.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0fe0b02f41785b – wit@witdc.org – WIT Minute: It's weekend 2 of our hit comedies Stumped and Fraudway!",
+   "source_ref": "https://witdc.org/performances/sarah-flocken-book-event-be-well/",
    "id": "washington-improv-theater-be-well-an-improvised-book-event-2026-10-17"
   },
   {
@@ -24954,7 +24957,7 @@
    },
    "description": "WIT's improvised election comedy Stumped runs Fridays at 7:30pm and Saturdays at 6pm through Oct. 24 at Studio Theatre.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0fe0b02f41785b – wit@witdc.org – WIT Minute: It's weekend 2 of our hit comedies Stumped and Fraudway!",
+   "source_ref": "https://witdc.org/performances/washington-improv-theater-presents-stumped-5/",
    "id": "washington-improv-theater-uncle-gorgeous-stumped-2026-10-17"
   },
   {
@@ -25204,7 +25207,7 @@
    },
    "description": "Guitar Hero Flashband Showcase at the Black Cat; doors at 7:00.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0ff1d7af13a159 – newsletter@m.blackcatdc.com – October Shows at Black Cat",
+   "source_ref": "https://www.blackcatdc.com/shows/flash-band.html",
    "id": "black-cat-guitar-hero-flashband-showcase-2026-10-17"
   },
   {
@@ -25679,7 +25682,7 @@
    },
    "description": "Fraudway! Presents: an improvised musical in which a performer who has never seen the original is dropped into its improvised version; Saturdays at 8pm through Oct. 24.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0f94bdb17f22f4 – boxoffice@studiotheatre.org – This Month at 1501: October Edition",
+   "source_ref": "https://witdc.org/performances/fraudway-presents/",
    "id": "washington-improv-theater-commonwealth-madeline-fraudway-presents-little-shop-of-2026-10-17"
   },
   {
@@ -25831,6 +25834,32 @@
    "source": "social",
    "source_ref": "https://www.meetup.com/find/?location=us--dc--Washington&source=EVENTS",
    "id": "dc-professionals-new-in-town-or-not-thirsty-social-at-lucky-bar-not-homewood-ple-2026-10-17"
+  },
+  {
+   "id": "studio-theatre-handle-with-care-2026-10-17-2000",
+   "title": "Handle With Care",
+   "org": "Studio Theatre / Ontroerend Goed",
+   "start": "2026-10-17T20:00:00-04:00",
+   "end": null,
+   "venue": "Studio Theatre, Stage 4",
+   "address": "1501 14th Street NW, Washington, DC 20005",
+   "maps_url": "",
+   "url": "https://www.studiotheatre.org/handle-with-care",
+   "rsvp_url": "https://www.studiotheatre.org/buy/tickets/handle-with-care?id=13999",
+   "category": "theatre",
+   "format": "in_person",
+   "cost": "Unknown",
+   "age": "unknown",
+   "tags": {
+    "free_food": null,
+    "free_drinks": null,
+    "free_entry": false,
+    "young_adults": null,
+    "outdoor": null
+   },
+   "description": "An interactive, approximately one-hour theatre experience. Runs October 14–25; participation is encouraged but optional. See the official calendar for each performance. Exact end time is not stated.",
+   "source": "web",
+   "source_ref": "https://www.studiotheatre.org/handle-with-care"
   },
   {
    "title": "Evil Dead II at Suns Cinema",
@@ -26281,7 +26310,7 @@
    },
    "description": "Post-show talkback with the artists of Hundred Days, following the Sunday 3:00 PM matinee (exact talkback time not stated). Free and open to all patrons of the performance.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a1127b60bb1ce22 – Keegan Theatre newsletter (6 Oct 2026, unlabelled in samfoxbartending inbox)",
+   "source_ref": "https://keegantheatre.com/portfolio/hundred-days/",
    "time_unknown": true,
    "id": "the-keegan-theatre-hundred-days-audience-talkback-meet-the-artists-2026-10-18"
   },
@@ -26807,7 +26836,7 @@
    },
    "description": "Musical improv jam led by Michael Gottlieb (piano) and Brendan Bailes (drums); all improv levels welcome, $5 minimum donation.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0fe0b02f41785b – wit@witdc.org – WIT Minute: It's weekend 2 of our hit comedies Stumped and Fraudway!",
+   "source_ref": "https://www.eventbrite.com/e/musical-jam-october-2026-tickets-2002097959893",
    "id": "washington-improv-theater-musical-improv-jam-october-2026-2026-10-18"
   },
   {
@@ -27259,6 +27288,32 @@
    "source": "social",
    "source_ref": "https://www.meetup.com/find/?location=us--dc--Washington&source=EVENTS",
    "id": "a-mystery-readers-book-club-mystery-readers-book-club-the-wives-of-hawthorne-lan-2026-10-18"
+  },
+  {
+   "id": "studio-theatre-handle-with-care-2026-10-18",
+   "title": "Handle With Care",
+   "org": "Studio Theatre / Ontroerend Goed",
+   "start": "2026-10-18T14:00:00-04:00",
+   "end": null,
+   "venue": "Studio Theatre, Stage 4",
+   "address": "1501 14th Street NW, Washington, DC 20005",
+   "maps_url": "",
+   "url": "https://www.studiotheatre.org/handle-with-care",
+   "rsvp_url": "https://www.studiotheatre.org/buy/tickets/handle-with-care?id=14005",
+   "category": "theatre",
+   "format": "in_person",
+   "cost": "Unknown",
+   "age": "unknown",
+   "tags": {
+    "free_food": null,
+    "free_drinks": null,
+    "free_entry": false,
+    "young_adults": null,
+    "outdoor": null
+   },
+   "description": "An interactive, approximately one-hour theatre experience. Runs October 14–25; participation is encouraged but optional. See the official calendar for each performance. Exact end time is not stated.",
+   "source": "web",
+   "source_ref": "https://www.studiotheatre.org/handle-with-care"
   },
   {
    "title": "Guided Tour: Big Things for Big Rooms",
@@ -28113,13 +28168,13 @@
   },
   {
    "title": "Simone Dinnerstein, piano: Ruth Bader Ginsburg Memorial Recital",
-   "org": "Sixth & I",
+   "org": "Washington Performing Arts",
    "start": "2026-10-18T19:30:00-04:00",
    "end": null,
    "venue": "Sixth & I",
    "address": "600 I Street NW, Washington, DC 20001",
    "maps_url": "https://www.google.com/maps/search/?api=1&query=Sixth+%26+I%2C+600+I+Street+NW%2C+Washington%2C+DC+20001",
-   "url": "https://www.sixthandi.org/event/simone-dinnerstein-piano-2/",
+   "url": "https://www.washingtonperformingarts.org/event/simone-dinnerstein-26/",
    "category": "music",
    "format": "in_person",
    "cost": "$65",
@@ -28133,7 +28188,7 @@
    },
    "description": "Pianist Simone Dinnerstein performs the fifth annual Ruth Bader Ginsburg Memorial Recital at Sixth & I with Washington Performing Arts; $65, doors 6:30 PM.",
    "source": "web",
-   "source_ref": "https://www.sixthandi.org/event/simone-dinnerstein-piano-2/",
+   "source_ref": "https://www.washingtonperformingarts.org/event/simone-dinnerstein-26/",
    "id": "sixth-i-simone-dinnerstein-piano-ruth-bader-ginsburg-memorial-recital-2026-10-18"
   },
   {
@@ -29438,31 +29493,6 @@
    "id": "smithsonian-associates-unique-and-exciting-knitting-techniques-2026-10-20"
   },
   {
-   "title": "How to be a Jewish Adult (with guest Rabbi Loren Berman)",
-   "org": "Sixth & I",
-   "start": "2026-10-20T18:30:00-04:00",
-   "end": null,
-   "venue": "Sixth & I",
-   "address": "600 I St NW, Washington, DC 20001",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=Sixth+&+I+600+I+St+NW+Washington+DC+20001",
-   "url": "https://www.sixthandi.org/event/how-to-be-a-jewish-adult-4/",
-   "category": "community",
-   "format": "in_person",
-   "cost": "$318",
-   "age": "unknown",
-   "tags": {
-    "free_food": null,
-    "free_drinks": null,
-    "free_entry": null,
-    "young_adults": null,
-    "outdoor": null
-   },
-   "description": "Class series with guest Rabbi Loren Berman starting Tuesday, October 20 at 6:30pm.",
-   "source": "mail",
-   "source_ref": "Gmail msg 1a0fde700d3b3218 – info@sixthandi.org – Sixth & Spiritual: Dance on I Street for Simchat Torah, How to be a Jewish Adult, and Small Groups, Big Questions",
-   "id": "sixth-i-how-to-be-a-jewish-adult-with-guest-rabbi-loren-berman-2026-10-20"
-  },
-  {
    "title": "MARIS",
    "org": "I.M.P. / The Atlantis",
    "start": "2026-10-20T18:30:00-04:00",
@@ -30591,31 +30621,6 @@
    "id": "i-m-p-lincoln-theatre-the-jayhawks-celebrating-40-years-2026-10-21"
   },
   {
-   "title": "Basically Jewish",
-   "org": "Sixth & I",
-   "start": "2026-10-21T18:30:00-04:00",
-   "end": null,
-   "venue": "Sixth & I",
-   "address": "600 I St NW, Washington, DC 20001",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=Sixth+&+I+600+I+St+NW+Washington+DC+20001",
-   "url": "https://www.sixthandi.org/event/basically-jewish-37/",
-   "category": "community",
-   "format": "in_person",
-   "cost": "$154",
-   "age": "unknown",
-   "tags": {
-    "free_food": null,
-    "free_drinks": null,
-    "free_entry": null,
-    "young_adults": null,
-    "outdoor": null
-   },
-   "description": "Weekly Wednesday series at 6:30pm, October 21 – November 18.",
-   "source": "mail",
-   "source_ref": "Gmail msg 1a0fde700d3b3218 – info@sixthandi.org – Sixth & Spiritual: Dance on I Street for Simchat Torah, How to be a Jewish Adult, and Small Groups, Big Questions",
-   "id": "sixth-i-basically-jewish-2026-10-21"
-  },
-  {
    "title": "Lexi Jayde",
    "org": "I.M.P. / The Atlantis",
    "start": "2026-10-21T18:30:00-04:00",
@@ -30814,31 +30819,6 @@
    "source": "web",
    "source_ref": "https://www.meetup.com/embassy-international-cultural-events-washington-dc/events/315877131/",
    "id": "embassy-galas-cultural-events-dc-international-events-chocolate-wine-tasting-exq-2026-10-21"
-  },
-  {
-   "title": "Jewish Page Turners: A Book Club – The Amen Effect",
-   "org": "Sixth & I",
-   "start": "2026-10-21T19:00:00-04:00",
-   "end": null,
-   "venue": "Sixth & I",
-   "address": "600 I St NW, Washington, DC 20001",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=Sixth+&+I+600+I+St+NW+Washington+DC+20001",
-   "url": "https://www.sixthandi.org/event/jewish-page-turners-a-book-club/",
-   "category": "community",
-   "format": "in_person",
-   "cost": "$12",
-   "age": "unknown",
-   "tags": {
-    "free_food": null,
-    "free_drinks": null,
-    "free_entry": null,
-    "young_adults": null,
-    "outdoor": null
-   },
-   "description": "Book club discussing The Amen Effect by Rabbi Sharon Brous.",
-   "source": "mail",
-   "source_ref": "Gmail msg 1a0fde700d3b3218 – info@sixthandi.org – Sixth & Spiritual: Dance on I Street for Simchat Torah, How to be a Jewish Adult, and Small Groups, Big Questions",
-   "id": "sixth-i-jewish-page-turners-a-book-club-the-amen-effect-2026-10-21"
   },
   {
    "title": "Film Club: Ghost in the Cell",
@@ -31742,31 +31722,6 @@
    "id": "old-town-books-educator-night-2026-10-22"
   },
   {
-   "title": "Newcomers Night: Scavenger Hunt and Happy Hour",
-   "org": "Sixth & I",
-   "start": "2026-10-22T17:30:00-04:00",
-   "end": null,
-   "venue": "National Portrait Gallery",
-   "address": "800 F Street NW, Washington, DC 20004",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Portrait+Gallery%2C+800+F+Street+NW%2C+Washington%2C+DC+20004",
-   "url": "https://www.sixthandi.org/event/newcomers-night-scavenger-hunt-and-happy-hour/",
-   "category": "networking",
-   "format": "in_person",
-   "cost": "$12",
-   "age": "unknown",
-   "tags": {
-    "free_food": null,
-    "free_drinks": null,
-    "free_entry": null,
-    "young_adults": true,
-    "outdoor": null
-   },
-   "description": "Newcomers to DC or Sixth & I join a team scavenger hunt at the National Portrait Gallery, then return to Sixth & I for a drink and tour; $12.",
-   "source": "web",
-   "source_ref": "https://www.sixthandi.org/event/newcomers-night-scavenger-hunt-and-happy-hour/",
-   "id": "sixth-i-newcomers-night-scavenger-hunt-and-happy-hour-2026-10-22"
-  },
-  {
    "title": "Black Gov Tech | October Tech Mixer @ 12 Stories - Come Join Us!!",
    "org": "Black Gov Tech",
    "start": "2026-10-22T17:30:00-04:00",
@@ -32215,31 +32170,6 @@
    "source": "web",
    "source_ref": "https://www.smithsonianassociates.org/ticketing/programs/stirred-by-ages",
    "id": "smithsonian-associates-stirred-by-the-ages-a-dialogue-between-cocktails-and-hist-2026-10-22"
-  },
-  {
-   "title": "Sixth & I Queer Collective",
-   "org": "Sixth & I",
-   "start": "2026-10-22T19:00:00-04:00",
-   "end": null,
-   "venue": "Sixth & I",
-   "address": "600 I Street NW, Washington, DC 20001",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=Sixth+%26+I%2C+600+I+Street+NW%2C+Washington%2C+DC+20001",
-   "url": "https://www.sixthandi.org/event/sixth-i-queer-collective-4/",
-   "category": "community",
-   "format": "in_person",
-   "cost": "$12",
-   "age": "unknown",
-   "tags": {
-    "free_food": null,
-    "free_drinks": null,
-    "free_entry": null,
-    "young_adults": null,
-    "outdoor": null
-   },
-   "description": "Space for LGBTQIA+ people to build community and explore Torah at Sixth & I; $12 and no one is turned away for lack of funds.",
-   "source": "web",
-   "source_ref": "https://www.sixthandi.org/event/sixth-i-queer-collective-4/",
-   "id": "sixth-i-sixth-i-queer-collective-2026-10-22"
   },
   {
    "title": "LØLØ - God Forbid a Girl Goes on Tour",
@@ -32865,6 +32795,32 @@
    "source": "social",
    "source_ref": "https://www.eventbrite.com/d/dc--washington/",
    "id": "good-spirit-cafe-kk-creative-expression-night-2026-10-22"
+  },
+  {
+   "id": "studio-theatre-handle-with-care-2026-10-22",
+   "title": "Handle With Care",
+   "org": "Studio Theatre / Ontroerend Goed",
+   "start": "2026-10-22T20:00:00-04:00",
+   "end": null,
+   "venue": "Studio Theatre, Stage 4",
+   "address": "1501 14th Street NW, Washington, DC 20005",
+   "maps_url": "",
+   "url": "https://www.studiotheatre.org/handle-with-care",
+   "rsvp_url": "https://www.studiotheatre.org/buy/tickets/handle-with-care?id=14000",
+   "category": "theatre",
+   "format": "in_person",
+   "cost": "Unknown",
+   "age": "unknown",
+   "tags": {
+    "free_food": null,
+    "free_drinks": null,
+    "free_entry": false,
+    "young_adults": null,
+    "outdoor": null
+   },
+   "description": "An interactive, approximately one-hour theatre experience. Runs October 14–25; participation is encouraged but optional. See the official calendar for each performance. Exact end time is not stated.",
+   "source": "web",
+   "source_ref": "https://www.studiotheatre.org/handle-with-care"
   },
   {
    "title": "What's Happening?! All Arts Open Mic",
@@ -33945,31 +33901,6 @@
    "id": "national-park-service-national-mall-and-memorial-parks-nps-ranger-program-octobe-2026-10-23"
   },
   {
-   "title": "Friday Night Services with guest Rabbi Jason Kimelman-Block",
-   "org": "Sixth & I",
-   "start": "2026-10-23T19:00:00-04:00",
-   "end": null,
-   "venue": "Sixth & I",
-   "address": "600 I St NW, Washington, DC 20001",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=Sixth+&+I+600+I+St+NW+Washington+DC+20001",
-   "url": "https://www.sixthandi.org/event/friday-night-services-54/",
-   "category": "community",
-   "format": "in_person",
-   "cost": "Free (registration/RSVP required)",
-   "age": "unknown",
-   "tags": {
-    "free_food": null,
-    "free_drinks": null,
-    "free_entry": true,
-    "young_adults": null,
-    "outdoor": null
-   },
-   "description": "Friday night services with guest Rabbi Jason Kimelman-Block (6:00pm happy hour; 7:00pm service).",
-   "source": "mail",
-   "source_ref": "Gmail msg 1a0fde700d3b3218 – info@sixthandi.org – Sixth & Spiritual: Dance on I Street for Simchat Torah, How to be a Jewish Adult, and Small Groups, Big Questions",
-   "id": "sixth-i-friday-night-services-with-guest-rabbi-jason-kimelman-block-2026-10-23"
-  },
-  {
    "title": "Porch Light - Hush Tour",
    "org": "I.M.P. / The Atlantis",
    "start": "2026-10-23T19:00:00-04:00",
@@ -34266,7 +34197,7 @@
    },
    "description": "WIT's improvised election comedy Stumped runs Fridays at 7:30pm and Saturdays at 6pm through Oct. 24 at Studio Theatre.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0fe0b02f41785b – wit@witdc.org – WIT Minute: It's weekend 2 of our hit comedies Stumped and Fraudway!",
+   "source_ref": "https://witdc.org/performances/washington-improv-theater-presents-stumped-10/",
    "id": "washington-improv-theater-uncle-gorgeous-stumped-2026-10-23"
   },
   {
@@ -34568,6 +34499,32 @@
    "source": "social",
    "source_ref": "https://www.meetup.com/find/?location=us--dc--Washington&source=EVENTS",
    "id": "the-happy-treehouse-social-club-ages-40-the-annual-happy-treehouse-halloween-cos-2026-10-23"
+  },
+  {
+   "id": "studio-theatre-handle-with-care-2026-10-23",
+   "title": "Handle With Care",
+   "org": "Studio Theatre / Ontroerend Goed",
+   "start": "2026-10-23T20:00:00-04:00",
+   "end": null,
+   "venue": "Studio Theatre, Stage 4",
+   "address": "1501 14th Street NW, Washington, DC 20005",
+   "maps_url": "",
+   "url": "https://www.studiotheatre.org/handle-with-care",
+   "rsvp_url": "https://www.studiotheatre.org/buy/tickets/handle-with-care?id=14001",
+   "category": "theatre",
+   "format": "in_person",
+   "cost": "Unknown",
+   "age": "unknown",
+   "tags": {
+    "free_food": null,
+    "free_drinks": null,
+    "free_entry": false,
+    "young_adults": null,
+    "outdoor": null
+   },
+   "description": "An interactive, approximately one-hour theatre experience. Runs October 14–25; participation is encouraged but optional. See the official calendar for each performance. Exact end time is not stated.",
+   "source": "web",
+   "source_ref": "https://www.studiotheatre.org/handle-with-care"
   },
   {
    "title": "Kuroneko at Suns Cinema",
@@ -36276,6 +36233,32 @@
    "id": "brittany-drummond-a-taste-of-what-s-to-come-2026-10-24"
   },
   {
+   "id": "studio-theatre-handle-with-care-2026-10-24-1400",
+   "title": "Handle With Care",
+   "org": "Studio Theatre / Ontroerend Goed",
+   "start": "2026-10-24T14:00:00-04:00",
+   "end": null,
+   "venue": "Studio Theatre, Stage 4",
+   "address": "1501 14th Street NW, Washington, DC 20005",
+   "maps_url": "",
+   "url": "https://www.studiotheatre.org/handle-with-care",
+   "rsvp_url": "https://www.studiotheatre.org/buy/tickets/handle-with-care?id=14002",
+   "category": "theatre",
+   "format": "in_person",
+   "cost": "Unknown",
+   "age": "unknown",
+   "tags": {
+    "free_food": null,
+    "free_drinks": null,
+    "free_entry": false,
+    "young_adults": null,
+    "outdoor": null
+   },
+   "description": "An interactive, approximately one-hour theatre experience. Runs October 14–25; participation is encouraged but optional. See the official calendar for each performance. Exact end time is not stated.",
+   "source": "web",
+   "source_ref": "https://www.studiotheatre.org/handle-with-care"
+  },
+  {
    "title": "Teen Studio: Are You Surreal?",
    "org": "Hirshhorn Museum",
    "start": "2026-10-24T14:30:00-04:00",
@@ -36723,7 +36706,7 @@
    },
    "description": "WIT's improvised election comedy Stumped runs Fridays at 7:30pm and Saturdays at 6pm through Oct. 24 at Studio Theatre.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0fe0b02f41785b – wit@witdc.org – WIT Minute: It's weekend 2 of our hit comedies Stumped and Fraudway!",
+   "source_ref": "https://witdc.org/performances/washington-improv-theater-presents-stumped-6/",
    "id": "washington-improv-theater-hellcat-stumped-2026-10-24"
   },
   {
@@ -37153,13 +37136,13 @@
   },
   {
    "title": "Niladri Kumaar, sitar",
-   "org": "Sixth & I",
+   "org": "Washington Performing Arts",
    "start": "2026-10-24T19:30:00-04:00",
    "end": null,
    "venue": "Sixth & I",
    "address": "600 I Street NW, Washington, DC 20001",
    "maps_url": "https://www.google.com/maps/search/?api=1&query=Sixth+%26+I%2C+600+I+Street+NW%2C+Washington%2C+DC+20001",
-   "url": "https://www.sixthandi.org/event/niladri-kumaar-sitar/",
+   "url": "https://www.washingtonperformingarts.org/event/niladri-kumaar/",
    "category": "music",
    "format": "in_person",
    "cost": "$50",
@@ -37173,7 +37156,7 @@
    },
    "description": "Sitar maestro Niladri Kumaar performs with keys, drums and tabla at Sixth & I (Washington Performing Arts); $50, doors 6:30 PM.",
    "source": "web",
-   "source_ref": "https://www.sixthandi.org/event/niladri-kumaar-sitar/",
+   "source_ref": "https://www.washingtonperformingarts.org/event/niladri-kumaar/",
    "id": "sixth-i-niladri-kumaar-sitar-2026-10-24"
   },
   {
@@ -37398,7 +37381,7 @@
    },
    "description": "Fraudway! Presents: an improvised musical in which a performer who has never seen the original is dropped into its improvised version; Saturdays at 8pm through Oct. 24.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0f94bdb17f22f4 – boxoffice@studiotheatre.org – This Month at 1501: October Edition",
+   "source_ref": "https://witdc.org/performances/fraudway-presents-4/",
    "id": "washington-improv-theater-queensberg-lizard-girl-fraudway-presents-the-phantom-o-2026-10-24"
   },
   {
@@ -37500,6 +37483,32 @@
    "source": "web",
    "source_ref": "https://www.eventbrite.com/e/halloween-improv-comedy-show-with-the-auxiliary-tickets-1979247762337",
    "id": "the-lyceum-alexandria-s-history-museum-halloween-improv-comedy-show-with-the-aux-2026-10-24"
+  },
+  {
+   "id": "studio-theatre-handle-with-care-2026-10-24-2000",
+   "title": "Handle With Care",
+   "org": "Studio Theatre / Ontroerend Goed",
+   "start": "2026-10-24T20:00:00-04:00",
+   "end": null,
+   "venue": "Studio Theatre, Stage 4",
+   "address": "1501 14th Street NW, Washington, DC 20005",
+   "maps_url": "",
+   "url": "https://www.studiotheatre.org/handle-with-care",
+   "rsvp_url": "https://www.studiotheatre.org/buy/tickets/handle-with-care?id=14003",
+   "category": "theatre",
+   "format": "in_person",
+   "cost": "Unknown",
+   "age": "unknown",
+   "tags": {
+    "free_food": null,
+    "free_drinks": null,
+    "free_entry": false,
+    "young_adults": null,
+    "outdoor": null
+   },
+   "description": "An interactive, approximately one-hour theatre experience. Runs October 14–25; participation is encouraged but optional. See the official calendar for each performance. Exact end time is not stated.",
+   "source": "web",
+   "source_ref": "https://www.studiotheatre.org/handle-with-care"
   },
   {
    "title": "Killer Workout at Suns Cinema",
@@ -38401,6 +38410,32 @@
    "source": "social",
    "source_ref": "https://www.meetup.com/find/?location=us--dc--Washington&source=EVENTS",
    "id": "writing-heptagon-20s-and-30s-creative-writing-group-october-writers-meetup-2026-10-25"
+  },
+  {
+   "id": "studio-theatre-handle-with-care-2026-10-25",
+   "title": "Handle With Care",
+   "org": "Studio Theatre / Ontroerend Goed",
+   "start": "2026-10-25T14:00:00-04:00",
+   "end": null,
+   "venue": "Studio Theatre, Stage 4",
+   "address": "1501 14th Street NW, Washington, DC 20005",
+   "maps_url": "",
+   "url": "https://www.studiotheatre.org/handle-with-care",
+   "rsvp_url": "https://www.studiotheatre.org/buy/tickets/handle-with-care?id=14004",
+   "category": "theatre",
+   "format": "in_person",
+   "cost": "Unknown",
+   "age": "unknown",
+   "tags": {
+    "free_food": null,
+    "free_drinks": null,
+    "free_entry": false,
+    "young_adults": null,
+    "outdoor": null
+   },
+   "description": "An interactive, approximately one-hour theatre experience. Runs October 14–25; participation is encouraged but optional. See the official calendar for each performance. Exact end time is not stated.",
+   "source": "web",
+   "source_ref": "https://www.studiotheatre.org/handle-with-care"
   },
   {
    "title": "Artist Talk for \"Against All Odds\"",
@@ -39425,7 +39460,7 @@
    },
    "description": "Nice As Fuck early show at the Black Cat; doors at 6:00.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0ff1d7af13a159 – newsletter@m.blackcatdc.com – October Shows at Black Cat",
+   "source_ref": "https://www.blackcatdc.com/shows/nice-as-fuck-early-show.html",
    "id": "black-cat-nice-as-fuck-early-show-2026-10-26"
   },
   {
@@ -40025,7 +40060,7 @@
    },
    "description": "Nice As Fuck late show at the Black Cat; doors at 9:00; listed as sold out.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0ff1d7af13a159 – newsletter@m.blackcatdc.com – October Shows at Black Cat",
+   "source_ref": "https://www.blackcatdc.com/shows/nice-as-fuck.html",
    "id": "black-cat-nice-as-fuck-late-show-sold-out-2026-10-26"
   },
   {
@@ -40454,31 +40489,6 @@
    "id": "the-dc-euchre-meetup-group-10-27-halloween-dc-euchre-meetup-2026-10-27"
   },
   {
-   "title": "How to be a Jewish Adult ",
-   "org": "Sixth & I",
-   "start": "2026-10-27T18:30:00-04:00",
-   "end": null,
-   "venue": "Sixth & I",
-   "address": "600 I St NW, Washington, DC 20001",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=Sixth+%26+I%2C+600+I+St+NW%2C+Washington%2C+DC+20001",
-   "url": "https://www.sixthandi.org/event/how-to-be-a-jewish-adult-5/",
-   "category": "community",
-   "format": "in_person",
-   "cost": "$318",
-   "age": "unknown",
-   "tags": {
-    "free_food": null,
-    "free_drinks": null,
-    "free_entry": null,
-    "young_adults": null,
-    "outdoor": null
-   },
-   "description": "How to be a Jewish Adult  at Sixth & I (start time per the Sixth & I event page); admission: $318 How to Purchase: Fill out our interest form . Venue: Sixth & I How to be a Jewish Adult Oct 27, 2026 • 6:30 pm ET T. Do you ever feel like you could use a handbook for how to build a Jewish life? If you identify as Jewish or Jew-ish but aren’t sure how to incorporate Judaism into your day-to-day life, this 8-week series led by guest Rabbi Loren ",
-   "source": "web",
-   "source_ref": "https://www.sixthandi.org/events/",
-   "id": "sixth-i-how-to-be-a-jewish-adult-2026-10-27"
-  },
-  {
    "title": "How to Read a Film",
    "org": "Smithsonian Associates",
    "start": "2026-10-27T18:30:00-04:00",
@@ -40725,7 +40735,7 @@
    },
    "description": "Board game speed dating for gay men at Kbird, 7pm-8pm.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0f94bdb17f22f4 – boxoffice@studiotheatre.org – This Month at 1501: October Edition",
+   "source_ref": "https://www.kbirddc.com/events/board-game-speed-dating-for-gay-men-74pl2-ksgbs",
    "id": "kbird-board-game-speed-dating-for-gay-men-2026-10-27"
   },
   {
@@ -41480,31 +41490,6 @@
    "id": "studiolab-rd-the-art-of-living-with-art-2026-10-28"
   },
   {
-   "title": "Grief Group",
-   "org": "Sixth & I",
-   "start": "2026-10-28T18:30:00-04:00",
-   "end": null,
-   "venue": "Sixth & I",
-   "address": "600 I St NW, Washington, DC 20001",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=Sixth+&+I+600+I+St+NW+Washington+DC+20001",
-   "url": "https://www.sixthandi.org/event/grief-group-3/",
-   "category": "community",
-   "format": "in_person",
-   "cost": "Free (registration/RSVP required)",
-   "age": "unknown",
-   "tags": {
-    "free_food": null,
-    "free_drinks": null,
-    "free_entry": true,
-    "young_adults": null,
-    "outdoor": null
-   },
-   "description": "Grief group for those who have lost loved ones.",
-   "source": "mail",
-   "source_ref": "Gmail msg 1a0fde700d3b3218 – info@sixthandi.org – Sixth & Spiritual: Dance on I Street for Simchat Torah, How to be a Jewish Adult, and Small Groups, Big Questions",
-   "id": "sixth-i-grief-group-2026-10-28"
-  },
-  {
    "title": "The Hails",
    "org": "I.M.P. / The Atlantis",
    "start": "2026-10-28T18:30:00-04:00",
@@ -41528,31 +41513,6 @@
    "source": "web",
    "source_ref": "https://theatlantis.com/",
    "id": "i-m-p-the-atlantis-the-hails-2026-10-28"
-  },
-  {
-   "title": "Basically Jewish",
-   "org": "Sixth & I",
-   "start": "2026-10-28T18:30:00-04:00",
-   "end": null,
-   "venue": "Sixth & I",
-   "address": "600 I St NW, Washington, DC 20001",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=Sixth+%26+I%2C+600+I+St+NW%2C+Washington%2C+DC+20001",
-   "url": "https://www.sixthandi.org/event/basically-jewish-38/",
-   "category": "community",
-   "format": "in_person",
-   "cost": "$154",
-   "age": "unknown",
-   "tags": {
-    "free_food": null,
-    "free_drinks": null,
-    "free_entry": null,
-    "young_adults": null,
-    "outdoor": null
-   },
-   "description": "Basically Jewish at Sixth & I (start time per the Sixth & I event page); admission: $154 How to Purchase: Fill out our interest form . Venue: Sixth & I Basically Jewish Oct 28, 2026 • 6:30 pm ET This five. In this five-week course, Rabbi Jenna leads an experiential introduction to Judaism course designed for those looking to reconnect with Judaism, as well as non-Jews looking to discover. This course allows students to develop a dee",
-   "source": "web",
-   "source_ref": "https://www.sixthandi.org/events/",
-   "id": "sixth-i-basically-jewish-2026-10-28"
   },
   {
    "title": "RomCom Book Club",
@@ -43054,7 +43014,7 @@
    },
    "description": "UNVERIFIED: Costume party trivia with Peared at Kbird, 7pm-9pm.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0f94bdb17f22f4 – boxoffice@studiotheatre.org – This Month at 1501: October Edition",
+   "source_ref": "https://www.kbirddc.com/events",
    "id": "kbird-special-edition-costume-party-trivia-with-peared-2026-10-29"
   },
   {
@@ -43554,7 +43514,7 @@
    },
    "description": "Discounted $20 tickets for current students with a valid student ID (checked at the door) for the 8:00 PM performance of Hundred Days; add Adult tickets to the cart and enter promo code 30Hundred at checkout.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a1127b60bb1ce22 – Keegan Theatre newsletter (6 Oct 2026, unlabelled in samfoxbartending inbox)",
+   "source_ref": "https://keegantheatre.com/portfolio/hundred-days/",
    "id": "the-keegan-theatre-hundred-days-student-night-20-tickets-2026-10-29"
   },
   {
@@ -44608,7 +44568,7 @@
    },
    "description": "Heavens to Betsy with Calamity Jane, hosted by Menopunks, at the Black Cat; doors at 8:00.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0ff1d7af13a159 – newsletter@m.blackcatdc.com – October Shows at Black Cat",
+   "source_ref": "https://www.blackcatdc.com/shows/heavens-to-betsy.html",
    "id": "black-cat-heavens-to-betsy-calamity-jane-hosted-by-menopunks-2026-10-30"
   },
   {
@@ -46062,7 +46022,7 @@
    },
    "description": "UNVERIFIED: Paint + Sip at Kbird, 4pm-6pm.",
    "source": "mail",
-   "source_ref": "Gmail msg 1a0f94bdb17f22f4 – boxoffice@studiotheatre.org – This Month at 1501: October Edition",
+   "source_ref": "https://www.kbirddc.com/events",
    "id": "kbird-paint-sip-2026-10-31"
   },
   {

@@ -1,0 +1,18 @@
+name: Public data privacy
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  privacy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test tests/*.test.cjs
+      - run: node scripts/public-data.cjs --check
+      - run: node scripts/reviewed-source-policy.cjs --check
+      - run: node --check app.js && node --check sw.js
