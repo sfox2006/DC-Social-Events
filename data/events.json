@@ -6699,7 +6699,7 @@
    "url": "https://witdc.org/performances/washington-improv-theater-presents-stumped-3/",
    "category": "comedy",
    "format": "in_person",
-   "cost": "$20",
+   "cost": "$20 advance + $2 service fee; $15 per person + $2 fee for groups of 10+",
    "age": "unknown",
    "tags": {
     "free_food": null,
@@ -6708,10 +6708,12 @@
     "young_adults": null,
     "outdoor": null
    },
-   "description": "WIT's improvised election comedy Stumped runs Fridays at 7:30pm and Saturdays at 6pm through Oct. 24 at Studio Theatre.",
+   "description": "WIT's improvised election comedy Stumped runs Fridays at 7:30pm and Saturdays at 6pm through Oct. 24 at Studio Theatre. Prices are advertised by the organiser; current ticket availability is unverified. End time and age restrictions are not stated on this event page.",
    "source": "mail",
    "source_ref": "https://witdc.org/performances/washington-improv-theater-presents-stumped-3/",
-   "id": "washington-improv-theater-uncle-gorgeous-stumped-2026-10-09"
+   "id": "washington-improv-theater-uncle-gorgeous-stumped-2026-10-09",
+   "price_notes": "Official WIT page states advance general admission plus the service fee. Limited affordable pricing, college-student codes and group discounts are advertised; current ticket inventory was not verified.",
+   "price_checked_at": "2026-10-09T09:09:55.109521Z"
   },
   {
    "title": "Lalah Hathaway",
@@ -10176,7 +10178,7 @@
    "url": "https://witdc.org/performances/washington-improv-theater-presents-stumped-2/",
    "category": "comedy",
    "format": "in_person",
-   "cost": "$20",
+   "cost": "$20 advance + $2 service fee; $15 per person + $2 fee for groups of 10+",
    "age": "unknown",
    "tags": {
     "free_food": null,
@@ -10185,10 +10187,12 @@
     "young_adults": null,
     "outdoor": null
    },
-   "description": "WIT's improvised election comedy Stumped runs Fridays at 7:30pm and Saturdays at 6pm through Oct. 24 at Studio Theatre.",
+   "description": "WIT's improvised election comedy Stumped runs Fridays at 7:30pm and Saturdays at 6pm through Oct. 24 at Studio Theatre. Prices are advertised by the organiser; current ticket availability is unverified. End time and age restrictions are not stated on this event page.",
    "source": "mail",
    "source_ref": "https://witdc.org/performances/washington-improv-theater-presents-stumped-2/",
-   "id": "washington-improv-theater-nox-stumped-2026-10-10"
+   "id": "washington-improv-theater-nox-stumped-2026-10-10",
+   "price_checked_at": "2026-10-09T09:15:22.335205Z",
+   "price_notes": "The official WIT event page states advance general admission and group pricing plus service fees. Current ticket inventory was not verified."
   },
   {
    "title": "Psycho at Suns Cinema",
@@ -10901,7 +10905,7 @@
    "url": "https://witdc.org/performances/fraudway-presents-2/",
    "category": "comedy",
    "format": "in_person",
-   "cost": "$20",
+   "cost": "$20 advance + $2 service fee; $15 per person + $2 fee for groups of 10+",
    "age": "unknown",
    "tags": {
     "free_food": null,
@@ -10910,10 +10914,12 @@
     "young_adults": null,
     "outdoor": null
    },
-   "description": "Fraudway! Presents: an improvised musical in which a performer who has never seen the original is dropped into its improvised version; Saturdays at 8pm through Oct. 24.",
+   "description": "Fraudway! Presents: an improvised musical in which a performer who has never seen the original is dropped into its improvised version; Saturdays at 8pm through Oct. 24. Prices are advertised by the organiser; current ticket availability is unverified. End time and age restrictions are not stated on this event page.",
    "source": "mail",
    "source_ref": "https://witdc.org/performances/fraudway-presents-2/",
-   "id": "washington-improv-theater-i-hate-my-boss-madeline-fraudway-presents-chicago-2026-10-10"
+   "id": "washington-improv-theater-i-hate-my-boss-madeline-fraudway-presents-chicago-2026-10-10",
+   "price_checked_at": "2026-10-09T09:15:22.335205Z",
+   "price_notes": "The official WIT event page states advance general admission and group pricing plus service fees. Current ticket inventory was not verified."
   },
   {
    "title": "Washington Improv Theater: Fraudway! Presents:",
@@ -24471,7 +24477,7 @@
    "url": "https://witdc.org/performances/sarah-flocken-book-event-be-well/",
    "category": "arts_museums",
    "format": "in_person",
-   "cost": "$20",
+   "cost": "$22.27–$27.42 (published range; ticket tiers and fee inclusion not stated)",
    "age": "unknown",
    "tags": {
     "free_food": null,
@@ -24480,10 +24486,12 @@
     "young_adults": null,
     "outdoor": null
    },
-   "description": "WIT alum and author Sarah Flocken reads from her new book Be Well, followed by an improv show based on the readings.",
+   "description": "WIT alum and author Sarah Flocken reads from her new book Be Well, followed by an improv show based on the readings. Prices are advertised by the organiser; current ticket availability is unverified. End time and age restrictions are not stated on this event page.",
    "source": "mail",
    "source_ref": "https://witdc.org/performances/sarah-flocken-book-event-be-well/",
-   "id": "washington-improv-theater-be-well-an-improvised-book-event-2026-10-17"
+   "id": "washington-improv-theater-be-well-an-improvised-book-event-2026-10-17",
+   "price_notes": "The official WIT page publishes this range without explaining the price tiers or whether fees are included. The linked ticket page could not be read; current tier availability was not verified.",
+   "price_checked_at": "2026-10-09T09:09:55.109521Z"
   },
   {
    "title": "2026 Howard Homecoming Bison Day Vibez After-Game Party",
