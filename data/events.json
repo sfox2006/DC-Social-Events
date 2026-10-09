@@ -23877,7 +23877,7 @@
    "category": "networking",
    "format": "in_person",
    "cost": "$37.71",
-   "age": "all_ages",
+   "age": "unknown",
    "tags": {
     "free_food": null,
     "free_drinks": null,
@@ -23885,10 +23885,13 @@
     "young_adults": null,
     "outdoor": null
    },
-   "description": "An improvised speed dating experiment: a high-energy, interactive singles event.",
+   "description": "An improvised speed dating experiment: a high-energy, interactive singles event. Intended audience: roughly ages 25–39. The organiser uses “25(ish) to 39(ish)” as approximate audience guidance; a hard age cutoff is not stated on this event page.",
    "source": "mail",
-   "source_ref": "https://www.eventbrite.com/e/playdatetm-lgbtq-edition-an-improvised-speed-dating-experiment-tickets-2001083675140",
-   "id": "washington-improv-theater-play-date-lgbtq-edition-an-improvised-speed-dating-exp-2026-10-17"
+   "source_ref": "https://www.eventbrite.com/e/playdatetm-lgbtq-edition-an-improvised-speed-dating-experiment-tickets-2001083675140 | https://witdc.org/performances/play-date-lgbtq-edition-an-improvised-speed-dating-experiment/",
+   "id": "washington-improv-theater-play-date-lgbtq-edition-an-improvised-speed-dating-exp-2026-10-17",
+   "audience_note": "Intended audience: roughly ages 25–39. The organiser uses “25(ish) to 39(ish)” as approximate audience guidance; a hard age cutoff is not stated on this event page.",
+   "audience_source": "https://witdc.org/performances/play-date-lgbtq-edition-an-improvised-speed-dating-experiment/",
+   "audience_checked_at": "2026-10-09T09:24:59.498511Z"
   },
   {
    "title": "Teen Learn to Ride",
